@@ -1,0 +1,28 @@
+[
+    {
+        "Nome": "Gi",
+        "Tratti": ["Comfort"],
+        "Bonus": 0,
+        "Cap": 5,
+        "PenalitaTiri": 0,
+        "PenalitaVelocita": 0,
+        "Forza": 0,
+        "Categoria": "Senz'armatura",
+        "Desc": "",
+        "Gruppo": "Vestiti",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Armatura a Lamine",
+        "Tratti": [],
+        "Bonus": 5,
+        "Cap": 1,
+        "PenalitaTiri": -3,
+        "PenalitaVelocita": -3,
+        "Forza": 3,
+        "Categoria": "Pesanti",
+        "Desc": "Questo tipo di armatura è una cotta di maglia rinforzata con piastre metalliche flessibili e interconnesse, solitamente posizionate sul torso, sulle braccia superiori e sulle gambe del portatore. Un'armatura completa di questo tipo include un sottoindumento imbottito e un paio di guanti corazzati",
+        "Gruppo": "Composte",
+        "Mostrare": true
+    }
+]

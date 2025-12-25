@@ -1,0 +1,16 @@
+[
+    {
+        "Nome": "Mazza",
+        "Tipo": "Mischia",
+        "Categoria": "Semplice",
+        "Gruppo": "Mazze",
+        "Tratti": ["Lancio 3m"],
+        "Taglia": 6,
+        "TipoDanni": "B",
+        "Mani": "1",
+        "Raggio": "",
+        "Ricarica": "",
+        "Desc": "Si tratta di un pezzo robusto di legno sagomato o riutilizzato per colpire un nemico. Le mazze possono essere pezzi finemente intagliati usati nelle arti marziali oppure semplici rami d’albero o pezzi di legno.",
+        "Mostrare": true
+    }
+]

@@ -1,0 +1,15 @@
+
+[
+
+    {
+        "Nome": "Scudo in Pelle Indurita",
+        "Tratti": ["Deflettere contundenti"],
+        "CA": 2,
+        "PenalitaVelocita": 0,
+        "Durezza": 4,
+        "Hp": "20",
+        "Sr": "10",
+        "Desc": "Gli scudi in pelle indurita si presentano in varie forme e dimensioni. Tecniche di concia specializzate, unite a pelli resistenti provenienti da creature come i grifoni, danno vita a questi scudi particolarmente robusti. Il rivestimento in pelle indurita mantiene comunque una certa flessibilità, attenuando l’impatto di colpi contundenti e percussioni.",
+        "Mostrare": true
+    }
+]
