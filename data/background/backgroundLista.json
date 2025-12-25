@@ -1,0 +1,18 @@
+[
+    {
+        "Nome": "Prescelto",
+        "Desc": "La tua nascita ha adempiuto a una profezia, e le persone a te vicine contano su di te per compiere grandi imprese. C'è una pressione intensa affinché tu sia all’altezza del compito, e la natura mutevole della profezia complica il tuo cammino.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Carisma, e uno è un incremento libero.@@Decidi insieme al tuo GM i dettagli della profezia in cui sei destinato a giocare un ruolo importante. Sei addestrato in un'abilità legata alla profezia e nell’abilità di Conoscenze (Divinazione). Ottieni l’azione gratuita Pedina della Profezia.###{\"nome\": \"Pedina della Profezia\", \"tipoAzz\": \"azioneGratis\", \"tratti\": [\"abiurazione\", \"divino\", \"fortuna\"], \"dettagli\": {\"Trigger\": \"Fallisci un tiro salvezza, un tiro per colpire o una prova di abilità.\"}, \"desc\": \"Pieghi la profezia a tuo favore, ma ciò avrà delle conseguenze in seguito. Ritira il tiro fallito. Devi usare il risultato del secondo tiro.@Per le 24 ore successive, il GM può obbligarti a ritirare un tiro salvezza, un tiro per colpire o una prova di abilità riuscita, mentre il destino riequilibra le sorti.@@Questo è un effetto di sfortuna. Non puoi usare di nuovo Pedina della Profezia finché il GM non utilizza questa opzione o non passano 24 ore, a seconda di quale evento si verifica per primo.\"}###",
+        "Boost": "Forza o carisma, libero",
+        "Skill": "conoscenza(divinazione)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Accolito",
+        "Desc": "Hai trascorso i tuoi primi anni in un monastero o in un chiostro religioso.@Potresti aver viaggiato nel mondo per diffondere il messaggio della tua religione oppure perché hai abbandonato gli insegnamenti della tua fede, ma in fondo porterai sempre con te le lezioni che hai appreso.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Religione e nell’abilità di Conoscenze (Scritture). Ottieni il talento di abilità Studioso del Canone.",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Religione, conoscenze(scritture)",
+        "Talento": "Studente del canone",
+        "Mostrare": true
+    }
+]
