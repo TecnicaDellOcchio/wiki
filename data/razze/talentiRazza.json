@@ -7668,5 +7668,863 @@
     "Livello": "1",
     "Razza": "Universale",
     "Azione": false, "Mostrare": true
-  }
+  },
+  {
+  "Nome": "Gloria Guadagnata",
+  "Desc": "Gli elfi spesso faticano a non sottovalutare gli aiuvarin, e tu hai esperienza nel raccontare storie delle tue imprese per guadagnarti il loro rispetto. Sei addestrato in Esibizione. Se dovessi diventare automaticamente addestrato in Esibizione (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta.@Ottieni il talento di abilità Esibizione Impressionante. Quando tenti una prova di Esibizione per Fare una Buona Impressione su un elfo, se ottieni un fallimento critico, lo tratti invece come un fallimento.",
+  "Tratti": ["Aiuvarin"],
+  "Livello": "1",
+  "Razza": "Aiuvarin",
+  "Mostrare": false
+},
+{
+  "Nome": "Atavismo Elfico",
+  "Desc": "Il tuo sangue elfico scorre particolarmente forte, conferendoti tratti molto più elfici rispetto a quelli di un tipico aiuvarin. Potresti anche essere stato cresciuto tra gli elfi, immerso nell’eredità dei tuoi antenati elfici. Ottieni i benefici della stirpe elfica del tuo genitore elfico o dei tuoi antenati. In genere non puoi selezionare una stirpe che dipende da o migliora un tratto elfico che non possiedi. Per esempio, non potresti scegliere la stirpe Elfo Antico a meno che anche la tua ascendenza non elfica non abbia una durata della vita misurata in più secoli. In questi casi, a discrezione del GM, potresti ottenere un beneficio diverso.@++Speciale++ Puoi scegliere questo talento solo al 1° livello e non puoi riaddestrarti fuori da questo talento né riaddestrarti per ottenerlo.@",
+  "Tratti": ["Aiuvarin"],
+  "Livello": "1",
+  "Razza": "Aiuvarin",
+  "Mostrare": false
+},
+{
+  "Nome": "Orecchie Arrotondate",
+  "Desc": "La tua discendenza elfica è abbastanza sottile da farti apparire a malapena diverso dagli altri umani, e hai imparato a sfruttare questo aspetto a tuo vantaggio. Ottieni il grado di competenza addestrato in Inganno (o in un’altra abilità a tua scelta se eri già addestrato in Inganno). Ottieni un bonus di circostanza +4 alle prove di Impersonare per fingere di non essere un aiuvarin. Gli osservatori non ottengono mai bonus di circostanza alle prove di Percezione contro di te a causa del fatto che stai Impersonando un umano di sangue puro, e non subisci mai penalità di circostanza per il fatto di Impersonare un umano di sangue puro.@++Speciale++ Puoi scegliere questo talento solo al 1° livello e non puoi riaddestrarti fuori da questo talento né riaddestrarti per ottenerlo.@",
+  "Tratti": ["Aiuvarin"],
+  "Livello": "1",
+  "Razza": "Aiuvarin",
+  "Mostrare": false
+},
+{
+  "Nome": "Socievole",
+  "Desc": "Sei estremamente estroverso e passi spesso il tuo tempo a fare baldoria o comunque a socializzare. Sei addestrato in Diplomazia (o in un’altra abilità a tua scelta se eri già addestrato in Diplomazia) e ottieni il talento di abilità Chiacchierone.",
+  "Tratti": ["Aiuvarin"],
+  "Livello": "1",
+  "Razza": "Aiuvarin",
+  "Mostrare": false
+},
+{
+  "Nome": "Ispirare l’Imitazione",
+  "Desc": "Le tue azioni ispirano i tuoi alleati a grandi imprese. Ogni volta che ottieni un successo critico a una prova di abilità, soddisfi automaticamente i requisiti per usare la reazione Aiutare quando tenti di assistere un alleato usando la stessa abilità, anche senza aver speso un’azione per prepararti a farlo.",
+  "Tratti": ["Aiuvarin"],
+  "Livello": "5",
+  "Razza": "Aiuvarin",
+  "Mostrare": false
+},
+{
+  "Nome": "Fascino Sovrannaturale",
+  "Desc": "La magia elfica nel tuo sangue si manifesta come una forza che puoi usare per diventare più piacevole o ammaliante. Puoi lanciare charme di 1° livello come incantesimo innato arcano una volta al giorno.",
+  "Tratti": ["Aiuvarin"],
+  "Livello": "5",
+  "Razza": "Aiuvarin",
+  "Mostrare": false
+},
+{
+  "Nome": "Strappare Tempo",
+  "Desc": "Uno dei tuoi genitori ha una durata della vita umana e l’altro una durata della vita elfica, con la tua che si colloca nel mezzo. Di conseguenza, possiedi una prospettiva insolita sul tempo, che hai imparato a manifestare per aiutarti nei momenti di stress. Ottieni rapidità come incantesimo innato arcano di 3° livello, ma puoi bersagliare solo te stesso. Puoi lanciare questo incantesimo una volta al giorno.",
+  "Tratti": ["Aiuvarin"],
+  "Livello": "9",
+  "Razza": "Aiuvarin",
+  "Mostrare": false
+},{
+  "Nome": "Pacificatore Mostruoso",
+  "Desc": "La tua duplice natura umana e orchesca ti ha dato una prospettiva unica, permettendoti di colmare il divario tra gli umani e le molte creature intelligenti del mondo che gli umani considerano mostri. Ottieni un bonus di circostanza +1 alle prove di Diplomazia contro creature intelligenti non umanoidi e contro umanoidi emarginati nella società umana (a discrezione del GM, ma in genere includendo almeno giganti, goblin, koboldi e orchi). Ottieni inoltre questo bonus alle prove di Percezione per Intuire le Intenzioni di tali creature.",
+  "Tratti": ["Dromaar"],
+  "Livello": "1",
+  "Razza": "Dromaar",
+  "Mostrare": false
+},
+{
+  "Nome": "Vista Orchesca",
+  "Desc": "++Prerequisiti++ visione crepuscolare@Il tuo sangue orchesco ti concede la vista acuta dei tuoi antenati. Ottieni scurovisione, che ti permette di vedere nell’oscurità e nella luce fioca con la stessa chiarezza con cui vedi nella luce intensa. Tuttavia, nell’oscurità vedi solo in bianco e nero.@++Speciale++ Puoi scegliere questo talento solo al 1° livello e non puoi riaddestrarti fuori da questo talento né riaddestrarti per ottenerlo.@",
+  "Tratti": ["Dromaar"],
+  "Livello": "1",
+  "Razza": "Dromaar",
+  "Mostrare": false
+},
+{
+  "Nome": "Mente Geniale Sottovalutata",
+  "Desc": "Molti considerano i dromaar poco più che bruti senza cervello. Questo ti offende, ma a volte può rivelarsi utile. Sei addestrato in Inganno (o in un’altra abilità a tua scelta se eri già addestrato in Inganno) e ottieni un bonus di circostanza +2 alle prove di Inganno per Mentire quando affermi specificamente di essere ignorante, e alle CD di Inganno contro le prove di Intuire le Intenzioni per smascherare tali menzogne.",
+  "Tratti": ["Dromaar"],
+  "Livello": "1",
+  "Razza": "Dromaar",
+  "Mostrare": false
+},
+{
+  "Nome": "Conoscenza Assiomatica",
+  "Desc": "Possiedi una solida comprensione dei processi sia tra i mortali sia tra gli esterni legali. La fonte di questa conoscenza potrebbe essere l’intuizione, lo studio o un’infanzia trascorsa tra altri aforiti. Ottieni il grado di competenza addestrato in Diplomazia e Società. Se dovessi diventare automaticamente addestrato in una di queste abilità (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta. Diventi inoltre addestrato in Sapienza di Axis.",
+  "Tratti": ["Aphorite"],
+  "Livello": "1",
+  "Razza": "Aphorite",
+  "Mostrare": false
+},
+{
+  "Nome": "Analisi Offensiva",
+  "Desc": "Puoi potenziare i tuoi sensi e il tuo stato mentale per considerare ogni aspetto di un attacco. Puoi lanciare colpo accurato come incantesimo innato divino una volta al giorno.",
+  "Tratti": ["Aphorite"],
+  "Livello": "5",
+  "Razza": "Aphorite",
+  "Mostrare": false
+},
+{
+  "Nome": "Analizzare Informazioni",
+  "Desc": "Puoi spingere la tua mente in un’esplosione di abilità analitica. Puoi lanciare ipercognizione di 3° livello come incantesimo innato divino una volta al giorno.",
+  "Tratti": ["Aphorite"],
+  "Livello": "9",
+  "Razza": "Aphorite",
+  "Mostrare": false
+},
+{
+  "Nome": "Moti Ausiliari",
+  "Desc": "++Prerequisiti++ Polvere Cristallina@Puoi usare Polvere Cristallina una volta aggiuntiva al giorno.@++Speciale++ Puoi scegliere questo talento più volte; ogni volta che lo fai, ottieni un ulteriore uso giornaliero di Polvere Cristallina.@",
+  "Tratti": ["Aphorite"],
+  "Livello": "9",
+  "Razza": "Aphorite",
+  "Mostrare": false
+},
+{
+  "Nome": "Riconfigurazione Preventiva",
+  "Desc": "###{\"nome\":\"Riconfigurazione Preventiva\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Aphorite\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Trigger\":\"Staresti per subire danni contundenti, perforanti o taglienti\"},\"desc\":\"Il tuo corpo anticipa il colpo. L’area dell’impatto si riorganizza brevemente in una struttura di tessuti rinforzati che attenua l’attacco. Ottieni resistenza pari al tuo livello contro il tipo di danno che ha innescato la reazione, che si applica contro i danni innescanti.@Se possiedi il talento Polvere Cristallina, puoi usare Riconfigurazione Preventiva senza consumare un utilizzo della reazione ai fini del limite di Frequenza del talento. Invece, l’uso conta come uno dei tuoi usi giornalieri di Polvere Cristallina, come se avessi usato quel talento.\"}###",
+  "Tratti": ["Aphorite"],
+  "Livello": "9",
+  "Razza": "Aphorite",
+  "Mostrare": false
+}
+,{
+  "Nome": "Anima d’Ambra",
+  "Desc": "La tua eredità elementale si riflette negli oli e nei profumi delle piante, nella resina degli alberi che si fossilizza in ambra o nel delicato aroma di un fiore. Al posto del sangue, nelle tue vene scorre una linfa dorata e appiccicosa. Ogni volta che una creatura ti infligge danni taglienti o perforanti con un Colpo in mischia, la tua linfa ricopre la sua arma o il suo attacco senz’armi. La creatura subisce una penalità di circostanza –1 ai tiri per colpire con quell’arma o attacco senz’armi fino alla fine del suo turno.",
+  "Tratti": ["Ardande"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Occhi Elementali",
+  "Desc": "++Prerequisiti++ visione crepuscolare@Puoi vedere nell’oscurità con la stessa facilità di un elementale. Ottieni scurovisione.@++Speciale++ Puoi scegliere questo talento solo al 1° livello e non puoi riaddestrarti per ottenerlo né riaddestrarti fuori da questo talento.@",
+  "Tratti": ["Ardande", "Ifrit", "Oread", "Suli", "Sylph", "Talos", "Undine"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza Elementale",
+  "Desc": "Ti sei dedicato allo studio dei segreti della Sfera Interna. Ottieni il grado di competenza addestrato in Sopravvivenza e, a tua scelta, in Arcano o Natura. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta. Diventi inoltre addestrato nella Sapienza associata al tuo Piano Elementale di origine (come Sapienza del Piano del Fuoco).",
+  "Tratti": ["Ardande", "Ifrit", "Oread", "Suli", "Sylph", "Talos", "Undine"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Familiarità con le Armi dei Geni",
+  "Desc": "Ti sei addestrato con le armi usate dai tuoi antenati geni. Sei addestrato con falchion, ranseur, scimitarre e tridenti. Inoltre, ottieni accesso a tutte le armi geniekin non comuni. Ai fini della determinazione della tua competenza, le armi geniekin marziali sono considerate armi semplici e le armi geniekin avanzate sono considerate armi marziali.",
+  "Tratti": ["Ardande", "Ifrit", "Oread", "Suli", "Sylph", "Talos", "Undine"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Protetto dal Bosco",
+  "Desc": "Sei abituato a esplorare fitte foreste e a difenderti dagli attacchi delle piante magiche. Ottieni un bonus di circostanza +1 ai tiri salvezza contro effetti di pianta, veleno e legno e, se ottieni un successo a un tiro salvezza contro un effetto di veleno, lo tratti invece come un successo critico.",
+  "Tratti": ["Ardande"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima della Putrefazione",
+  "Desc": "La tua connessione con il legno elementale si manifesta come decadimento: tronchi dimenticati che marciscono, il carbone che rimane dopo un incendio boschivo, cicli di devastazione che spazzano via ciò che era per fare spazio alla nuova vita. Ottieni l’azione Decomporre.@###{\"nome\":\"Decomporre\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Ardande\",\"Primal\",\"Vuoto\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"L’energia del Vuoto filtra fuori da te, facendo decadere tutto entro un’emanazione di 1.5m e causando l’invecchiamento e la decomposizione di piante e fogliame. Il terreno difficile naturale viene distrutto e le creature nell’area con il tratto pianta o legno subiscono 1d6 danni da vuoto con un tiro salvezza base su Tempra contro la tua CD di classe o la tua CD di incantesimo, a seconda di quale sia più alta.\"}###",
+  "Tratti": ["Ardande", "Primal", "Vuoto"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima di Primavera",
+  "Desc": "La tua connessione con il legno elementale si manifesta come fiori freschi, frutti primaverili e semi di nuova vita, e sfrutti questo potere per diffondere vitalità e abbondanza. Puoi lanciare il trucchetto vite aggroviglianti come incantesimo innato primordiale o arcano a volontà. Un trucchetto è intensificato a un livello di incantesimo pari a metà del tuo livello, arrotondato per eccesso.",
+  "Tratti": ["Ardande"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Vitalità alla Luce del Sole",
+  "Desc": "Ottieni nutrimento tramite la fotosintesi, come gli alberi e le altre piante verdi. In genere non hai bisogno di pagare per il cibo, ma inizi a morire di fame se resti senza luce solare per 1 settimana. Puoi ricavare nutrimento da bottiglie di luce solare appositamente formulate al posto della luce naturale, ma queste bottiglie costano 10 volte le razioni standard (4 mo a settimana).",
+  "Tratti": ["Ardande"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+}
+,{
+  "Nome": "Mai Piegato, Mai Spezzato",
+  "Desc": "La tua connessione con il legno elementale si manifesta come resilienza: alberi imponenti, corteccia ruvida, radici profonde e determinazione paziente. Ottieni la reazione Resilienza Incrollabile.@###{\"nome\":\"Resilienza Incrollabile\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Ardande\",\"Primal\",\"Legno\"],\"dettagli\":{\"Trigger\":\"Stai per tentare un tiro salvezza contro un effetto di veleno, malattia o mentale, ma non hai ancora tirato\"},\"desc\":\"Attingi al potere del Piano del Legno, ottenendo forza e fermezza mentale. Ottieni un bonus di circostanza +1 al tiro salvezza innescante. Se ottieni un successo critico a questo tiro salvezza, vieni rinvigorito dal tuo successo: fioriture e nuova crescita spuntano temporaneamente su tutto il tuo corpo e ottieni un numero di Punti Ferita temporanei pari al tuo livello. Questi Punti Ferita temporanei durano 1 minuto. Quando questi Punti Ferita temporanei vengono persi, la crescita rigogliosa si ritira.\"}###",
+  "Tratti": ["Ardande", "Primal", "Legno"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Falegname",
+  "Desc": "Gli abitanti del Piano del Legno provano un immenso orgoglio per le magnifiche opere d’arte che sanno creare dal legno, e praticare la tua personale arte del legno ti aiuta a sentire una connessione con la tua eredità planare. Ottieni il grado di competenza addestrato in Artigianato. Se dovessi diventare automaticamente addestrato in Artigianato (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta. Ottieni il talento di abilità Artigianato Specializzato (lavorazione del legno).",
+  "Tratti": ["Ardande"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Evoluzione con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni un colpo critico usando un falchion, un ranseur, una scimitarra, un tridente o un’arma geniekin, applichi l’effetto di specializzazione del colpo critico dell’arma.",
+  "Tratti": ["Ardande", "Ifrit", "Oread", "Suli", "Sylph", "Talos", "Undine"],
+  "Livello": "5",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Risolutezza Nobile",
+  "Desc": "Un tempo i geni governavano vasti regni, e un residuo di quella sicurezza e di quel potere si riflette nella tua forte volontà. Ottieni un bonus di circostanza +1 ai tiri salvezza su Volontà contro effetti con il tratto mentale. Indipendentemente dal successo o dal fallimento, diventi consapevole della persona che ha usato l’effetto su di te, se era visibile al momento dell’uso.",
+  "Tratti": ["Ardande", "Ifrit", "Oread", "Suli", "Sylph", "Talos", "Undine"],
+  "Livello": "5",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Leggere le Radici",
+  "Desc": "###{\"nome\":\"Leggere le Radici\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Ardande\",\"Primal\",\"Scrutare\",\"Legno\"],\"dettagli\":{\"Requisiti\":\"Sei in piedi sul terreno e ci sono piante radicate nel terreno entro 30m da te\"},\"desc\":\"I sistemi radicali degli alberi sono una rete di informazioni che si estende lontano, e tu sai come accedervi ed estrarne i segreti. Effettui Cercare entro 9m usando percezione tellurica, un senso impreciso, invece di uno dei tuoi sensi abituali. In questo modo puoi anche individuare soggetti che toccano o scavano attraverso la superficie su cui ti trovi.\"}###",
+  "Tratti": ["Ardande", "Primal", "Scrutare", "Legno"],
+  "Livello": "5",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Linguaggio degli Alberi",
+  "Desc": "++Prerequisiti++ Parli Muan@La tua connessione con il legno elementale ti permette di comunicare con gli alberi dell’Universo in Muan, il linguaggio degli elementali del legno. Puoi porre domande, ricevere risposte e usare l’abilità Diplomazia con piante legnose come alberi e arbusti.",
+  "Tratti": ["Ardande"],
+  "Livello": "5",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Sentiero Fiorito",
+  "Desc": "###{\"nome\":\"Sentiero Fiorito\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Ardande\",\"Pianta\",\"Primal\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Vitalità e legno elementale fluiscono dal tuo corpo nella terra, infondendola con un torrente di nuova vita. Quando cammini, lasci dietro di te fiori in piena fioritura e rampicanti che germogliano. Per il prossimo minuto, ogni volta che Effettui un Passo o Avanzi, crei terreno difficile in ogni quadretto che lasci durante il tuo movimento.\"}###",
+  "Tratti": ["Ardande", "Pianta", "Primal"],
+  "Livello": "9",
+  "Razza": "Ardande",
+  "Mostrare": false
+},{
+  "Nome": "Magia di Kizidhar",
+  "Desc": "Puoi brandire la magia arcana di un kizidhar, lanciando flora intralciante e uno con le piante ciascuno una volta al giorno come incantesimi innati arcani di 2° livello.",
+  "Tratti": ["Ardande"],
+  "Livello": "9",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Riparazione Miracolosa",
+  "Desc": "###{\"nome\":\"Riparazione Miracolosa\",\"tipoAzz\":\"treAzioni\",\"tratti\":[\"Arcano\",\"Ardande\",\"Concentrazione\",\"Ifrit\",\"Oread\",\"Suli\",\"Sylph\",\"Talos\",\"Trasmutazione\",\"Undine\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"I geniekin non possono concedere desideri magici, ma in te permane un’eco di quel potere. Di fronte a un meccanismo danneggiato ma non distrutto, puoi desiderare che torni a uno stato funzionante per un periodo di 10 minuti. L’oggetto deve essere non magico e non più grande di 5 Ingombro, come un meccanismo di chiusura disabilitato in una porta. Per 10 minuti, l’oggetto funziona come dovrebbe, ignorando qualsiasi danno al suo meccanismo. Questo non ti fornisce alcuna conoscenza su cosa faccia un dispositivo o su come dovrebbe funzionare. Trascorsi i 10 minuti, l’oggetto ricade nello stato di deterioramento ed è temporaneamente immune a Riparazione Miracolosa per 1 giorno.\"}###",
+  "Tratti": ["Arcano","Ardande","Concentrazione","Ifrit","Oread","Suli","Sylph","Talos","Trasmutazione","Undine"],
+  "Livello": "9",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Maestria con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni una capacità di classe che ti conferisce competenza esperto o superiore in determinate armi, ottieni quella stessa competenza anche con falchion, ranseur, scimitarre, tridenti e con tutte le armi geniekin in cui sei addestrato.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "13",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Scarto Planare",
+  "Desc": "###{\"nome\":\"Scarto Planare\", \"tipoAzz\":\"reazione\",\"tratti\":[\"Arcano\",\"Ardande\",\"Concentrazione\",\"Evocazione\",\"Ifrit\",\"Oread\",\"Suli\",\"Sylph\",\"Talos\",\"Undine\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Trigger\":\"Una creatura ti colpisce con un Colpo in mischia\"},\"desc\":\"Sposti brevemente il tuo corpo tra i piani, riducendo i danni dell’attacco del tuo avversario. Ottieni resistenza 25 a tutti i danni contro l’attacco innescante. Gli osservatori vedono semplicemente il tuo corpo scintillare di energia elementale per un istante, proprio mentre l’attacco va a segno.\"}###",
+  "Tratti": ["Arcano","Ardande","Concentrazione","Evocazione","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "13",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Evocare Elementale del Legno",
+  "Desc": "La tua connessione con il Piano del Legno ti permette di evocare alleati elementali. Una volta al giorno, puoi lanciare evocare elementale come incantesimo innato primordiale di 5° livello, ma l’elementale deve essere un elementale del legno.",
+  "Tratti": ["Ardande"],
+  "Livello": "13",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Manto di Legno",
+  "Desc": "La tua connessione con la magia del Piano del Legno ti permette di richiamare il potere di piante e alberi per proteggerti. Puoi lanciare manto del cuore incrollabile come incantesimo innato primordiale di 5° livello una volta al giorno.",
+  "Tratti": ["Ardande"],
+  "Livello": "13",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Protezione di Legno",
+  "Desc": "###{\"nome\":\"Protezione di Legno\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Ardande\",\"Concentrazione\",\"Pianta\",\"Primal\",\"Legno\"],\"dettagli\":{\"Frequenza\":\"una volta all’ora\",\"Trigger\":\"Una creatura ti prende come bersaglio con un attacco\"},\"desc\":\"Con un gesto della mano, liane e radici erompono dal terreno lungo il bordo del tuo spazio tra te e l’attaccante, creando un intreccio naturale di legno che fornisce copertura standard. Il bonus di circostanza della copertura si applica alla tua CA quando determini l’esito dell’attacco innescante. Se l’attacco innescante colpisce comunque e ti infligge danni fisici, la protezione riduce i danni di 30 ed è immediatamente distrutta. Se l’attacco manca, la protezione persiste invece per 3 round prima di appassire e rientrare nella terra. Le creature possono attraversare la protezione, ma essa è terreno difficile.\"}###",
+  "Tratti": ["Ardande","Concentrazione","Pianta","Primal","Legno"],
+  "Livello": "17",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Figlia della Brina",
+  "Desc": "Tua madre era una meggera marina, e questo ti ha donato un occhio verde mare o azzurro. Ti senti a tuo agio sia nel mare sia sulla riva. Ogni volta che ottieni un successo a una prova di Atletica per Nuotare, lo tratti invece come un successo critico. Se termini il tuo turno in acqua senza aver ottenuto un successo in un’azione Nuotare in quel round, non affondi (anche se potresti comunque essere spostato dalla corrente).",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Figlia Ingenua",
+  "Desc": "Sei tra i mutaforma più comuni, nata da una meggera gentile, e un vivido occhio verde segnala questa discendenza. La natura manipolatrice di tua madre e la sua voce versatile ti danno un vantaggio nell’ingannare gli altri. Ottieni il talento di abilità Bugiardo Affascinante. Se tiri Inganno per l’iniziativa, i nemici in quell’incontro di combattimento che non hanno ancora agito sono impreparati contro di te.",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza dei Mutaforma",
+  "Desc": "Ben consapevole della tua vera natura, hai studiato le megere e i loro poteri. Ottieni il grado di competenza addestrato in Inganno e Occultismo. Se dovessi diventare automaticamente addestrato in una di queste abilità (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta.@Ottieni inoltre il talento generale Sapienza Aggiuntiva per Sapienza delle Megere.",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Figlia dei Sogni",
+  "Desc": "Sei figlia di una meggera cuculo, e uno dei tuoi occhi è viola o addirittura nero. I poteri di tua madre sul sonno e sui sogni ti hanno conferito una certa resistenza a tali effetti, garantendoti un bonus di circostanza +2 a tutti i tiri salvezza contro effetti di sonno e contro effetti che causano o alterano i sogni. Inoltre, il sonno è più ristoratore per te. Recuperi Punti Ferita pari al tuo modificatore di Costituzione × il doppio del tuo livello (invece che × il tuo livello), e riduci eventuali condizioni prosciugato e condannato di 2 invece che di 1.",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Artigli da Megera",
+  "Desc": "Quando hai raggiunto la maturità, le tue unghie sono cresciute lunghe e affilate. Ottieni un attacco senz’armi con artigli che infligge 1d4 danni taglienti. I tuoi artigli appartengono al gruppo rissa e hanno i tratti agile, accurato e senz’armi.@++Speciale++ Gli artigli da megera possono svilupparsi in qualsiasi momento della vita di un mutaforma. Puoi scegliere questo talento ogni volta che ottieni un talento di ascendenza, ma non puoi riaddestrarti per rimuoverlo.@",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Vista della Megera",
+  "Desc": "Hai coltivato le capacità soprannaturali donate da tua madre megera, in particolare la tua vista. Ottieni scurovisione.",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Risanamento della Fanciulla",
+  "Desc": "###{\"nome\":\"Risanamento della Fanciulla\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Changeling\"],\"dettagli\":{\"Frequenza\":\"una volta al minuto\",\"Trigger\":\"Lanci un incantesimo occulto che non è un trucchetto o un incantesimo innato ottenuto da un talento di ascendenza mutaforma\"},\"desc\":\"Puoi attingere a parte della magia che scorre nel tuo sangue per infonderti nuova vita. Ottieni un numero di Punti Ferita temporanei pari a metà del tuo livello (minimo 1), che durano fino alla fine del tuo prossimo turno.\"}###",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Figlia della Luna",
+  "Desc": "Tua madre era una meggera lunare, ancella di Groetus, e possiedi un singolo occhio scarlatto e un frammento della sua preveggenza ultraterrena. Puoi lanciare guida come trucchetto innato occulto. Un trucchetto è intensificato a un livello di incantesimo pari a metà del tuo livello, arrotondato per eccesso.",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+}
+,{
+  "Nome": "Figlia della Scoria",
+  "Desc": "Tua madre era una meggera di ferro, nota per la sua possanza fisica, e possiedi un occhio viola o grigio acciaio. Hai artigli spessi e robusti di ferro freddo che crescono naturalmente dal tuo corpo. Ottieni un attacco senz’armi con artigli che infligge 1d6 danni taglienti. I tuoi artigli appartengono al gruppo rissa, hanno i tratti senz’armi e afferrare, e sono di ferro freddo.",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Figlia della Neve",
+  "Desc": "Sei figlia di una meggera invernale, con un occhio bianco-azzurro e un’affinità per la brina e la neve. Quando ti muovi su ghiaccio o neve in terreno artico, ottieni sempre i benefici dell’azione Nascondere le Tracce senza doverla usare né dover muoverti a metà della tua Velocità. Non tratti il terreno ghiacciato come terreno irregolare (anche se per te rimane terreno difficile) e ignori il terreno difficile causato dalla neve. Le precipitazioni fredde e gli effetti ambientali di freddo non alterano il tempo necessario affinché tu diventi affaticato.",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Figlia del Velo",
+  "Desc": "Nata da una meggera del sangue, una bevitrice di sangue ardente nascosta dietro una falsa pelle, possiedi un occhio rosso sangue e la capacità di liberarti del tuo aspetto in un istante. Ottieni il talento di abilità Dimmi una Bugia e puoi liberarti rapidamente di un travestimento staccando lo strato esterno della tua pelle. Tornare da un travestimento usato per Impersonare al tuo vero aspetto è un’attività da 3 azioni; se sei esperto in Inganno è un’attività da 2 azioni, e se sei leggendario in Inganno richiede solo 1 azione. Questo non ti permette di indossare o rimuovere armature o altri equipaggiamenti più velocemente, ma il tuo aspetto fisico per il resto ritorna al suo stato normale.",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Figlia della Pioggia",
+  "Desc": "Nata da una meggera della tempesta, possiedi un occhio blu cristallo o grigio pioggia. Condividi il potere di tua madre sul vento e sulla tempesta. Puoi lanciare arco elettrico come trucchetto innato occulto. Come di norma, un trucchetto è intensificato a un livello di incantesimo pari a metà del tuo livello, arrotondato per eccesso.",
+  "Tratti": ["Changeling"],
+  "Livello": "1",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Chiamata",
+  "Desc": "Hai udito la Chiamata e, resistendole, hai sviluppato una barriera contro gli effetti che prendono di mira la tua mente. Ottieni un bonus di circostanza +1 ai tiri salvezza su Volontà contro effetti mentali. Se ottieni un successo a un tiro salvezza contro un effetto mentale che ti renderebbe controllato, lo tratti invece come un successo critico.",
+  "Tratti": ["Changeling"],
+  "Livello": "5",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Capelli Astuti",
+  "Desc": "I tuoi capelli si muovono sotto il tuo controllo. Puoi eseguire semplici azioni Interagire con i tuoi capelli, come aprire una porta non chiusa a chiave. I tuoi capelli non possono eseguire azioni che richiedono dita o una notevole destrezza manuale, incluse azioni che richiederebbero una prova, e non puoi usarli per impugnare oggetti.",
+  "Tratti": ["Changeling"],
+  "Livello": "5",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Venti Favorevoli",
+  "Desc": "###{\"nome\":\"Venti Favorevoli\",\"tipoAzz\":\"azione\",\"tratti\":[\"Changeling\",\"Aria\",\"Concentrazione\",\"Occulto\"],\"dettagli\":{\"Prerequisiti\":\"Figlia della Pioggia\"},\"desc\":\"Avvolgi un’arma che impugni in un guscio di vento favorevole. Al tuo prossimo Colpo con un’arma a distanza prima dell’inizio del tuo prossimo turno, non subisci penalità di circostanza al tiro per colpire dovute al vento. Inoltre, se quell’arma ha un incremento di gittata di 3m o inferiore, aumenti il suo incremento di gittata di 3m per quel Colpo.\"}###",
+  "Tratti": ["Changeling","Aria","Concentrazione","Occulto"],
+  "Livello": "5",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Figlio della Nebbia",
+  "Desc": "Ti confondi con una sottigliezza innaturale. Quando sei occultato o nascosto, aumenta la CD della prova semplice per bersagliarti a 6 se sei occultato o a 12 se sei nascosto.",
+  "Tratti": ["Changeling"],
+  "Livello": "5",
+  "Razza": "Changeling",
+  "Mostrare": false
+}
+,{
+  "Nome": "Artigli Maledetti",
+  "Desc": "++Prerequisiti++ attacco senz’armi con artigli@I tuoi artigli portano con sé la magia di megera di tua madre. Quando ottieni un colpo critico con un Colpo di artigli, il bersaglio subisce 1d4 danni mentali persistenti aggiuntivi.",
+  "Tratti": ["Changeling"],
+  "Livello": "9",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Invocare gli Elementi",
+  "Desc": "###{\"nome\":\"Invocare gli Elementi\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Changeling\",\"Invocazione\",\"Primal\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Prerequisiti\":\"Figlia della Brina, Figlia della Neve, Figlia del Velo o Figlia della Pioggia\"},\"desc\":\"Evoci un’aura di calore tremolante, neve turbinante, onde che si infrangono o vento vorticoso e fulmini. Per 1 minuto, ottieni occultamento contro le creature a più di 1.5m da te e qualsiasi creatura che termina il suo turno entro 1.5m da te subisce 1d12 danni (tiro salvezza base su Riflessi usando la tua CD di classe o CD di incantesimo, a seconda di quale sia più alta). Al 13° e al 17° livello, questi danni aumentano di 1d12. Una Figlia del Velo infligge danni da fuoco, una Figlia della Neve infligge danni da freddo, una Figlia della Brina infligge danni contundenti e l’effetto ottiene il tratto acqua, e una Figlia della Pioggia infligge danni da elettricità.\"}###",
+  "Tratti": ["Changeling","Invocazione","Primal"],
+  "Livello": "9",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Premura Materna",
+  "Desc": "###{\"nome\":\"Premura Materna\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Changeling\"],\"dettagli\":{\"Frequenza\":\"una volta al minuto\",\"Trigger\":\"Un alleato adiacente viene colpito da un attacco\"},\"desc\":\"Possiedi l’istinto protettivo che manca a tua madre e sei disposto a soffrire al posto di un altro. Ti interpone sul percorso dell’attacco. Diventi il bersaglio dell’attacco innescante e vieni automaticamente colpito (o colpito criticamente se l’alleato è stato colpito criticamente), subendo tutti gli effetti al posto del tuo alleato.\"}###",
+  "Tratti": ["Changeling"],
+  "Livello": "9",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Resistenza Occulta",
+  "Desc": "++Prerequisiti++ esperto in Occultismo@Il tuo studio delle pratiche occulte ti ha insegnato come difenderti al meglio contro di esse. Ottieni un bonus di circostanza +1 a tutti i tiri salvezza contro effetti occulti.",
+  "Tratti": ["Changeling"],
+  "Livello": "9",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Magia di Megera",
+  "Desc": "Attraverso la tua eredità puoi replicare la magia di una megera. Scegli un incantesimo comune di 4° livello o inferiore tra quelli disponibili a un covo, inclusi gli incantesimi forniti al covo da una megera del tipo di tua madre. Puoi lanciare questo incantesimo una volta al giorno come incantesimo innato occulto di 4° livello.@Gli incantesimi disponibili a tutti i covi sono: presagio, charme, chiaroudienza, chiaroveggenza, messaggio onirico e travestimento illusorio. Gli incantesimi idonei concessi dai tipi di megere più comuni sono: Megera Cuculo: incubo, rovina magica; Megera di Ferro: vincolo terrestre, rovina magica; Megera Marina: forma umanoide, maledizione del marinaio, camminare sull’acqua; Megera Gentile: charme, parole mielate, maledizione dell’esule.",
+  "Tratti": ["Changeling"],
+  "Livello": "13",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Rastrellata Astiosa",
+  "Desc": "###{\"nome\":\"Rastrellata Astiosa\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Changeling\"],\"dettagli\":{\"Prerequisiti\":\"attacco senz’armi con artigli\",\"Requisiti\":\"Hai entrambe le mani libere\"},\"desc\":\"I tuoi istinti cantano di dispetto e malizia, e hai imparato un trucco devastante: puntare agli occhi. Effettui un Colpo con gli artigli. Se colpisci e infliggi danni, il bersaglio è abbagliato per 1 round. Con un colpo critico, il bersaglio è invece accecato per 1 round e abbagliato finché non viene riportato ai suoi Punti Ferita massimi.\"}###",
+  "Tratti": ["Changeling"],
+  "Livello": "13",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Crudeltà della Megera",
+  "Desc": "Colmo di rancore e odio, laceri le menti di coloro che ti dispiacciono. Puoi lanciare distorcere la mente una volta al giorno come incantesimo innato occulto.",
+  "Tratti": ["Changeling"],
+  "Livello": "17",
+  "Razza": "Changeling",
+  "Mostrare": false
+},
+{
+  "Nome": "Cuore Tempestoso",
+  "Desc": "++Prerequisiti++ Invocare gli Elementi@Il potere elementale nel tuo sangue è una tempesta furiosa. Puoi usare Invocare gli Elementi con una frequenza di una volta ogni 10 minuti, invece che una volta al giorno.",
+  "Tratti": ["Changeling"],
+  "Livello": "17",
+  "Razza": "Changeling",
+  "Mostrare": false
+}
+,{
+  "Nome": "Adhyabhau",
+  "Desc": "Discendi dai rari vampiri psichici noti come vetalarana. Il tuo antenato traeva sostentamento dall’energia mentale ed emotiva delle creature viventi, e questo si manifesta in te come una potente resistenza a tali effetti. Ottieni un bonus di circostanza +1 ai tiri salvezza su Volontà contro effetti con il tratto emozione e, quando ottieni un successo a un tiro salvezza contro uno di questi effetti, lo tratti invece come un successo critico.",
+  "Tratti": ["Dhampir"],
+  "Livello": "1",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Cel Rau",
+  "Desc": "Sei un cel rau, figlio di uno strigoi, uno dei primi vampiri ad aver camminato su Golarion. La tua eredità ti lega al Piano delle Ombre e ti concede una strana resilienza sia alla luce sia all’oscurità. Ottieni un bonus di circostanza +1 ai tiri salvezza contro effetti con i tratti oscurità, luce o ombra e, ogni volta che diventi abbagliato o accecato per almeno 2 round, puoi ridurne la durata di 1 round.",
+  "Tratti": ["Dhampir"],
+  "Livello": "1",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Occhi della Notte",
+  "Desc": "Vedi nell’oscurità con la stessa facilità di un vero vampiro. Ottieni scurovisione.@++Speciale++ Puoi scegliere questo talento solo al 1° livello e non puoi riaddestrarti per ottenerlo né riaddestrarti fuori da questo talento.@",
+  "Tratti": ["Dhampir"],
+  "Livello": "1",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Zanne",
+  "Desc": "I tuoi incisivi sono cresciuti fino a diventare vere zanne: lunghe, affilate e adatte a estrarre sangue. Ottieni un attacco senz’armi con zanne che infligge 1d6 danni perforanti. Le tue zanne appartengono al gruppo rissa e hanno i tratti afferrare e senz’armi.",
+  "Tratti": ["Dhampir"],
+  "Livello": "1",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Fascino Notturno",
+  "Desc": "Il fascino soprannaturale del tuo progenitore vampirico aleggia intorno a te e hai imparato a usarlo sui mortali. Contro umanoidi (o altre creature del tuo stesso tipo, se non sei un umanoide), ottieni un bonus di circostanza +1 alle prove di Inganno per Mentire e alle prove di Diplomazia per Raccogliere Informazioni e Fare una Buona Impressione.",
+  "Tratti": ["Dhampir"],
+  "Livello": "1",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima Antica",
+  "Desc": "++Prerequisiti++ almeno 100 anni@La tua discendenza immortale ti ha concesso una durata della vita molto più lunga rispetto alla maggior parte dei mortali e lungo il cammino hai imparato molto. Diventi addestrato in due abilità a tua scelta.",
+  "Tratti": ["Dhampir"],
+  "Livello": "1",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Ru-Shi",
+  "Desc": "Sei nato da un jiang-shi, uno dei cosiddetti vampiri saltellanti più comuni a Tian-Xia. Il tuo genitore aveva un’ossessione soprannaturale per il contare piccoli oggetti, che si manifesta in te come un dono innaturale per la linguistica e la matematica. Sei addestrato in Società e ottieni il talento di abilità Occhio per i Numeri. Se dovessi diventare automaticamente addestrato in Società (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta.",
+  "Tratti": ["Dhampir"],
+  "Livello": "1",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Straveika",
+  "Desc": "Discendi da uno dei vampiri davvero antichi, un nosferatu maledetto alla vita eterna ma non alla giovinezza eterna. Le persone ti chiamano straveika, o nato antico. I residui dei poteri di dominazione del tuo antenato ti hanno lasciato una comprensione di come le intenzioni di una creatura ne influenzino i comportamenti. Ottieni un bonus di circostanza +1 alle prove di Percezione per Intuire le Intenzioni e alla tua CD di Percezione contro i tentativi di Mentirti.",
+  "Tratti": ["Dhampir"],
+  "Livello": "1",
+  "Razza": "Dhampir",
+  "Mostrare": false
+}
+,{
+  "Nome": "Svetocher",
+  "Desc": "Sei nato da un moroi, il tipo di vampiro più comune, e condividi la sua resistenza soprannaturale e il suo potere di persuasione. Quando hai la condizione prosciugato, calcoli la penalità ai tuoi tiri salvezza su Tempra e la riduzione dei tuoi Punti Ferita come se il valore della condizione fosse inferiore di 1. Sei addestrato in Diplomazia. Se dovessi diventare automaticamente addestrato in Diplomazia, diventi invece addestrato in un’abilità a tua scelta.",
+  "Tratti": ["Dhampir"],
+  "Livello": "1",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza Vampirica",
+  "Desc": "Sei stato cresciuto dal tuo genitore vampirico oppure hai investito molto tempo ed energie nello studio dei segreti dei tuoi progenitori non morti. Sei addestrato in Religione e Società. Se dovessi diventare automaticamente addestrato in una di queste abilità (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta.@Ottieni inoltre il talento generale Sapienza Aggiuntiva per Sapienza Vampirica.",
+  "Tratti": ["Dhampir"],
+  "Livello": "1",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Voce della Notte",
+  "Desc": "Ascolti e comprendi le parole delle creature con cui condividi l’oscurità. Puoi porre domande, ricevere risposte e usare l’abilità Diplomazia con pipistrelli, ratti e lupi. Ottieni inoltre un bonus di circostanza +1 alle prove di Fare una Buona Impressione su tali animali.",
+  "Tratti": ["Dhampir"],
+  "Livello": "1",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Fascino Ammaliante",
+  "Desc": "I poteri di dominazione usati dai tuoi progenitori si sono manifestati anche in te. Puoi lanciare charme come incantesimo innato divino una volta al giorno. Il suo livello di incantesimo è pari a metà del tuo livello, arrotondato per eccesso, ma non aumenta la durata né il numero di bersagli al 4° e all’8° livello di incantesimo.",
+  "Tratti": ["Dhampir"],
+  "Livello": "5",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Nutrimento dal Dolore",
+  "Desc": "###{\"nome\":\"Nutrimento dal Dolore\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Dhampir\"],\"dettagli\":{\"Frequenza\":\"una volta all’ora\",\"Prerequisiti\":\"Adhyabhau\",\"Trigger\":\"Infliggi danni mentali\"},\"desc\":\"Il contraccolpo psichico del dolore di un’altra creatura ti riempie di falsa vita. Ottieni Punti Ferita temporanei pari a metà dei danni mentali inflitti dall’effetto innescante. Se l’azione innescante ha inflitto danni mentali a più creature, calcola questi Punti Ferita temporanei usando la creatura che ha subito il maggior numero di danni. Perdi eventuali Punti Ferita temporanei rimanenti dopo 1 minuto.\"}###",
+  "Tratti": ["Dhampir"],
+  "Livello": "5",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Passo Saltellante",
+  "Desc": "###{\"nome\":\"Passo Saltellante\",\"tipoAzz\":\"azione\",\"tratti\":[\"Dhampir\"],\"dettagli\":{\"Prerequisiti\":\"Ru-Shi\"},\"desc\":\"Hai interiorizzato l’andatura saltellante del tuo antenato vampirico. Avanzi fino a una distanza pari alla tua Velocità – 3m. Durante questo Avanzare, invece di muoverti normalmente attraverso ogni spazio, salti ogni altra casella tra il tuo spazio iniziale e quello finale. Questi salti non sono abbastanza alti da superare una creatura o un altro ostacolo significativo sul tuo percorso, ma evitano terreno difficile, terreno pericoloso, piastre a pressione o pericoli sul terreno o fino a 0.3m sopra di esso negli spazi che hai saltato.\"}###",
+  "Tratti": ["Dhampir"],
+  "Livello": "5",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Fisiologia Necromantica",
+  "Desc": "La tua fisiologia insolita si è sviluppata in modo da rendere difficile per parassiti e altre infestazioni trarre vantaggio da te. Ottieni un bonus di circostanza +2 ai tiri salvezza contro le malattie. Se ottieni un successo a un tiro salvezza contro una malattia, lo tratti invece come un successo critico. Se possiedi un’altra capacità che migliorerebbe il tiro salvezza in questo modo (come la capacità di classe Combattente Temprato del guerriero), allora se ottieni un fallimento critico al tiro salvezza lo tratti invece come un fallimento.",
+  "Tratti": ["Dhampir"],
+  "Livello": "5",
+  "Razza": "Dhampir",
+  "Mostrare": false
+}
+,{
+  "Nome": "Assaporare il Sangue",
+  "Desc": "###{\"nome\":\"Assaporare il Sangue\",\"tipoAzz\":\"azione\",\"tratti\":[\"Dhampir\",\"Necromanzia\",\"Negativo\"],\"dettagli\":{\"Prerequisiti\":\"Cel Rau, Straveika, Svetocher o un’altra stirpe derivata da un vampiro con l’abilità Bere Sangue\"},\"desc\":\"Conservi non solo il gusto per il sangue del tuo genitore vampirico, ma anche la capacità di trarne vitalità. Bevi sangue fresco da una creatura umanoide vivente, ottenendo Punti Ferita temporanei pari al livello del bersaglio, che durano 10 minuti. Il bersaglio deve superare un tiro salvezza su Tempra contro la più alta tra la tua CD di classe o la tua CD di incantesimo, altrimenti diventa prosciugato 1. Indipendentemente dall’esito del tiro salvezza, il bersaglio è temporaneamente immune ad Assaporare il Sangue per 1 giorno; ulteriori usi di questa capacità contro lo stesso bersaglio non aumentano la condizione prosciugato né ti forniscono ulteriori Punti Ferita temporanei.@Per bere il sangue di una creatura, la tua ultima azione deve essere stata un Colpo con le zanne che ha inflitto danni al bersaglio, oppure il bersaglio deve essere immobilizzato o privo di sensi e la tua ultima azione deve essere stata un Colpo che gli ha inflitto danni perforanti o taglienti. Se il bersaglio è consenziente, non è necessario che sia immobilizzato o privo di sensi.@Drenare la forza vitale da una creatura umanoide non consenziente è una violazione più grave del semplice bere il suo sangue. Assaporare il Sangue ha il tratto malvagio a meno che il bersaglio non sia consenziente o non sia un nemico attivo in combattimento.\"}###",
+  "Tratti": ["Dhampir","Necromanzia","Negativo"],
+  "Livello": "5",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Compagno Non Morto",
+  "Desc": "++Prerequisiti++ un compagno animale o un famiglio@Il tuo compagno è anch’esso toccato dalla non morte, una fusione tra un compagno tradizionale e una forma scheletrica, zombi o altra manifestazione innaturale di non vita. Il tuo compagno ottiene il tratto non morto al posto del tratto animale e ottiene guarigione negativa. Per il resto, utilizza le normali regole per un compagno animale o un famiglio; ciò significa che può comunque essere influenzato da molte condizioni o effetti a cui la maggior parte dei non morti è immune.",
+  "Tratti": ["Dhampir"],
+  "Livello": "5",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Cacciatore di Non Morti",
+  "Desc": "La conoscenza della tua anatomia non del tutto vivente, unita alla tua esperienza in combattimento, ti aiuta ad abbattere con facilità i nemici non morti. Contro creature non morte, ottieni un bonus di circostanza ai danni con Colpi con armi e senz’armi pari al numero di dadi di danno dell’arma usata per il Colpo. Questo bonus aumenta fino al doppio del numero di dadi di danno dell’arma se il bersaglio possiede il tratto vampiro.",
+  "Tratti": ["Dhampir"],
+  "Livello": "5",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Zanne Sanguinanti",
+  "Desc": "++Prerequisiti++ attacco senz’armi con zanne@Imiti le tecniche del tuo genitore vampirico per far sgorgare il sangue dalle vittime. I tuoi Colpi con le zanne infliggono 1d4 danni da sanguinamento persistenti aggiuntivi con un colpo critico.",
+  "Tratti": ["Dhampir"],
+  "Livello": "9",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Magia della Notte",
+  "Desc": "Puoi attingere alla magia che scorre nel tuo sangue. Ottieni forma animale (solo lupo, usando le statistiche di un canide) e nebbia come incantesimi innati divini di 2° livello. Puoi lanciare ciascuno di questi incantesimi una volta al giorno.",
+  "Tratti": ["Dhampir"],
+  "Livello": "9",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Scivolare nell’Ombra",
+  "Desc": "++Prerequisiti++ capacità di lanciare almeno un incantesimo con il tratto oscurità@La tua magia d’ombra si riversa nello spazio intorno a te. Ogni volta che lanci un incantesimo con il tratto oscurità, un’aura persistente di ombre riduce la luce intensa entro un’emanazione di 1.5m attorno a te a luce fioca fino alla fine del tuo turno. Come nella luce fioca naturale, puoi usare queste ombre per Nasconderti, ma l’aura rende comunque evidente la tua posizione generale, quindi non puoi diventare non individuato usando solo queste ombre.",
+  "Tratti": ["Dhampir"],
+  "Livello": "9",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Camminatore del Giorno",
+  "Desc": "Che sia grazie a un’esposizione graduale, a preghiere devote o a semplice fortuna, hai trovato una maggiore affinità con la vita attraverso la luce del sole. Quando ti trovi in un’area di luce solare naturale diretta, la tua guarigione negativa è soppressa: vieni quindi curato dagli effetti di guarigione positiva e danneggiato dall’energia negativa.",
+  "Tratti": ["Dhampir"],
+  "Livello": "13",
+  "Razza": "Dhampir",
+  "Mostrare": false
+}
+,{
+  "Nome": "Forma del Pipistrello",
+  "Desc": "###{\"nome\":\"Forma del Pipistrello\",\"tipoAzz\":\"azione\",\"tratti\":[\"Concentrazione\",\"Dhampir\",\"Divino\",\"Polimorfismo\"],\"dettagli\":{\"Frequenza\":\"una volta all’ora\"},\"desc\":\"Puoi trasformarti in un innocuo pipistrello. Ottieni gli effetti di forma di parassita di 4° livello, ma ti trasformi sempre in un pipistrello.\"}###",
+  "Tratti": ["Concentrazione","Dhampir","Divino","Polimorfismo"],
+  "Livello": "13",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Sinfonia di Sangue",
+  "Desc": "Richiami il sangue dei tuoi nemici per infonderti vigore. Puoi lanciare dissanguamento vampirico come incantesimo innato divino di 7° livello una volta al giorno.",
+  "Tratti": ["Dhampir"],
+  "Livello": "17",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Distorsione della Guarigione",
+  "Desc": "++Prerequisiti++ capacità di lanciare guarire e ferire@La tua connessione sia con la vita sia con la non morte ti permette di distorcere il potere curativo degli oggetti magici per adattarlo alle tue necessità. Ogni volta che Attivi un Oggetto per lanciare un incantesimo guarire, puoi invertirne l’energia per produrre invece gli effetti di un incantesimo ferire equivalente.",
+  "Tratti": ["Dhampir"],
+  "Livello": "17",
+  "Razza": "Dhampir",
+  "Mostrare": false
+},
+{
+  "Nome": "Sangue Draconico Arcano",
+  "Desc": "Discendi da un drago che padroneggia profondamente le proprie capacità magiche, come un drago della fortuna o un drago miraggio. Per questo motivo, afferri istintivamente le complessità della magia. Ottieni il grado di competenza addestrato in Arcano. Se dovessi diventare automaticamente addestrato in Arcano (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta. Ottieni il talento di abilità Senso Arcano. Se scegli un esemplare draconico, devi scegliere un drago arcano.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "1",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Soffio del Drago",
+  "Desc": "###{\"nome\":\"Soffio del Drago\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Dragonblood\",\"Magico\"],\"dettagli\":{},\"desc\":\"Attingendo alla fisiologia del tuo antenato draconico, puoi esalare un torrente di energia in un cono di 4.5m o in una linea di 9m, infliggendo 1d4 danni. Ogni creatura nell’area deve tentare un tiro salvezza base contro la più alta tra la tua CD di classe o la tua CD di incantesimo. Non puoi usare di nuovo questa capacità per 1d4 round.@Al 3° livello e ogni 2 livelli successivi, i danni aumentano di 1d4. La forma del soffio, il tipo di danno e il tiro salvezza corrispondono a quelli del tuo esemplare draconico. Questa capacità possiede il tratto associato al tipo di danno che infligge.\"}###",
+  "Tratti": ["Dragonblood","Magico"],
+  "Livello": "1",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Sangue Draconico Divino",
+  "Desc": "Puoi far risalire la tua stirpe a un drago dai poteri quasi divini, come un drago diabolico o un drago empireo. Sei benedetto da una piccola protezione divina. Ottieni il grado di competenza addestrato in Religione. Se dovessi diventare automaticamente addestrato in Religione (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta.@Inoltre, sei dotato di reazioni rapide. Ottieni un bonus di circostanza +1 ai tiri di iniziativa. Se scegli un esemplare draconico, devi scegliere un drago divino.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "1",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Aspetto Draconico",
+  "Desc": "Possiedi un tratto draconico evidente, come artigli affilati, un muso pieno di denti aguzzi o una potente coda rettiliana, che puoi usare in modo offensivo. Ottieni a tua scelta uno dei seguenti attacchi senz’armi. L’attacco appartiene al gruppo rissa e ha il dado di danno e i tratti indicati.@Artiglio 1d4 danni taglienti (agile, accurato, senz’armi)@Fauci 1d6 danni perforanti (impetuoso, senz’armi)@Coda 1d6 danni contundenti (spazzata, sbilanciare, senz’armi)@++Speciale++ Puoi scegliere questo talento solo al 1° livello e non puoi riaddestrarti per ottenerlo né riaddestrarti fuori da questo talento, né puoi cambiare il tipo di attacco ottenuto.@",
+  "Tratti": ["Dragonblood"],
+  "Livello": "1",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Resistenza Draconica",
+  "Desc": "La magia draconica ti protegge dai danni. Ottieni resistenza pari a metà del tuo livello (minimo 1) al tipo di danno associato al tuo esemplare draconico. Raddoppia questa resistenza contro i danni di quel tipo inflitti da draghi. Se il tuo esemplare draconico è associato a danni contundenti, perforanti o taglienti, invece di ottenere resistenza a quel tipo puoi scegliere acido, freddo, fuoco, elettricità o sonoro.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "1",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+}
+,{
+  "Nome": "Vista Draconica",
+  "Desc": "Possiedi una frazione dei sensi del tuo antenato draconico. Ottieni visione crepuscolare oppure ottieni scurovisione se la tua ascendenza ti fornisce già visione crepuscolare.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "1",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza Draconica",
+  "Desc": "Hai deciso di approfondire la conoscenza del tuo antenato e dei suoi simili e potresti persino essere stato cresciuto da un genitore drago. Hai compreso come i draghi possano incutere timore ma anche come abbiano contribuito alla società nel suo insieme. Ottieni il grado di competenza addestrato in Diplomazia e Intimidazione. Se dovessi diventare automaticamente addestrato in una di queste abilità (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta.@Ottieni inoltre il talento generale Sapienza Aggiuntiva per Sapienza Draconica.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "1",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Sangue Draconico Occulto",
+  "Desc": "Nel tuo sangue scorre un minuscolo frammento di potere insolito o inspiegabile proveniente da un drago misterioso, come un drago cospiratore o un drago dei presagi. Sei attratto dagli aspetti più strani del mondo e in genere riesci a individuarli a colpo d’occhio. Ottieni il grado di competenza addestrato in Occultismo. Se dovessi diventare automaticamente addestrato in Occultismo (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta. Ottieni il talento di abilità Identificazione delle Stranezze. Se scegli un esemplare draconico, devi scegliere un drago occulto.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "1",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Sangue Draconico Primordiale",
+  "Desc": "Un drago con un profondo legame con il mondo naturale, come un drago adamantino o un drago cornuto, compare nel tuo albero genealogico. Tendi a fidarti dei tuoi istinti e potresti assumere il ruolo di protettore delle terre selvagge. Ottieni il grado di competenza addestrato in Natura. Se dovessi diventare automaticamente addestrato in Natura (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta. Puoi usare Natura per Orientarti e Sopravvivere nelle terre selvagge. Se scegli un esemplare draconico, devi scegliere un drago primordiale.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "1",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Pelle Squamosa",
+  "Desc": "Sei nato con uno strato di scaglie che ricopre tutto il tuo corpo, simili a quelle del tuo progenitore draconico. Quando non indossi armature, le scaglie ti forniscono un bonus di oggetto +1 alla CA con un limite di Destrezza di +3. Il bonus di oggetto alla CA aumenta a +2 al 5° livello. Il bonus di oggetto alla CA fornito da queste scaglie è cumulativo con le rune di potenziamento dell’armatura sugli abiti dell’esploratore, con l’incantesimo armatura mistica o con i bracciali della forza.@++Speciale++ Puoi scegliere questo talento solo al 1° livello e non puoi riaddestrarti per ottenerlo né riaddestrarti fuori da questo talento.@",
+  "Tratti": ["Dragonblood"],
+  "Livello": "1",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Aspetto Letale",
+  "Desc": "++Prerequisiti++ Aspetto Draconico@Hai affinato l’attacco senz’armi concesso dalla tua eredità draconica fino a renderlo letale. L’attacco senz’armi che hai ottenuto da Aspetto Draconico ottiene il tratto mortale d8.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "5",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Olfatto Draconico",
+  "Desc": "Il tuo olfatto si è affinato fino a diventare acuto quanto quello di un drago. Ottieni olfatto impreciso con una portata di 9m. A discrezione del GM, questa portata può essere raddoppiata se sei sottovento rispetto alla creatura o dimezzata se sei sopravento.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "5",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Volo del Drago",
+  "Desc": "###{\"nome\":\"Volo del Drago\",\"tipoAzz\":\"azione\",\"tratti\":[\"Dragonblood\"],\"dettagli\":{\"Frequenza\":\"una volta per round\"},\"desc\":\"Ti sono cresciute piccole ali draconiche oppure hai perfezionato l’uso delle ali che possedevi fin dalla nascita. Voli. Se normalmente non possiedi una Velocità di volo, ottieni una Velocità di volo di 6m per questo movimento. Se al termine di questo movimento non ti trovi su terreno solido, cadi.\"}###",
+  "Tratti": ["Dragonblood"],
+  "Livello": "5",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+}
+,{
+  "Nome": "Resistenze Tradizionali",
+  "Desc": "++Prerequisiti++ Sangue Draconico Arcano, Sangue Draconico Divino, Sangue Draconico Occulto o Sangue Draconico Primordiale@Grazie al tuo sangue, possiedi una certa resistenza a specifici tipi di magia. Ottieni un bonus di stato +1 alla CA e ai tiri salvezza contro incantesimi e altri effetti magici della stessa tradizione della tua stirpe. Questo bonus aumenta a +2 contro effetti di sonno e paralisi.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "5",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Soffio Formidabile",
+  "Desc": "++Prerequisiti++ Soffio del Drago@Grazie a rigorosi esercizi di respirazione e a una dieta simile a quella della tua stirpe, il tuo soffio magico è più potente. L’area del tuo Soffio del Drago aumenta a un cono di 9m o a una linea di 18m e i dadi di danno diventano d6 invece di d4.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "9",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Volo del Vero Drago",
+  "Desc": "++Prerequisiti++ Volo del Drago@Le tue ali sono diventate più potenti, capaci di sostenerti in volo più a lungo. Possiedi sempre una Velocità di volo di 6m.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "9",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Colpo d’Ala",
+  "Desc": "###{\"nome\":\"Colpo d’Ala\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Attacco\",\"Dragonblood\"],\"dettagli\":{\"Prerequisiti\":\"esperto in Atletica\"},\"desc\":\"Possiedi un paio di ali draconiche abbastanza robuste da respingere e scagliare via i tuoi nemici. Scegli fino a due creature adiacenti a te. Tenta una prova di Atletica e confrontala con la CD di Tempra di ciascun bersaglio. Questo conta come due attacchi ai fini della penalità da attacchi multipli, ma la penalità non aumenta finché entrambi gli attacchi non sono stati risolti.@Successo Critico Il bersaglio subisce danni contundenti pari al doppio del tuo livello ed è spinto fino a 3m lontano da te.@Successo Il bersaglio subisce danni contundenti pari al tuo livello ed è spinto fino a 1.5m lontano da te.@Fallimento Il bersaglio subisce danni contundenti pari a metà del tuo livello.@Fallimento Critico Al termine di questa attività cadi prono.\"}###",
+  "Tratti": ["Attacco","Dragonblood"],
+  "Livello": "9",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Velo Draconico",
+  "Desc": "Come alcuni draghi, il tuo antenato possedeva la capacità soprannaturale di mutare forma per camminare tra gli umanoidi. Hai imparato a imitare questa capacità. Puoi lanciare forma umanoide come incantesimo innato di 5° livello una volta al giorno, ma la durata aumenta a 1 ora. La tradizione dell’incantesimo corrisponde a quella del tuo esemplare draconico.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "13",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Presenza Maestosa",
+  "Desc": "###{\"nome\":\"Presenza Maestosa\",\"tipoAzz\":\"azione\",\"tratti\":[\"Dragonblood\",\"Emozione\",\"Paura\",\"Mentale\",\"Visivo\"],\"dettagli\":{},\"desc\":\"Assumendo una posa imponente, la forza della tua personalità soggioga gli esseri inferiori. Ogni creatura entro un’emanazione di 6m deve tentare un tiro salvezza su Volontà contro la più alta tra la tua CD di classe o la tua CD di incantesimo. Indipendentemente dal risultato del tiro salvezza, la creatura è temporaneamente immune alla tua Presenza Maestosa per 24 ore.@Successo Critico La creatura non è influenzata.@Successo La creatura è spaventata 1.@Fallimento La creatura è spaventata 2.@Fallimento Critico La creatura è spaventata 4.\"}###",
+  "Tratti": ["Dragonblood","Emozione","Paura","Mentale","Visivo"],
+  "Livello": "13",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Forma del Drago",
+  "Desc": "Puoi trasformarti brevemente in un archetipo della tua ascendenza draconica. Puoi lanciare forma di drago come incantesimo innato di 8° livello una volta al giorno. Questo incantesimo ha la stessa tradizione del tuo esemplare draconico. Quando lanci questo incantesimo innato, devi trasformarti nel tuo esemplare draconico. Tuttavia, se possiedi il talento di stirpe Sangue Draconico Arcano, Sangue Draconico Divino, Sangue Draconico Occulto o Sangue Draconico Primordiale, puoi invece scegliere qualsiasi drago di quella tradizione.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "17",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+},
+{
+  "Nome": "Soffio Persistente",
+  "Desc": "++Prerequisiti++ Soffio del Drago@Il tuo soffio draconico devasta l’ambiente circostante e lascia i tuoi nemici nel dolore. Quando usi Soffio del Drago, l’area del soffio diventa terreno difficile per 1 minuto. Inoltre, una creatura che fallisce o fallisce criticamente il tiro salvezza subisce 2d6 danni persistenti del medesimo tipo.",
+  "Tratti": ["Dragonblood"],
+  "Livello": "17",
+  "Razza": "Dragonblood",
+  "Mostrare": false
+}
+
+
+
+
 ]
