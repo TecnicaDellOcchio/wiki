@@ -126,7 +126,7 @@
     else
       common.aprireSidebar(sezione);
     const col = ["Nome", "Desc"];
-    common.creaTabella(await common.trovaDati("razze/ancestries.json", col), col, "Ancestries", true);
+    common.creaTabella(await common.trovaDati("razze/ancestries.json", col), col, true, true, "Ancestries");
 
     const heritage = await common.restituisciDatoAttributi(pathHeritage, ["Razza"], ["Universale"]);
     let risultato = "";
@@ -173,3 +173,4 @@ window.cerca = (valore) => {
   </script>
 </body>
 </html>
+
