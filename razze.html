@@ -66,6 +66,7 @@
     const Talenti = document.getElementById("talentiRazza");
 
     function cambiaSezione(sezione) {
+      console.log("a");
       Ancestries.classList.remove("attiva");
       Heritage.classList.remove("attiva");
       Talenti.classList.remove("attiva");
@@ -121,6 +122,7 @@
     const id = urlParams.get('id');
     if(sezione == undefined)
         sezione = "ancestries";
+    cambiaSezione(sezione);
     if(id)
       common.aprireSidebar(id);
     else
@@ -134,7 +136,7 @@
       risultato += `
         <div class="card mb-3">
           <div class="card-body">
-            <h3 id="${heritage[i].Nome}">-${heritage[i].Nome}</h3>
+            <h3 id="${heritage[i].Nome}">-${common.controllaTesto(common.vR(heritage[i].Nome))}</h3>
             ${common.controllaTesto(heritage[i].Dettagli)}<br><br>
             <strong>Benefici:</strong><br>
             ${common.controllaTesto(heritage[i].Desc)}
@@ -173,4 +175,3 @@ window.cerca = (valore) => {
   </script>
 </body>
 </html>
-
