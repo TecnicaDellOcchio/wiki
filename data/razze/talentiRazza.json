@@ -8522,6 +8522,973 @@
   "Livello": "17",
   "Razza": "Dragonblood",
   "Mostrare": false
+},{
+  "Nome": "Sfuggire alla Morte per Caso",
+  "Desc": "++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@###{\"nome\":\"Sfuggire alla Morte per Caso\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Duskwalker\",\"Fortuna\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Innesco\":\"Staresti per morire a seguito di un tiro di recupero o di un tiro salvezza fallito\"},\"desc\":\"La tua vita precedente terminò a causa di una pura sfortuna, colpito da un fulmine o soffocato da una lisca di pesce. Puoi ritirare il tiro di recupero o il tiro salvezza che ha innescato questa reazione, ma devi usare il nuovo risultato, anche se è peggiore.\"}###",
+  "Tratti": ["Duskwalker","Fortuna"],
+  "Livello": "1",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Morte Deliberata",
+  "Desc": "++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@###{\"nome\":\"Morte Deliberata\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Duskwalker\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Innesco\":\"Stai per ottenere la condizione morente a causa dell'attacco o di un'abilità di un'altra creatura, e quella creatura è entro la tua portata in mischia\"},\"desc\":\"Una volta sei morto perché qualcuno—assassino, mostro o soldato—scelse di abbatterti. Subito prima di perdere conoscenza, effettua un Colpo in mischia contro la creatura che ha innescato la reazione.\"}###",
+  "Tratti": ["Duskwalker"],
+  "Livello": "1",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza dei Duskwalker",
+  "Desc": "Hai incontrato un altro duskwalker che ti ha insegnato i segreti della tua stirpe, oppure sei riuscito a ricercare la tua insolita eredità. Ottieni il grado di competenza addestrato in Medicina e Religione. Se dovessi diventare automaticamente addestrato in una di queste abilità (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Ottieni inoltre il talento generale Sapienza Aggiuntiva per la Sapienza del Boneyard.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "1",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Familiarità con le Armi dei Duskwalker",
+  "Desc": "Hai familiarità con bastone ferrato, arco lungo, arco lungo composito, falce e bastone. Ai fini della competenza, tratti ciascuna di queste armi che è marziale come se fosse semplice e ciascuna che è avanzata come se fosse marziale.@Al 5° livello, ogni volta che ottieni un colpo critico con una di queste armi, ottieni il suo effetto di specializzazione critica.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "1",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Cacciatore di Spettri",
+  "Desc": "Il tuo legame con il Boneyard assicura che i tuoi colpi vadano a segno contro gli esseri spettrali. I tuoi Colpi con armi e senz'armi contro creature incorporee diventano magici. Se sono già magici, ottengono invece gli effetti di una runa di proprietà tocco fantasma.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "1",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Vista Sepolcrale",
+  "Desc": "++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@Puoi vedere nell'oscurità con la stessa facilità di uno psicopompo. Ottieni scurovisione.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "1",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Maschera del Nosoi",
+  "Desc": "++Prerequisiti++ addestrato in Artigianato@Molti psicopompi indossano maschere quando trattano con i viventi, e molte culture credono che vedere il volto scoperto di uno psicopompo porti la morte. Sei addestrato in Intimidazione e ottieni il talento di abilità Sguardo Intimidatorio. Se eri già addestrato in Intimidazione (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Sai anche come creare maschere come quelle indossate dagli psicopompi, un processo che richiede 1 ora e 1 ma di materiali appropriati. Se invece paghi 50 mo per una splendida maschera da psicopompo, la maschera ti conferisce un bonus di oggetto +1 a Intimidazione mentre la indossi. Il suo utilizzo è indossato (maschera).",
+  "Tratti": ["Duskwalker"],
+  "Livello": "1",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+}
+,{
+  "Nome": "Morte Consapevole",
+  "Desc": "++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@###{\"nome\":\"Morte Consapevole\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Duskwalker\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Innesco\":\"Un alleato entro 9 m subisce danni che lo ridurrebbero a 0 Punti Ferita e gli farebbero ottenere la condizione morente\"},\"desc\":\"Una volta sei morto perché hai dato più valore alla vita di qualcun altro che alla tua; come allora, proteggi un alleato soffrendo al suo posto. Riduci i danni che l'alleato che ha innescato la reazione subirebbe di 1 + il tuo livello. Reindirizzi questi danni su di te, ma le tue immunità, debolezze, resistenze e simili non si applicano. Non sei soggetto ad alcuna condizione o altro effetto proveniente da ciò che ha danneggiato il tuo alleato (come il veleno di un morso velenoso); il tuo alleato resta comunque soggetto a tali effetti anche se reindirizzi su di te tutti i danni innescanti. Se i danni reindirizzati impediscono che l'alleato venga ridotto a 0 Punti Ferita, egli rimane cosciente e non ottiene la condizione morente.\"}###",
+  "Tratti": ["Duskwalker"],
+  "Livello": "1",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Senso Vitale",
+  "Desc": "Possiedi una limitata capacità di percepire la forza vitale, come i tuoi progenitori psicopompi. Ottieni senso vitale come senso impreciso con raggio di 3 m. Questo ti permette di percepire la forza vitale delle creature viventi e non morte entro il raggio indicato. Il senso può distinguere tra l'energia vitale che anima le creature viventi e l'energia del vuoto che anima i non morti, in modo simile a come la vista distingue i colori.",
+  "Tratti": ["Divino","Duskwalker"],
+  "Livello": "5",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Argomentazione di Shoki",
+  "Desc": "Senti un legame con gli shoki, i collezionisti erranti di anime smarrite, e potresti aver trovato antichi testi scritti da uno di loro. Sei addestrato in Diplomazia. Se eri già addestrato in Diplomazia (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Puoi inoltre lanciare disturbare non morti come trucchetto innato divino a volontà. Un trucchetto è potenziato a un livello di incantesimo pari a metà del tuo livello, arrotondato per eccesso.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "5",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Lenitore degli Spiriti",
+  "Desc": "Sei in sintonia con i minimi suoni e le sensazioni degli spiriti inquieti. Anche se non stai Cercando, puoi tentare una prova per individuare infestazioni che normalmente richiederebbero di stare Cercando. Devi comunque soddisfare ogni altro requisito per individuare l'infestazione.@Ottieni un bonus di circostanza +1 alle prove per disattivare le infestazioni.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "5",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Protezione contro la Corruzione",
+  "Desc": "La tua anima è protetta contro il potere della non morte e delle pestilenze, così come contro quello degli ex psicopompi malvagi noti come sahkil. Ottieni un bonus di circostanza +1 ai tiri salvezza contro effetti di morte, malattie e tutti gli effetti provenienti da non morti o sahkil. Questo bonus aumenta a +2 contro un effetto di morte o una malattia provenienti da un non morto o da un sahkil.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "5",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Presenza di Catrina",
+  "Desc": "Hai adottato la presenza rasserenante delle catrina, i morti festosi; potresti persino aver danzato con una catrina! Finché porti visibilmente con te fiori freschi o nastri colorati da qualche parte sul tuo corpo, puoi lanciare calmare emozioni due volte al giorno come incantesimo innato divino di 2° livello.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "9",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Magia dei Duskwalker",
+  "Desc": "Il tuo legame con gli psicopompi ti concede il potere di intravedere il futuro prossimo e di proteggere i cadaveri dalle devastazioni della non morte. Puoi lanciare presagio e riposo pacifico una volta al giorno ciascuno come incantesimi innati divini di 2° livello.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "9",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Affinità con i Ragni di Morrigna",
+  "Desc": "Proprio come le morrigna, senti un'affinità per i ragni. Puoi lanciare messaggero animale (solo ragni), parlare con gli animali (solo ragni) e arrampicata del ragno una volta al giorno ciascuno come incantesimi innati divini di 2° livello.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "9",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+}
+,{
+  "Nome": "Colpi di Quietus",
+  "Desc": "Il tuo legame con il Boneyard ti conferisce il potere di portare la morte a ogni forma di vita e non vita, sfruttandone le debolezze. Tutti i tuoi Colpi con armi e senz'armi sono magici e infliggono 1 danno aggiuntivo da vuoto alle creature viventi e 1 danno aggiuntivo da vitalità ai non morti. Il danno aggiuntivo aumenta a 2 se il Colpo possiede una runa di potenziamento +3.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "9",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Colpo di Scena di Calaca",
+  "Desc": "++Prerequisiti++ esperto in Esibizione@###{\"nome\":\"Colpo di Scena di Calaca\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Uditivo\",\"Divino\",\"Duskwalker\",\"Ammaliamento\",\"Incapacità\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Hai trascorso molte serate a imparare canzoni e racconti sulle calaca, i menestrelli erranti della morte. Scateni drammaticamente un'esplosione stordente di suono distruggendo uno strumento che impugni o intonando una nota dissonante. Questo ha gli effetti di impulso sinaptico, ma l'effetto è uditivo anziché mentale. La CD è la tua CD di classe o la tua CD di incantesimo, a seconda di quale sia più alta.\"}###",
+  "Tratti": ["Uditivo","Divino","Duskwalker","Ammaliamento","Incapacità"],
+  "Livello": "13",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Resistere alla Rovina",
+  "Desc": "La tua eredità duskwalker ti consente di estendere una protezione contro l'energia del vuoto. Ottieni resistenza 5 al vuoto e, una volta al giorno, puoi lanciare falsa vitalità come incantesimo innato divino di 5° rango.",
+  "Tratti": ["Duskwalker"],
+  "Livello": "13",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Richiamo del Boneyard",
+  "Desc": "Hai un potente legame con il Boneyard e le sue corti, che ti concede la capacità di viaggiare da e verso il Boneyard. Puoi lanciare teletrasporto interplanare come incantesimo innato divino due volte a settimana. Questo può essere usato solo per viaggiare verso il Boneyard o dal Boneyard all'Universo. A causa del tuo legame unico con il Boneyard, il tuo corpo funge da fulcro e non richiedi una chiave planare.",
+  "Tratti": ["Non Comune","Duskwalker"],
+  "Livello": "17",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Decreto di Olethros",
+  "Desc": "###{\"nome\":\"Decreto di Olethros\",\"tipoAzz\":\"azione\",\"tratti\":[\"Morte\",\"Divino\",\"Duskwalker\",\"Necromanzia\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Hai un legame con gli olethros, gli enigmatici psicopompi che riuscirono a convincere gli yamaraj a permettere la creazione dei primi duskwalker. Metti un dito sulla bilancia del destino avvolgendo seta attorno al tuo arco. La prima volta in questo turno che colpisci una creatura con un Colpo usando un'arma del gruppo archi che hai modificato in questo modo, quella creatura subisce 60 danni aggiuntivi (tiro salvezza base su Tempra usando la tua CD di classe o la tua CD di incantesimo, a seconda di quale sia più alta), mentre la freccia tenta di troncare il suo stesso destino. Questi danni aggiuntivi sono dello stesso tipo di quelli inflitti dall'attacco iniziale. Se colpisci più di una creatura nello stesso momento, scegline una che subisce l'effetto del tuo decreto.\"}###",
+  "Tratti": ["Morte","Divino","Duskwalker","Necromanzia"],
+  "Livello": "17",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Magnificenza di Yamaraj",
+  "Desc": "###{\"nome\":\"Magnificenza di Yamaraj\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Duskwalker\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Ti è stata concessa una scintilla del potere degli yamaraj, i magistrati dei morti che accettarono di permettere l'esistenza dei duskwalker. Espiri una raffica di vento gelido e insetti famelici. Si tratta di un cono di 9 m che infligge 14d6 danni taglienti e 4d6 danni taglienti persistenti (tiro salvezza base su Riflessi usando la tua CD di classe o la tua CD di incantesimo, a seconda di quale sia più alta). Con un fallimento critico, i bersagli diventano anche nauseati 2.\"}###",
+  "Tratti": ["Duskwalker"],
+  "Livello": "17",
+  "Razza": "Duskwalker",
+  "Mostrare": false
+},
+{
+  "Nome": "Coda Devastante",
+  "Desc": "Possiedi una coda che funge da potente arma. Ottieni un attacco senz'armi con la coda che infligge 1d6 danni contundenti, possiede il tratto spazzare ed è nel gruppo di armi da rissa.",
+  "Tratti": ["Ganzi"],
+  "Livello": "1",
+  "Razza": "Ganzi",
+  "Mostrare": false
+},
+{
+  "Nome": "Ali Vestigiali",
+  "Desc": "Possiedi ali piccole e deboli che ti aiutano a mantenere l'equilibrio. Ottieni i talenti di abilità Equilibrio Sicuro e Caduta Felina come talenti bonus, anche se non sei addestrato in Acrobazia.",
+  "Tratti": ["Ganzi"],
+  "Livello": "1",
+  "Razza": "Ganzi",
+  "Mostrare": false
+},
+{
+  "Nome": "Coda Birichina",
+  "Desc": "++Prerequisiti++ Coda Abile (Ganzi)@La tua coda può tormentare i tuoi nemici. Puoi Disarmare e Sbilanciare le creature con la tua coda anche se non hai una mano libera. Tutte le altre restrizioni di Coda Abile continuano ad applicarsi. Se possiedi Coda Devastante, il tuo attacco senz'armi con la coda ottiene i tratti disarmare e sbilanciare.",
+  "Tratti": ["Ganzi"],
+  "Livello": "13",
+  "Razza": "Ganzi",
+  "Mostrare": false
+}
+,{
+  "Nome": "Occhi Affamati",
+  "Desc": "I tuoi occhi possono vedere attraverso l'oscurità con l'acuità visiva di un oni. Ottieni visione crepuscolare, oppure ottieni scurovisione se possiedi già la visione crepuscolare.@++Special++ Puoi selezionare questo talento due volte: una volta per ottenere la visione crepuscolare e una seconda volta per ottenere la scurovisione.",
+  "Tratti": ["Hungerseed"],
+  "Livello": "1",
+  "Razza": "Hungerseed",
+  "Mostrare": false
+},
+{
+  "Nome": "Forma di Oni",
+  "Desc": "###{\"nome\":\"Forma di Oni\",\"tipoAzz\":\"azione\",\"tratti\":[\"Concentrazione\",\"Hungerseed\",\"Polimorfismo\",\"Primale\"],\"dettagli\":{\"Frequenza\":\"una volta ogni 10 minuti\"},\"desc\":\"Le tue corna lampeggiano brevemente mentre cresci in dimensioni e ferocia. La tua taglia aumenta a Grande e diventi maldestro 1. Questo non modifica la tua Velocità, la portata o altre statistiche se non come indicato qui. Il tuo equipaggiamento indossato si ridimensiona automaticamente per adattarsi alla nuova forma, ma ritorna immediatamente alla dimensione originale se esce dal tuo possesso. Questa forma ha la stessa età e lo stesso tipo di corpo della tua forma reale e presenta tratti fisici approssimativamente analoghi, come il colore dei capelli. Usare Forma di Oni conta come creare un travestimento per l'uso Impersonare di Inganno. Puoi Mantenere la tua Forma di Oni fino a 10 minuti, ma poi devi trascorrere almeno 10 minuti nella tua forma naturale prima di poter usare nuovamente Forma di Oni.\"}###",
+  "Tratti": ["Concentrazione","Hungerseed","Polimorfismo","Primale"],
+  "Livello": "1",
+  "Razza": "Hungerseed",
+  "Mostrare": false
+},
+{
+  "Nome": "Familiarità con le Armi degli Oni",
+  "Desc": "Gli oni preferiscono armi grandi e crudeli per fare a pezzi i loro nemici, e anche tu. Ai fini della competenza, tratti khakkhara, nodachi, uncino da ogre e tetsubo come armi semplici.@L'uncino da ogre è un'arma marziale non comune che costa 1 mo, infligge 1d10 danni perforanti, ha Ingombro 2, richiede due mani per essere usata, appartiene al gruppo di armi picconi e possiede i tratti mortale d10 e sbilanciare.@Al 5° livello, ogni volta che ottieni un colpo critico con una di queste armi o con il tuo Colpo senz'armi con le corna, ottieni il relativo effetto di specializzazione critica.",
+  "Tratti": ["Hungerseed"],
+  "Livello": "1",
+  "Razza": "Hungerseed",
+  "Mostrare": false
+},
+{
+  "Nome": "Scatto Intriso di Sangue",
+  "Desc": "Le ferite non ti infastidiscono più—anzi, il dolore ti rinvigorisce. Se sei a metà o meno dei tuoi Punti Ferita massimi, ottieni un bonus di stato di 3 m a tutte le tue Velocità.",
+  "Tratti": ["Hungerseed"],
+  "Livello": "5",
+  "Razza": "Hungerseed",
+  "Mostrare": false
+},
+{
+  "Nome": "Maschera dell'Oni",
+  "Desc": "Non sei malleabile come i tuoi antenati oni, ma riesci comunque a travestirti. Puoi lanciare travestimento illusorio come incantesimo innato primale di 1° rango una volta al giorno. Questo incantesimo non può travestire le tue corna, anche se puoi comunque nasconderle normalmente con un'acconciatura o un cappuccio.",
+  "Tratti": ["Hungerseed"],
+  "Livello": "5",
+  "Razza": "Hungerseed",
+  "Mostrare": false
+},
+{
+  "Nome": "Sguardo Tempestoso",
+  "Desc": "###{\"nome\":\"Sguardo Tempestoso\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Hungerseed\",\"Primale\"],\"dettagli\":{\"Ricarica\":\"Non puoi usare di nuovo questa capacità per 1d4 round\"},\"desc\":\"Puoi aprire o energizzare un evidente terzo occhio sulla fronte per colpire con potere tempestoso. Infliggi 3d4 danni da elettricità o sonori in un cono di 4,5 m; Sguardo Tempestoso ottiene questo tratto. Ogni creatura nell'area deve tentare un tiro salvezza base su Riflessi contro la più alta tra la tua CD di classe o la tua CD di incantesimo. Al 7° livello e ogni 2 livelli successivi, i danni aumentano di 1d4.\"}###",
+  "Tratti": ["Hungerseed","Primale"],
+  "Livello": "5",
+  "Razza": "Hungerseed",
+  "Mostrare": false
+},
+{
+  "Nome": "Il Sangue Chiama Altro Sangue",
+  "Desc": "Attingi a una fame senza fondo di carneficina. Puoi lanciare vendetta di sangue e condividere vita come incantesimi innati primali di 2° rango, ciascuno una volta al giorno.",
+  "Tratti": ["Hungerseed"],
+  "Livello": "9",
+  "Razza": "Hungerseed",
+  "Mostrare": false
+},
+{
+  "Nome": "Trasformazione Superiore",
+  "Desc": "++Prerequisiti++ Forma di Oni@Puoi assumere la tua forma di oni più facilmente e con maggiori benefici. La tua forma di oni dura 10 minuti senza la necessità di Mantenere l'effetto. Mentre sei nella tua forma di oni, la tua portata aumenta di 1,5 m.",
+  "Tratti": ["Hungerseed"],
+  "Livello": "9",
+  "Razza": "Hungerseed",
+  "Mostrare": false
+}
+,{
+  "Nome": "Furia dell'Oni",
+  "Desc": "###{\"nome\":\"Furia dell'Oni\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Hungerseed\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Innesco\":\"Vieni ridotto a meno della metà dei tuoi Punti Ferita massimi da una creatura entro la tua portata\"},\"desc\":\"Nulla ti rinvigorisce più del tuo stesso sangue appena versato. Ottieni gli effetti di velocità per 1 minuto.\"}###",
+  "Tratti": ["Hungerseed"],
+  "Livello": "13",
+  "Razza": "Hungerseed",
+  "Mostrare": false
+},
+{
+  "Nome": "Sguardo della Tempesta Superiore",
+  "Desc": "++Prerequisiti++ Sguardo Tempestoso@Il tuo terzo occhio cresce in forza e potenza. Quando usi Sguardo Tempestoso, puoi aumentare l'area a un cono di 9 m e raddoppiare il numero di dadi di danno; metà infliggono danni da elettricità e metà infliggono danni sonori. Se usi Sguardo Tempestoso in questo modo, non puoi riutilizzarlo per 1 ora.",
+  "Tratti": ["Hungerseed"],
+  "Livello": "13",
+  "Razza": "Hungerseed",
+  "Mostrare": false
+},
+{
+  "Nome": "Furia Kishin",
+  "Desc": "###{\"nome\":\"Furia Kishin\",\"tipoAzz\":\"azione\",\"tratti\":[\"Hungerseed\",\"Metamorfosi\",\"Primale\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"I tuoi occhi brillano di un rosso intenso e il tuo corpo è percorso dall'adrenalina mentre ottieni una frazione del potere degli oni kishin. TentI di Demoralizzare tutte le creature entro un raggio di 3 m; non subisci penalità quando tenti di Demoralizzare una creatura che non comprende la tua lingua. Ottieni inoltre le seguenti capacità per 1 minuto:@40 Punti Ferita temporanei.@Una Velocità di volo pari alla tua Velocità.@Gli effetti di corpo runico di 6° rango e le tue corna infliggono 1d4 danni da elettricità aggiuntivi.@Senso del sangue come senso preciso con raggio di 18 m, che ti permette di individuare sangue appena versato; ciò ti consente di individuare con precisione creature che subiscono danni persistenti da sanguinamento, creature i cui Punti Ferita sono attualmente pari o inferiori alla metà del loro massimo e pozze o gocce indipendenti di sangue versato di recente.@Furia Kishin dura 1 minuto. Al termine, sei stordito 3 mentre recuperi e ti ricentri.\"}###",
+  "Tratti": ["Hungerseed","Metamorfosi","Primale"],
+  "Livello": "17",
+  "Razza": "Hungerseed",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima Luminosa",
+  "Desc": "Il fuoco dentro di te si manifesta come una luce radiosa e abbagliante. Il tuo corpo è naturalmente luminescente e brilla con gli effetti di un trucchetto primale di luce. Un trucchetto è potenziato a un livello di incantesimo pari a metà del tuo livello, arrotondato per eccesso. La luce è involontaria e costante; se viene contrastata, ritorna in 1d4 round.@Subisci una penalità di circostanza –2 alle prove di Furtività per Nasconderti o Sgattaiolare e ottieni un bonus di circostanza +1 ai tiri salvezza contro effetti di luce e contro effetti che infliggono le condizioni accecato o abbagliato.",
+  "Tratti": ["Ifrit","Lineage"],
+  "Livello": "1",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima di Brace",
+  "Desc": "Il fuoco del tuo antenato elementale si manifesta come le braci morenti di un incendio, e il tuo carbone interiore aiuta a fermare le emorragie, purificare veleni semplici e assorbire l'acido. La CD per recuperare da danni persistenti da acido, sanguinamento e veleno è 10 invece di 15 (oppure 5 se ricevi un'assistenza particolarmente efficace).",
+  "Tratti": ["Ifrit","Lineage"],
+  "Livello": "1",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Occhi Elementali",
+  "Desc": "++Prerequisiti++ visione crepuscolare@++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@Puoi vedere nell'oscurità con la stessa facilità di un elementale. Ottieni scurovisione.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza Elementale",
+  "Desc": "Ti sei dedicato allo studio dei segreti della Sfera Interna. Ottieni il grado di competenza addestrato in Sopravvivenza e, a tua scelta, in Arcano o Natura. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Diventi inoltre addestrato nella Sapienza associata al tuo Piano Elementale di origine (come Sapienza del Piano del Fuoco).",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+}
+,{
+  "Nome": "Occhi di Brace",
+  "Desc": "I tuoi occhi ardono di una fiamma interiore. Ottieni visione crepuscolare, oppure ottieni scurovisione se la tua razza possiede già la visione crepuscolare.@++Special++ Se la tua razza non possiede né visione crepuscolare né scurovisione, puoi selezionare questo talento di razza una seconda volta per ottenere la scurovisione. Non puoi riaddestrarti fuori da questo talento.",
+  "Tratti": ["Ifrit"],
+  "Livello": "1",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Familiarità con le Armi dei Geni",
+  "Desc": "Ti sei addestrato con le armi usate dai tuoi antenati geni. Sei addestrato con falchion, ranseur, scimitarre e tridenti. Inoltre, ottieni accesso a tutte le armi geniekin non comuni. Ai fini della determinazione della competenza, le armi geniekin marziali sono armi semplici e le armi geniekin avanzate sono armi marziali.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Fuoco Interiore",
+  "Desc": "Puoi richiamare il fuoco che arde dentro di te nel palmo della mano. Puoi lanciare il trucchetto produrre fiamma come incantesimo innato primale o arcano a volontà. Un trucchetto è potenziato a un livello di incantesimo pari a metà del tuo livello, arrotondato per eccesso.",
+  "Tratti": ["Ifrit"],
+  "Livello": "1",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima di Lava",
+  "Desc": "La tua stirpe elementale si manifesta come magma e roccia fusa, e puoi concentrare il magma nella tua mano per attaccare i nemici. Ottieni un attacco senz'armi spina di magma, che richiede una mano libera per essere usato. Si tratta di un attacco senz'armi agile e accurato nel gruppo di armi da rissa che infligge 1d4 danni perforanti, oltre a 1 danno da fuoco aggiuntivo.@Invece del normale effetto di specializzazione critica, il bersaglio subisce 1d6 danni persistenti da fuoco; ottieni un bonus a questi danni persistenti pari al tuo bonus di oggetto ai tiri per colpire con attacchi senz'armi.",
+  "Tratti": ["Ifrit","Lineage"],
+  "Livello": "1",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Arguzia Fusa",
+  "Desc": "La tua anima elementale ha acceso non solo il tuo corpo, ma anche la tua mente. Diventi addestrato in Inganno e ottieni il talento di abilità Bugiardo Affascinante, oppure diventi addestrato in Diplomazia e ottieni il talento di abilità Impressione di Gruppo. Se sei già addestrato in una di queste abilità, devi scegliere l'altra e puoi scegliere uno dei due talenti di abilità. Se sei addestrato in entrambe le abilità, diventi invece addestrato in un'abilità diversa a tua scelta e puoi comunque scegliere uno dei due talenti di abilità.",
+  "Tratti": ["Ifrit"],
+  "Livello": "1",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Aspetto Sinistro",
+  "Desc": "Possiedi corna, una coda, occhi rossi o altri tratti che possono farti scambiare per un tiefling. Ottieni il grado di competenza addestrato in Intimidazione. Se dovessi diventare automaticamente addestrato in Intimidazione (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Ottieni il talento di abilità Sguardo Intimidatorio, oltre a un bonus di circostanza +2 alle prove di Inganno per Impersonare quando fingi di essere una versione tiefling di te stesso.",
+  "Tratti": ["Ifrit"],
+  "Livello": "1",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Vista del Fuoco",
+  "Desc": "Puoi vedere attraverso la foschia delle fiamme. Superi automaticamente la prova semplice per colpire una creatura occultata se tale creatura è occultata solo da fumo e fuoco.",
+  "Tratti": ["Ifrit"],
+  "Livello": "5",
+  "Razza": "Ifrit",
+  "Mostrare": false
+}
+,{
+  "Nome": "Virtuosismo con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni un colpo critico usando un falchion, un ranseur, una scimitarra, un tridente o un'arma geniekin, applichi l'effetto di specializzazione critica dell'arma.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Ondata di Calore",
+  "Desc": "###{\"nome\":\"Ondata di Calore\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Ifrit\"],\"dettagli\":{\"Frequenza\":\"una volta ogni 10 minuti\",\"Innesco\":\"Un effetto dovrebbe infliggerti danni da fuoco, anche se resisti a tutti i danni\"},\"desc\":\"Incameri le fiamme in arrivo e le deformi in una cortina di calore e fumo, ottenendo occultamento fino all'inizio del tuo prossimo turno.\"}###",
+  "Tratti": ["Ifrit"],
+  "Livello": "5",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Risolutezza Nobile",
+  "Desc": "Un tempo i geni governavano vasti regni, e un residuo di quella sicurezza e potere si riflette nella tua forte volontà. Ottieni un bonus di circostanza +1 ai tiri salvezza su Volontà contro effetti con il tratto mentale. Indipendentemente dal successo o dal fallimento, diventi consapevole della persona che ha usato l'effetto su di te, se era visibile al momento dell'uso.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Resti Carbonizzati",
+  "Desc": "###{\"nome\":\"Resti Carbonizzati\",\"tipoAzz\":\"azioneGratis\",\"tratti\":[\"Fuoco\",\"Ifrit\",\"Metamagia\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Il tuo prossimo incantesimo di fuoco lascia braci sul suo percorso. Se la tua prossima azione è Lanciare un Incantesimo con area e il tratto fuoco, per 1 minuto l'area dell'incantesimo diventa terreno difficile e terreno pericoloso, infliggendo 1 danno da fuoco per ogni quadretto attraversato da una creatura.\"}###",
+  "Tratti": ["Fuoco","Ifrit","Metamagia"],
+  "Livello": "9",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Magia degli Efreeti",
+  "Desc": "La magia dei tuoi antenati efreeti scorre in te. Puoi lanciare ingrandire e oggetto illusorio una volta al giorno ciascuno come incantesimi innati arcani di 2° livello.",
+  "Tratti": ["Ifrit"],
+  "Livello": "9",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Riparazione Miracolosa",
+  "Desc": "###{\"nome\":\"Riparazione Miracolosa\",\"tipoAzz\":\"treAzioni\",\"tratti\":[\"Arcano\",\"Ardande\",\"Concentrazione\",\"Ifrit\",\"Oread\",\"Suli\",\"Sylph\",\"Talos\",\"Trasmutazione\",\"Undine\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"I geniekin non possono concedere desideri magici, ma un'eco di potere permane in te. Di fronte a un meccanismo danneggiato ma non distrutto, puoi desiderare che torni funzionante per 10 minuti. L'oggetto deve essere ordinario e non più grande di Ingombro 5, come un meccanismo di chiusura disattivato in una porta. Per 10 minuti, l'oggetto funziona come dovrebbe, ignorando i danni al suo meccanismo. Questo non ti fornisce alcuna conoscenza su ciò che un dispositivo possa fare o su come dovrebbe funzionare. Al termine dei 10 minuti, l'oggetto ricade nel degrado ed è temporaneamente immune a Riparazione Miracolosa per 1 giorno.\"}###",
+  "Tratti": ["Arcano","Ardande","Concentrazione","Ifrit","Oread","Suli","Sylph","Talos","Trasmutazione","Undine"],
+  "Livello": "9",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Disarmare Incandescente",
+  "Desc": "###{\"nome\":\"Disarmare Incandescente\",\"tipoAzz\":\"azione\",\"tratti\":[\"Fuoco\",\"Ifrit\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Rendi un'arma insopportabile da impugnare. Tenta una prova di Atletica per Disarmare una creatura bersaglio. Non è necessario avere una mano libera per questo tentativo di Disarmare. Se il tentativo ha successo, il bersaglio subisce 4d6 danni da fuoco a meno che non lasci cadere l'arma, e con un successo critico subisce 4d6 danni da fuoco e lascia cadere l'arma. Se sei leggendario in Atletica, i danni aumentano a 8d6 da fuoco.\"}###",
+  "Tratti": ["Fuoco","Ifrit"],
+  "Livello": "9",
+  "Razza": "Ifrit",
+  "Mostrare": false
+}
+,{
+  "Nome": "Maestria con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni una capacità di classe che ti concede competenza esperto o superiore con determinate armi, ottieni quella stessa competenza anche con falchion, ranseur, scimitarre, tridenti e tutte le armi geniekin in cui sei addestrato.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "13",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Passo Planare",
+  "Desc": "###{\"nome\":\"Passo Planare\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Arcano\",\"Ardande\",\"Concentrazione\",\"Evocazione\",\"Ifrit\",\"Oread\",\"Suli\",\"Sylph\",\"Talos\",\"Undine\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Innesco\":\"Una creatura ti colpisce con un Colpo in mischia\"},\"desc\":\"Trasli brevemente il tuo corpo tra i piani, riducendo i danni dell'attacco del tuo nemico. Ottieni resistenza 25 a tutti i danni contro l'attacco che ha innescato la reazione. Gli osservatori ti vedono semplicemente tremolare per un istante di energia elementale proprio mentre l'attacco va a segno.\"}###",
+  "Tratti": ["Arcano","Ardande","Concentrazione","Evocazione","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "13",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Esplosione Radiosa",
+  "Desc": "###{\"nome\":\"Esplosione Radiosa\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Fuoco\",\"Ifrit\",\"Incapacità\",\"Luce\",\"Visivo\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"La tua pelle risplende di luce intensa. Le creature entro 3 m che possono vederti devono superare un tiro salvezza su Tempra contro la tua CD di classe o la tua CD di incantesimo, a seconda di quale sia più alta.@Successo Critico La creatura non subisce effetti.@Successo La creatura è abbagliata per 1 round.@Fallimento La creatura è accecata per 1 round e abbagliata per 4 round.@Fallimento Critico La creatura è accecata per 4 round e abbagliata per 10 minuti.\"}###",
+  "Tratti": ["Fuoco","Ifrit","Incapacità","Luce","Visivo"],
+  "Livello": "13",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Evocare Elementale del Fuoco",
+  "Desc": "Puoi evocare un alleato elementale. Una volta al giorno, puoi lanciare evocare elementale come incantesimo innato primale di 5° livello, ma l'elementale evocato deve essere un elementale del fuoco.",
+  "Tratti": ["Ifrit"],
+  "Livello": "13",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Aura Fiammeggiante",
+  "Desc": "###{\"nome\":\"Aura Fiammeggiante\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Concentrazione\",\"Invocazione\",\"Fuoco\",\"Ifrit\",\"Primale\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Innesco\":\"Inizia il tuo turno\"},\"desc\":\"Esplodi in una vampata di fiamme. I nemici in un'emanazione di 6 m subiscono 7d6 danni da fuoco (tiro salvezza base su Riflessi usando la tua CD di classe o la tua CD di incantesimo, a seconda di quale sia più alta). Gli alleati nell'area diventano accelerati per 1 round e possono usare l'azione aggiuntiva per Colpire o Avanzare.\"}###",
+  "Tratti": ["Concentrazione","Invocazione","Fuoco","Ifrit","Primale"],
+  "Livello": "17",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Vincolato all'Eone",
+  "Desc": "La tua stirpe è influenzata o direttamente legata agli abitanti soprannaturali della Città Perfetta di Axis, un reame di ordine puro e assoluto. Questa energia permea il tuo corpo e lo aiuta a mantenere la coerenza, resistendo agli effetti che ne comprometterebbero il funzionamento o deturperebbero la tua forma altrimenti ordinata. Tu e i tuoi alleati potete Curare le Ferite senza un kit da guaritore. Una volta al giorno, quando qualcuno ottiene un fallimento o un fallimento critico in una prova per Curare le Ferite su di te, puoi concentrarti sulla tua coesione interna per aumentare il grado di successo di un passo.",
+  "Tratti": ["Lineage","Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Discendenza Angelica",
+  "Desc": "Discendi da un angelo, un messaggero alato di Nirvana o di uno degli altri reami celestiali. Ottieni il grado di competenza addestrato in Società. Se dovessi diventare automaticamente addestrato in Società (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Conosci la lingua Empireo e ottieni il talento di abilità Multilingue.",
+  "Tratti": ["Lineage","Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+}
+,{
+  "Nome": "Sangue di Battaglia",
+  "Desc": "Discendi da coloro le cui vite furono toccate dai leggendari einherjar, forgiati dalle anime di potenti guerrieri caduti in battaglia e scelti dalle valchirie per servire come soldati al servizio di molti dèi. Potresti persino essere un lontano discendente mortale di una vera valchiria. Sei addestrato in Intimidazione. Se eri già addestrato in Intimidazione (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Ottieni inoltre il talento di abilità Sguardo Intimidatorio.",
+  "Tratti": ["Lineage","Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Manifestazione Bestiale",
+  "Desc": "++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento, né cambiare il tipo di attacco ottenuto.@Una parte del tuo corpo mostra un'influenza animalesca proveniente da una creatura planare. Le tue mani terminano in artigli, hai zoccoli al posto dei piedi, denti affilati riempiono la tua bocca o una coda si estende dalla tua spina dorsale. Ottieni a tua scelta uno dei seguenti attacchi senz'armi. L'attacco appartiene al gruppo di armi da rissa e possiede il dado di danno e i tratti indicati:@Artiglio 1d4 danni taglienti (agile, accurato, senz'armi, versatile perforante)@Zoccolo 1d6 danni contundenti (accurato, senz'armi)@Fauci 1d6 danni perforanti (accurato, senz'armi)@Coda 1d4 danni contundenti (agile, accurato, senz'armi)",
+  "Tratti": ["Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Prodigio Creativo",
+  "Desc": "++Prerequisiti++ Proteankin@Possiedi un potente impulso creativo che è evidente a chiunque interagisca con te. Sei addestrato in Esibizione. Se eri già addestrato in Esibizione (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Ottieni inoltre il talento di abilità Esibizione Impressionante e, quando usi Esibizione per Fare Impressione, ottieni un bonus di circostanza +1 alla prova.",
+  "Tratti": ["Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Nato dalla Colpa",
+  "Desc": "Porti un rancore, ereditato da un blasfemo antenato asura nella tua linea di sangue, contro una particolare divinità e le sue opere. Ottieni la reazione Trovare Difetto.@###{\"nome\":\"Trovare Difetto\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Concentrazione\"],\"dettagli\":{\"Innesco\":\"Tenti un tiro salvezza contro un incantesimo o un effetto magico ma non hai ancora tirato\"},\"desc\":\"Individui una qualche imperfezione nella magia, sfruttando quel difetto per proteggerti dall'effetto. Ottieni un bonus di circostanza +1 al tiro salvezza contro l'effetto che ha innescato la reazione, che aumenta a +2 se l'effetto è divino e proviene da un fedele della divinità che hai scelto come oggetto del tuo rancore.\"}###",
+  "Tratti": ["Lineage","Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Nato dall'Ombra",
+  "Desc": "La tua stirpe risale a un daemon, una delle manifestazioni delle forme più orribili di morte che divorano le anime nella loro dimora corrotta di Abaddon. Di conseguenza, ti aggrappi tenacemente agli ultimi brandelli della tua forza vitale.@Ottieni il talento generale Tenace.",
+  "Tratti": ["Lineage","Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Aureola",
+  "Desc": "Possiedi un'aureola di luce e bontà che irradia luce con gli effetti di un trucchetto divino di luce. Un trucchetto è potenziato a un rango di incantesimo pari a metà del tuo livello, arrotondato per eccesso.@Puoi Mantenere per sopprimere o ristabilire l'aureola.",
+  "Tratti": ["Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Nato dall'Inferno",
+  "Desc": "La tua stirpe discende dai diavoli, macchinatori astuti degli Inferi. Sei abile nell'individuare menzogne e formulazioni contorte tanto quanto nel crearle. Sei addestrato in Inganno e Sapienza Legale. Se eri già addestrato in Inganno (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Ottieni inoltre il talento di abilità Mentirmi.",
+  "Tratti": ["Lineage","Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+}
+,{
+  "Nome": "Artigianato Intuitivo",
+  "Desc": "++Prerequisiti++ Vincolato all'Eone@La tua affinità con i processi e l'ordine ti rende un artigiano naturale. Sei addestrato in Artigianato. Se eri già addestrato in Artigianato, ottieni invece il talento di abilità Artigianato Specializzato in una specialità a tua scelta; se possiedi entrambi, diventi invece addestrato in un'abilità a tua scelta.@Inoltre, quando ottieni un fallimento critico nel Riparare un oggetto, ottieni invece un fallimento.",
+  "Tratti": ["Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Irreprimibile (Ganzi)",
+  "Desc": "La tua lieve natura ultraterrena ti consente di scrollarti facilmente di dosso le manipolazioni emotive. Quando ottieni un successo in un tiro salvezza contro un effetto di emozione, ottieni invece un successo critico.",
+  "Tratti": ["Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Portatore della Legge",
+  "Desc": "La tua stirpe risale agli arconti, guardiani della montagna a sette livelli del Paradiso e coltivatori di legge e virtù nei mortali. Ottieni un bonus di circostanza +1 ai tiri salvezza contro effetti di emozione e, quando ottieni un successo in un tiro salvezza contro un effetto di emozione, ottieni invece un successo critico.",
+  "Tratti": ["Lineage","Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Toccato dalle Muse",
+  "Desc": "Il tuo sangue canta con il potere liberatorio degli azata, incarnazioni viventi della libertà provenienti dal reame selvaggio di Elysium. Ottieni un bonus di circostanza +1 alle prove per Fuggire. Quando ottieni un fallimento critico in una prova per Fuggire, ottieni invece un fallimento, e quando ottieni un successo, ottieni invece un successo critico.",
+  "Tratti": ["Lineage","Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Occhi dei Nephilim",
+  "Desc": "++Prerequisiti++ visione crepuscolare@I tuoi occhi possono vedere nell'oscurità con un'acuità visiva simile a quella posseduta dalla maggior parte degli esseri extraplanari. Ottieni scurovisione.",
+  "Tratti": ["Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza dei Nephilim",
+  "Desc": "Conosci i segreti del Multiverso. Ottieni il grado di competenza addestrato in Diplomazia o Intimidazione, a tua scelta, e in Religione. Se dovessi diventare automaticamente addestrato in una di queste abilità (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Ottieni inoltre il talento generale Sapienza Aggiuntiva per una sottocategoria di Sapienza relativa a un piano al quale fai risalire la tua stirpe.",
+  "Tratti": ["Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Zoccoli Agili",
+  "Desc": "++Special++ L'aumento di Velocità fornito da questo talento non è cumulativo con altri aumenti di Velocità provenienti da talenti di razza.@Possiedi zoccoli, ali alle caviglie o un'altra caratteristica che accelera il tuo movimento. La tua Velocità aumenta di 1,5 m.",
+  "Tratti": ["Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Nato dall'Abisso",
+  "Desc": "Il tuo sangue porta il marchio di un demone, incarnazione vivente del peccato proveniente dalle fetide profondità delle Fenditure Esterne. Il potere demoniaco pulsa nelle tue vene e si manifesta in modo diverso per ogni nato dall'abisso, che tu abbia dita palmate e prosperi nell'acqua, grandi mani capaci di lottare contro nemici più grandi o un'altra manifestazione.@Sei addestrato in Atletica. Se eri già addestrato in Atletica (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Ottieni inoltre un talento di abilità comune di 1° livello a tua scelta con il prerequisito di essere addestrato in Atletica, che riflette la manifestazione del tuo sangue immondo.",
+  "Tratti": ["Lineage","Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+}
+,{
+  "Nome": "Proteankin",
+  "Desc": "Il tuo sangue ribolle con la quintessenza turbinante del Maelstrom, il mare infinito del caos primordiale che in tempi remoti generò gli altri Piani Esterni. Ottieni resistenza a un singolo tipo di danno pari a metà del tuo livello; all'inizio di ogni giorno determina casualmente se questa resistenza si applica ai danni da acido, elettricità o sonori.@Ottieni inoltre un bonus di circostanza +1 ai tiri salvezza contro effetti che ti farebbero ottenere la condizione controllato.",
+  "Tratti": ["Lineage","Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Mobilità Sublime",
+  "Desc": "La tua eredità ti ha concesso notevoli capacità atletiche o una caratteristica fisica che facilita gli spostamenti. Ottieni a tua scelta una Velocità di scalare o una Velocità di nuotare di 3 m.",
+  "Tratti": ["Nephilim"],
+  "Livello": "1",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Aspetto Amorfo",
+  "Desc": "++Prerequisiti++ Proteankin@Il tuo corpo è estremamente flessibile. Ottieni un bonus di circostanza +1 alle prove per Fuggire o Strisciare e, quando ottieni un fallimento critico mentre Strisci, ottieni invece un fallimento.",
+  "Tratti": ["Nephilim"],
+  "Livello": "5",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Ferocia Bestiale",
+  "Desc": "++Prerequisiti++ Manifestazione Bestiale@Il tuo attacco senz'armi animalesco diventa più pericoloso. L'attacco senz'armi che hai scelto con Manifestazione Bestiale ottiene il tratto mortale d6. Ogni volta che ottieni un colpo critico con questo attacco senz'armi, applichi l'effetto di specializzazione critica del gruppo da rissa.",
+  "Tratti": ["Nephilim"],
+  "Livello": "5",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Sangue Benedetto (Nephilim)",
+  "Desc": "Il tuo sangue versato è consacrato, con effetti simili a quelli dell'acqua santa. Ogni volta che un immondo, un non morto o una creatura con una debolezza al sacro beve il tuo sangue o ti infligge danni perforanti o taglienti con fauci, zanne o un attacco simile, quella creatura subisce 1d6 danni spirituali con il tratto sacro.@Ottieni un bonus di circostanza +4 alle prove di Artigianato per Creare acqua santa usando il tuo sangue come uno degli ingredienti.",
+  "Tratti": ["Nephilim"],
+  "Livello": "5",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Richiamo alla Battaglia",
+  "Desc": "++Prerequisiti++ Sangue di Battaglia@###{\"nome\":\"Richiamo alla Battaglia\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Nephilim\"],\"dettagli\":{\"Innesco\":\"Perdi la condizione incosciente\"},\"desc\":\"Incanali lo spirito imperituro degli einherjar per tornare a combattere. Ti Alzi. Questo movimento non innesca reazioni.\"}###",
+  "Tratti": ["Nephilim"],
+  "Livello": "5",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Foschia Extraplanare",
+  "Desc": "###{\"nome\":\"Foschia Extraplanare\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Nephilim\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Il tuo corpo emette minuscole particelle di materia extraplanare, come mote cristalline o vapore fumoso, che ti circondano in una foschia. Diventi occultato, anche se non puoi usare questo occultamento per Nasconderti o Sgattaiolare, come normale per l'occultamento quando la tua posizione resta evidente. Queste particelle rimangono entro pochi centimetri dalla tua pelle, si muovono con te e durano per un numero di round pari a metà del tuo livello.\"}###",
+  "Tratti": ["Nephilim"],
+  "Livello": "5",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Supplica Extraplanare",
+  "Desc": "Invochi il potere divino per porre una benedizione sui tuoi alleati o una maledizione sui tuoi nemici. Scegli benedizione o anatema. Puoi lanciare l'incantesimo scelto una volta al giorno come incantesimo innato divino di 1° rango.",
+  "Tratti": ["Nephilim"],
+  "Livello": "5",
+  "Razza": "Nephilim",
+  "Mostrare": false
+}
+,{
+  "Nome": "Resistenza dei Nephilim",
+  "Desc": "Resisti all'energia come i tuoi predecessori extraplanari. Scegli uno dei seguenti tipi di danno energetico: acido, freddo, elettricità, fuoco o sonoro. Ottieni resistenza 5 a quel tipo di danno. Il tipo di danno in genere corrisponde a un'entità extraplanare associata alla tua linea di sangue; per esempio, un angelkin potrebbe scegliere resistenza al freddo, mentre un nato dall'Inferno potrebbe scegliere resistenza al fuoco.",
+  "Tratti": ["Nephilim"],
+  "Livello": "5",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Fisiologia Resiliente",
+  "Desc": "++Prerequisiti++ Vincolato all'Eone@###{\"nome\":\"Fisiologia Resiliente\",\"tipoAzz\":\"azione\",\"tratti\":[\"Nephilim\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Requisiti\":\"Sei afflitto da una malattia o da un veleno, oppure stai subendo danni persistenti\"},\"desc\":\"La tua fisiologia ordinata respinge gli elementi indesiderati, permettendoti di rifiutare gli effetti negativi di veleni e malattie o di scrollarti di dosso altri effetti negativi duraturi. Scegli una delle seguenti opzioni:@Malattia o Veleno Tenta un tiro salvezza contro l'afflizione. Con un fallimento o un fallimento critico, lo stadio dell'afflizione non aumenta.@Danni Persistenti Tenta una prova semplice con CD 10 per recuperare dai danni persistenti.\"}###",
+  "Tratti": ["Nephilim"],
+  "Livello": "5",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Erede di Molti Piani",
+  "Desc": "La lunga e complessa storia della tua linea di sangue si manifesta nella tua capacità di attingere potere da più fonti planari rispetto alla maggior parte degli altri nephilim. Scegli un talento di stirpe nephilim che non possiedi già; ottieni quel talento e tutti i suoi benefici, anche se hai già scelto un talento di stirpe al 1° livello.",
+  "Tratti": ["Nephilim"],
+  "Livello": "5",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Coda Abile",
+  "Desc": "Hai sempre avuto una coda, ma con la pratica hai imparato a usarla per più che segnalare il tuo umore. Puoi eseguire semplici azioni Interagire con la tua coda, come aprire una porta non chiusa a chiave. La tua coda non può eseguire azioni che richiedono dita o una significativa destrezza manuale, inclusa qualsiasi azione che richiederebbe una prova, e non puoi usarla per impugnare oggetti.",
+  "Tratti": ["Nephilim"],
+  "Livello": "5",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Presenza Imponente",
+  "Desc": "++Prerequisiti++ Nato dalla Colpa@###{\"nome\":\"Presenza Imponente\",\"tipoAzz\":\"azione\",\"tratti\":[\"Concentrazione\",\"Nephilim\",\"Polimorfismo\"],\"dettagli\":{\"Frequenza\":\"una volta all'ora\"},\"desc\":\"Attingi alla tua eredità planare e cresci momentaneamente di dimensioni grazie alla forza di volontà. La tua taglia aumenta a Grande fino all'inizio del tuo prossimo turno. Il tuo equipaggiamento cresce con te ma ritorna alla dimensione originale se rimosso. Diventi maldestro 1. La tua portata aumenta di 1,5 m (oppure di 3 m se eri inizialmente Minuscolo) e ottieni un bonus di stato +2 ai danni in mischia. Presenza Imponente non ha effetto se eri già Grande o più grande.\"}###",
+  "Tratti": ["Concentrazione","Nephilim","Polimorfismo"],
+  "Livello": "5",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Arcani Anarchici",
+  "Desc": "++Prerequisiti++ Proteankin@La magia nel tuo sangue è imprevedibile. Quando effettui le tue preparazioni giornaliere, tira 1d12 due volte e consulta il seguente elenco: 1: presa acida; 2: sfocatura; 3: presa del geco; 4: forma umanoide; 5: oggetto illusorio; 6: attacco di risa; 7: esplosione sonora; 8: resistere all'energia; 9: vedere l'invisibile; 10: frantumare; 11: rimpicciolire; 12: manovra telecinetica.@Puoi lanciare ciascuno di questi due incantesimi una volta durante il giorno successivo (oppure un solo incantesimo due volte se hai ottenuto lo stesso numero) come incantesimi innati divini di 2° rango.",
+  "Tratti": ["Nephilim"],
+  "Livello": "9",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Magia Celestiale",
+  "Desc": "++Prerequisiti++ Angelkin, Portatore della Legge, Toccato dalle Muse o un altro talento di stirpe associato ai celestiali@Possiedi magia celestiale. Scegli due dei seguenti incantesimi: mente lucida, luce eterna, forma umanoide, luce rivelatrice, condividere vita o passo sicuro. Puoi usare ciascuno degli incantesimi scelti una volta al giorno come incantesimi innati divini di 2° rango. Gli angelkin in genere scelgono mente lucida e forma umanoide, i portatori della legge spesso scelgono luce eterna e condividere vita, mentre i toccati dalle muse scelgono di solito luce rivelatrice e passo sicuro.",
+  "Tratti": ["Nephilim"],
+  "Livello": "9",
+  "Razza": "Nephilim",
+  "Mostrare": false
+}
+,{
+  "Nome": "Contromisure Divine",
+  "Desc": "Hai studiato la tua eredità extraplanare con l'intento di difenderti meglio, sia contro creature allineate sia contro quelle opposte alla tua stirpe extraplanare, scoprendo che le tue tecniche sono ugualmente efficaci contro celestiali, immondi e altre entità divine. Ottieni un bonus di circostanza +1 a tutti i tiri salvezza contro effetti divini.",
+  "Tratti": ["Nephilim"],
+  "Livello": "9",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Ali Divine",
+  "Desc": "###{\"nome\":\"Ali Divine\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Divino\",\"Metamorfosi\",\"Nephilim\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Con uno sforzo, puoi evocare dalla tua schiena ali magiche, simili nell'aspetto a quelle del tuo antenato extraplanare, che siano eleganti ali piumate o ominose ali da pipistrello. Queste ali rimangono per 10 minuti. Finché le ali sono manifestate, ottieni una Velocità di volo pari alla tua Velocità.\"}###",
+  "Tratti": ["Divino","Metamorfosi","Nephilim"],
+  "Livello": "9",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Nube Extraplanare",
+  "Desc": "++Prerequisiti++ Foschia Extraplanare@Quando usi Foschia Extraplanare, puoi spendere 1 azione aggiuntiva per disperdere le particelle come una nube con raggio di 3 m centrata su di te invece che come una foschia; l'attività ottiene il tratto concentrazione. Tutte le creature all'interno della nube diventano occultate e tutte le creature all'esterno della nube diventano occultate alle creature al suo interno.",
+  "Tratti": ["Nephilim"],
+  "Livello": "9",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Magia Immonda",
+  "Desc": "++Prerequisiti++ Nato dall'Ombra, Nato dall'Abisso, Nato dall'Inferno o un altro talento di stirpe associato agli immondi@Possiedi magia immonda. Scegli due dei seguenti incantesimi: travestimento magico, falsa vitalità, invisibilità, vedere l'invisibile, frantumare o paranoia. Puoi usare ciascuno degli incantesimi scelti una volta al giorno come incantesimi innati divini di 2° rango. I nati dall'ombra in genere scelgono falsa vitalità e vedere l'invisibile, i nati dall'abisso scelgono spesso paranoia e frantumare, mentre i nati dall'inferno scelgono invisibilità e travestimento magico.",
+  "Tratti": ["Nephilim"],
+  "Livello": "9",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Gloria e Valore!",
+  "Desc": "++Prerequisiti++ Sangue di Battaglia@###{\"nome\":\"Gloria e Valore!\",\"tipoAzz\":\"azione\",\"tratti\":[\"Uditivo\",\"Divino\",\"Guarigione\",\"Nephilim\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Invochi il tuo sangue ascendente con un potente grido che ti riempie di energia rinvigorente per 1 minuto o finché non ottieni un fallimento critico in un Colpo, a seconda di quale evento si verifichi per primo. Per la durata, la prima volta in ogni round in cui colpisci con successo una creatura del tuo livello o superiore, recuperi Punti Ferita pari a metà del tuo livello.\"}###",
+  "Tratti": ["Uditivo","Divino","Guarigione","Nephilim"],
+  "Livello": "9",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Coda Ladra",
+  "Desc": "++Prerequisiti++ Coda Abile@Puoi compiere piccoli furti con la tua coda. Puoi usare la coda per Rubare un oggetto, anche se la coda non può trattenerlo al termine dell'azione. Se hai una mano libera, puoi trasferire l'oggetto rubato nella tua mano. Altrimenti, la tua coda lo lascia cadere furtivamente a terra nel tuo spazio, dove potrai raccoglierlo in seguito. Gli osservatori diversi dal tuo bersaglio che non ti hanno visto rubare con la coda di solito sono distratti, il che significa che il GM ridurrà normalmente le loro CD di Percezione, come avviene di consueto quando si Ruba qualcosa.",
+  "Tratti": ["Nephilim"],
+  "Livello": "9",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Magia Metodica",
+  "Desc": "++Prerequisiti++ Vincolato all'Eone@Puoi riordinare il mondo con la tua magia. Scegli due dei seguenti incantesimi: calmare, dissolvi magie, serratura, riparare, modellare legno o tradurre. Puoi usare ciascuno degli incantesimi scelti una volta al giorno come incantesimi innati divini di 2° rango.",
+  "Tratti": ["Nephilim"],
+  "Livello": "9",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Alterare Resistenza",
+  "Desc": "###{\"nome\":\"Alterare Resistenza\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Nephilim\"],\"dettagli\":{\"Frequenza\":\"una volta all'ora\",\"Innesco\":\"Subisci danni da acido, elettricità o sonori\"},\"desc\":\"Ti concentri sui tuoi progenitori proteanici per modificare la tua resistenza energetica. La resistenza energetica che ottieni dalla tua stirpe Proteankin cambia per corrispondere al tipo di danno che ha innescato la reazione. Questo cambiamento avviene dopo che i danni sono stati inflitti e dura fino al giorno successivo o fino alla prossima volta che usi questa capacità.\"}###",
+  "Tratti": ["Nephilim"],
+  "Livello": "13",
+  "Razza": "Nephilim",
+  "Mostrare": false
+}
+,{
+  "Nome": "Sorgete, O Degni!",
+  "Desc": "++Prerequisiti++ Sangue di Battaglia@Un tocco di magia delle valchirie nel tuo sangue ti permette di trattenere la presa della morte. Puoi lanciare respiro di vita una volta al giorno come incantesimo innato divino.",
+  "Tratti": ["Nephilim"],
+  "Livello": "13",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Misericordia Celestiale",
+  "Desc": "++Prerequisiti++ Angelkin, Portatore della Legge, Toccato dalle Muse o un altro talento di stirpe associato ai celestiali@I tuoi poteri celestiali ti permettono di rimuovere facilmente afflizioni minori. Puoi lanciare purificare afflizione due volte al giorno come incantesimo innato divino di 4° rango.",
+  "Tratti": ["Nephilim"],
+  "Livello": "13",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Imporre Ordine",
+  "Desc": "###{\"nome\":\"Imporre Ordine\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Fortuna\",\"Nephilim\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Innesco\":\"Otterresti un fallimento critico in una prova di abilità o subiresti un effetto con il tratto sfortuna\",\"Prerequisiti\":\"Vincolato all'Eone\"},\"desc\":\"AlterI la trama sottostante della realtà per imporre una base di ordine. Se l'innesco era una prova di abilità, ottieni invece un risultato pari a 10 + il tuo bonus di competenza (non applicare altri bonus, penalità o modificatori). Se l'innesco era un effetto con il tratto sfortuna, gli effetti di sfortuna e fortuna si annullano a vicenda come di consueto, negando l'effetto di sfortuna che ha innescato la reazione.\"}###",
+  "Tratti": ["Fortuna","Nephilim"],
+  "Livello": "13",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Scivolare di Lato",
+  "Desc": "++Prerequisiti++ Nato dall'Ombra, Nato dall'Abisso, Nato dall'Inferno o un altro talento di stirpe associato agli immondi o al Maelstrom@Come molti immondi, possiedi la capacità soprannaturale di teletrasportarti in salvo. Una volta al giorno, puoi lanciare traslocare come incantesimo innato divino di 5° rango.",
+  "Tratti": ["Nephilim"],
+  "Livello": "13",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Evocare Parente Nephilim",
+  "Desc": "++Prerequisiti++ qualsiasi talento di stirpe nephilim@Hai un legame con i Piani Esterni che ti consente di evocare un alleato divino. Scegli evocare celestiale, evocare immondo o un altro incantesimo di 5° rango in grado di evocare una creatura extraplanare appropriata alla tua stirpe. Una volta al giorno, puoi lanciare l'incantesimo scelto come incantesimo innato divino di 5° rango, ma la creatura evocata deve appartenere alla stessa categoria della tua stirpe, come una creatura con il tratto angelo se sei un angelkin.",
+  "Tratti": ["Nephilim"],
+  "Livello": "13",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Canalizzare la Mente Divina",
+  "Desc": "###{\"nome\":\"Canalizzare la Mente Divina\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Nephilim\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Prerequisiti\":\"Vincolato all'Eone\"},\"desc\":\"Attingi alla coscienza collettiva della Mente Divina, l'entità governante della società degli assiomiti, per analizzare rapidamente variabili quasi infinite e leggere l'ambiente circostante. Per 1 minuto, ottieni senso del movimento preciso fino a 18 m, puoi vedere creature e oggetti invisibili e ottieni i benefici di vista vera (con un modificatore alla prova di contrasto pari al tuo modificatore di Percezione).\"}###",
+  "Tratti": ["Nephilim"],
+  "Livello": "17",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Dichiarazione Divina",
+  "Desc": "Puoi evocare una parola sacra o empia dai reami oltre il mondo per punire i tuoi nemici. Una volta al giorno, puoi lanciare decreto divino come incantesimo innato divino di 7° rango.",
+  "Tratti": ["Nephilim"],
+  "Livello": "17",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Ali Eterne",
+  "Desc": "++Prerequisiti++ Ali Divine@Le tue ali sono ora una parte permanente del tuo corpo. Ottieni costantemente gli effetti di Ali Divine, anziché una sola volta al giorno per 10 minuti.",
+  "Tratti": ["Nephilim"],
+  "Livello": "17",
+  "Razza": "Nephilim",
+  "Mostrare": false
+}
+,{
+  "Nome": "Canalizzare la Mente Divina",
+  "Desc": "###{\"nome\":\"Canalizzare la Mente Divina\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Nephilim\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Prerequisiti\":\"Vincolato all'Eone\"},\"desc\":\"Attingi alla coscienza collettiva della Mente Divina, l'entità governante della società degli assiomiti, per analizzare rapidamente variabili quasi infinite e interpretare l'ambiente circostante. Per 1 minuto, ottieni senso del movimento preciso fino a 18 m, puoi vedere creature e oggetti invisibili e ottieni i benefici di vista vera (con un modificatore alla prova di contrasto pari al tuo modificatore di Percezione).\"}###",
+  "Tratti": ["Nephilim"],
+  "Livello": "17",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Dichiarazione Divina",
+  "Desc": "Puoi evocare una parola sacra o empia dai reami oltre il mondo per punire i tuoi nemici. Una volta al giorno, puoi lanciare decreto divino come incantesimo innato divino di 7° rango.",
+  "Tratti": ["Nephilim"],
+  "Livello": "17",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Ali Eterne",
+  "Desc": "++Prerequisiti++ Ali Divine@Le tue ali sono ora una parte permanente del tuo corpo. Ottieni costantemente gli effetti di Ali Divine, anziché solo una volta al giorno per 10 minuti.",
+  "Tratti": ["Nephilim"],
+  "Livello": "17",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Eruzione di Pandemonio",
+  "Desc": "###{\"nome\":\"Eruzione di Pandemonio\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Nephilim\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Prerequisiti\":\"Proteankin\"},\"desc\":\"Scateni il caos represso dentro di te, diventando un nucleo di distruzione incontrollata che devasta chiunque si trovi nelle vicinanze. Ogni creatura entro 4,5 m da te subisce 14d6 danni da acido, elettricità o sonori, scelti casualmente per ciascun bersaglio. Ogni bersaglio tenta un tiro salvezza base su Riflessi contro la più alta tra la tua CD di classe o CD di incantesimo, ma qualsiasi creatura che subisce il tipo di danno per cui possiedi attualmente resistenza grazie alla tua stirpe Proteankin subisce una penalità –2 al tiro salvezza. Qualsiasi bersaglio che ottiene un fallimento critico è anche confuso fino alla fine del suo prossimo turno.\"}###",
+  "Tratti": ["Nephilim"],
+  "Livello": "17",
+  "Razza": "Nephilim",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima di Polvere",
+  "Desc": "L'influenza del tuo antenato elementale della terra si manifesta in te come polvere e terra, simili al suolo di un campo o alle sabbie roventi del deserto. Ottieni il grado di competenza addestrato in Sopravvivenza. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Puoi sostentarti con terra e cenere al posto di cibo e acqua normali.",
+  "Tratti": ["Lineage","Oread"],
+  "Livello": "1",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Mestieri Elementali",
+  "Desc": "Hai un forte legame con la pietra e il metallo. Ottieni il grado di competenza addestrato in Artigianato. Se dovessi diventare automaticamente addestrato in Artigianato (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Ottieni il talento di abilità Artigianato Specializzato sia per Muratura sia per Forgiatura.",
+  "Tratti": ["Oread"],
+  "Livello": "1",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima di Gemma",
+  "Desc": "La terra dentro di te si manifesta come gemme o metalli cristallizzati, come un grappolo di quarzo o vene di ferro e oro. Questa presenza scintillante dentro il tuo essere ispira esibizioni appariscenti e sfarzose. Ottieni il grado di competenza addestrato in Esibizione. Se dovessi diventare automaticamente addestrato in Esibizione (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Ottieni inoltre il talento di abilità Esibizione Impressionante.",
+  "Tratti": ["Lineage","Oread"],
+  "Livello": "1",
+  "Razza": "Oread",
+  "Mostrare": false
+}
+,{
+  "Nome": "Anima di Fango",
+  "Desc": "Hai un legame con gli abitanti più fangosi del Piano della Terra, al confine con il Piano dell’Acqua, e la tua stirpe elementale si manifesta come argilla o fango, riflettendo questo vincolo. La qualità fangosa del tuo corpo rende facile comprimerti e strisciare attraverso spazi più piccoli. Ottieni il grado di competenza addestrato in Acrobazia. Se dovessi diventare automaticamente addestrato in Acrobazia (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta.@Ottieni il talento di abilità Strisciare Rapido.",
+  "Tratti": ["Lineage","Oread"],
+  "Livello": "1",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Pietra Silenziosa",
+  "Desc": "Hai vissuto all’ombra della Catena Frantumata e la pazienza di quelle antiche montagne si esprime nella tua immobilità. Il tuo corpo potrebbe presentare venature di granito, arenaria o rocce sedimentarie simili che ti rendono più facile mimetizzarti in certe regioni. Diventi addestrato in Furtività e ottieni il talento di abilità Predatore del Terreno. Se sei già addestrato in Furtività da un’altra fonte, diventi invece addestrato in un’abilità a tua scelta.",
+  "Tratti": ["Oread"],
+  "Livello": "1",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Saldo sulla Pietra",
+  "Desc": "Il tuo legame con la terra rende le superfici naturalmente irregolari un ostacolo minore per te. Puoi ignorare il terreno difficile causato da macerie e suolo irregolare di pietra e terra. Inoltre, quando usi Acrobazia per Mantenere l’Equilibrio su superfici strette o terreno irregolare di pietra e terra, non sei impreparato e, quando ottieni un successo in una di queste prove di Acrobazia, ottieni invece un successo critico.",
+  "Tratti": ["Oread"],
+  "Livello": "1",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Fortificare Scudo",
+  "Desc": "###{\"nome\":\"Fortificare Scudo\",\"tipoAzz\":\"azione\",\"tratti\":[\"Oread\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Prerequisiti\":\"Blocco con Scudo\"},\"desc\":\"Rinforzi il tuo scudo con una escrescenza rocciosa di metallo e pietra. Alzi lo Scudo. Se usi la reazione Blocco con Scudo prima del tuo prossimo turno, aggiungi il tuo livello di personaggio alla Durezza del tuo scudo quando determini quanti danni vengono bloccati.\"}###",
+  "Tratti": ["Oread"],
+  "Livello": "5",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Terra Insidiosa",
+  "Desc": "###{\"nome\":\"Terra Insidiosa\",\"tipoAzz\":\"azione\",\"tratti\":[\"Oread\"],\"dettagli\":{\"Frequenza\":\"una volta ogni 10 minuti\"},\"desc\":\"Hai il potere di frantumare la terra dandole la forma che desideri. Spacchi il terreno sotto di te, creando terreno difficile in un’esplosione di 1,5 m centrata su un angolo del tuo spazio.\"}###",
+  "Tratti": ["Oread"],
+  "Livello": "5",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Senso della Terra",
+  "Desc": "Il tuo legame con la terra e la pietra ti permette di percepire anche il più lieve spostamento che le disturba, fino allo scivolare di un sassolino. Ottieni tremorsenso come senso impreciso con raggio di 9 m.",
+  "Tratti": ["Oread"],
+  "Livello": "9",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Magia degli Shaitan",
+  "Desc": "La magia degli shaitan scorre nel tuo sangue. Puoi lanciare polvere luccicante e resistere all’energia una volta al giorno ciascuno come incantesimi innati arcani di 2° rango.",
+  "Tratti": ["Oread"],
+  "Livello": "9",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Colpi a Vene Metalliche",
+  "Desc": "Venature metalliche crescono in tutto il tuo corpo, conferendo ai tuoi attacchi senz’armi una lucentezza metallica. Scegli ferro freddo o argento. I tuoi attacchi senz’armi sono trattati come del tipo di metallo scelto.",
+  "Tratti": ["Oread"],
+  "Livello": "13",
+  "Razza": "Oread",
+  "Mostrare": false
 }
 
 
