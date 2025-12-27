@@ -8530,9 +8530,11 @@
 {
 "Nome": "Tiro Frazionato",
 "Azione": true,
-"Desc": "###{\"nome\": \"Tiro Frazionato\", \"tipoAzz\": \"azione\", \"tratti\": [\"Concentrazione\",\"Stregone\",\"Forma Incantesimo\"], \"dettagli\": {\"Archetipo\": [\"Sanguinario\"], \"LivArc\": , \"Requisito\": \"Se la tua prossima azione è Lanciare un Incantesimo senza durata che richiede un tiro per colpire su un singolo bersaglio, puoi scegliere un secondo bersaglio entro la portata.\"}, \"desc\": \"Frammenti un incantesimo a distanza. Esegui un singolo tiro per colpire e confronti il risultato con la CA di entrambi i bersagli. Questo conta come un solo attacco ai fini della penalità per attacchi multipli. Al secondo bersaglio, l'incantesimo infligge metà del danno normale e non ha effetti oltre al danno iniziale dell'incantesimo.@@++Uso Archetipo:++ Questo talento può essere usato per uno o più Archetipi oltre alle Classi elencate. Quando selezionato in questo modo, il talento non è considerato avere i tratti di classe.@++Archetipi:++ Sanguinario. Questo archetipo ottiene questo talento a un livello diverso.\"}###",
+"Desc": "###{\"nome\": \"Tiro Frazionato\", \"tipoAzz\": \"azione\", \"tratti\": [\"Concentrazione\",\"Stregone\",\"Forma Incantesimo\"], \"dettagli\": {\"Requisito\": \"Se la tua prossima azione è Lanciare un Incantesimo senza durata che richiede un tiro per colpire su un singolo bersaglio, puoi scegliere un secondo bersaglio entro la portata.\"}, \"desc\": \"Frammenti un incantesimo a distanza. Esegui un singolo tiro per colpire e confronti il risultato con la CA di entrambi i bersagli. Questo conta come un solo attacco ai fini della penalità per attacchi multipli. Al secondo bersaglio, l'incantesimo infligge metà del danno normale e non ha effetti oltre al danno iniziale dell'incantesimo.@@++Uso Archetipo:++ Questo talento può essere usato per uno o più Archetipi oltre alle Classi elencate. Quando selezionato in questo modo, il talento non è considerato avere i tratti di classe.@++Archetipi:++ Sanguinario. Questo archetipo ottiene questo talento a un livello diverso.\"}###",
 "Tratti": ["Concentrazione","Stregone","Forma Incantesimo"],
 "Liv": 4,
+"Archetipo": ["Furiasangue"],
+"LivArc": 4,
 "Req": "",
 "Mostrare": false
 },
@@ -8557,17 +8559,21 @@
 {
 "Nome": "Risonanza Energetica",
 "Azione": true,
-"Desc": "###{\"nome\": \"Risonanza Energetica\", \"tipoAzz\": \"reazione\", \"tratti\": [\"Abjuration\",\"Stregone\"], \"dettagli\": {\"Trigger\": \"Subiresti danno da acido, freddo, elettricità, fuoco o sonoro da un incantesimo.\", \"Requisiti\": \"Hai uno slot incantesimo non speso di livello pari o superiore all'incantesimo che ha innescato la reazione.\", \"Archetipo\": [\"Mago Sorgente\"], \"LivArc\": , \"Frequenza\": \"una volta al giorno\"}, \"desc\": \"Il tuo sangue risuona con energia magica, mitigando gli effetti di incantesimi dannosi. Spendi uno dei tuoi slot incantesimo di livello pari o superiore a quello dell'incantesimo che ha innescato la reazione. Ottieni resistenza a uno dei tipi di danno dell'effetto innescato pari al doppio del livello dello slot incantesimo speso.@@++Uso Archetipo:++ Questo talento può essere usato per uno o più Archetipi oltre alle Classi elencate. Quando selezionato in questo modo, il talento non è considerato avere i tratti di classe.@++Archetipi:++ Mago Sorgente. Questo archetipo ottiene questo talento a un livello diverso.\"}###",
-"Tratti": ["Abjuration","Stregone"],
-"Liv": 6,
+"Desc": "###{\"nome\": \"Risonanza Energetica\", \"tipoAzz\": \"reazione\", \"tratti\": [\"Abiurazione\",\"Stregone\"], \"dettagli\": {\"Trigger\": \"Subiresti danno da acido, freddo, elettricità, fuoco o sonoro da un incantesimo.\", \"Requisiti\": \"Hai uno slot incantesimo non speso di livello pari o superiore all'incantesimo che ha innescato la reazione.\", \"Frequenza\": \"una volta al giorno\"}, \"desc\": \"Il tuo sangue risuona con energia magica, mitigando gli effetti di incantesimi dannosi. Spendi uno dei tuoi slot incantesimo di livello pari o superiore a quello dell'incantesimo che ha innescato la reazione. Ottieni resistenza a uno dei tipi di danno dell'effetto innescato pari al doppio del livello dello slot incantesimo speso.@@++Uso Archetipo:++ Questo talento può essere usato per uno o più Archetipi oltre alle Classi elencate. Quando selezionato in questo modo, il talento non è considerato avere i tratti di classe.@++Archetipi:++ Mago Sorgente. Questo archetipo ottiene questo talento a un livello diverso.\"}###",
+"Tratti": ["Abiurazione","Stregone"],
+"Liv": 6, 
+"Archetipo": ["Mago della Sorgente"],
+"LivArc": 8,
 "Req": "",
 "Mostrare": false
 },
 {
 "Nome": "Barriera Energetica",
 "Azione": true,
-"Desc": "###{\"nome\": \"Barriera Energetica\", \"tipoAzz\": \"azioneGratis\", \"tratti\": [\"Stregone\"], \"dettagli\": {\"Frequenza\": \"una volta per turno\", \"Requisiti\": \"La tua azione più recente è stata lanciare un incantesimo non trucchetto che infliggeva danno da energia.\", \"Archetipo\": [\"Sanguinario\"], \"LivArc\": ,}, \"desc\": \"Converti l'energia dell'ultimo incantesimo lanciato in una barriera protettiva. Fino all'inizio del tuo prossimo turno, ottieni resistenza a un tipo di energia (acido, freddo, elettricità, fuoco, forza, sonoro, vitalità o vuoto) pari a 4 + il grado dell'incantesimo.@@++Uso Archetipo:++ Questo talento può essere usato per uno o più Archetipi oltre alle Classi elencate. Quando selezionato in questo modo, il talento non è considerato avere i tratti di classe.@++Archetipi:++ Sanguinario. Questo archetipo ottiene questo talento a un livello diverso.\"}###",
-"Tratti": ["Stregone"],
+"Desc": "###{\"nome\": \"Barriera Energetica\", \"tipoAzz\": \"azioneGratis\", \"tratti\": [\"Stregone\"], \"dettagli\": {\"Frequenza\": \"una volta per turno\", \"Requisiti\": \"La tua azione più recente è stata lanciare un incantesimo non trucchetto che infliggeva danno da energia.\"}, \"desc\": \"Converti l'energia dell'ultimo incantesimo lanciato in una barriera protettiva. Fino all'inizio del tuo prossimo turno, ottieni resistenza a un tipo di energia (acido, freddo, elettricità, fuoco, forza, sonoro, vitalità o vuoto) pari a 4 + il grado dell'incantesimo.@@++Uso Archetipo:++ Questo talento può essere usato per uno o più Archetipi oltre alle Classi elencate. Quando selezionato in questo modo, il talento non è considerato avere i tratti di classe.@++Archetipi:++ Sanguinario. Questo archetipo ottiene questo talento a un livello diverso.\"}###",
+"Tratti": ["Stregone"], 
+"Archetipo": ["Furiasangue"], 
+"LivArc": 12,
 "Liv": 6,
 "Req": "La tua azione più recente è stata lanciare un incantesimo non trucchetto che infliggeva danno da energia",
 "Mostrare": false
@@ -8584,8 +8590,10 @@
 {
 "Nome": "Rinvio Incantesimo",
 "Azione": true,
-"Desc": "###{\"nome\": \"Rinvio Incantesimo\", \"tipoAzz\": \"reazione\", \"tratti\": [\"Concentrazione\",\"Stregone\"], \"dettagli\": {\"Trigger\": \"Un alleato lancia un incantesimo e tu sei entro la portata di quell'incantesimo.\", \"Archetipo\": [\"Mago Sorgente\"], \"LivArc\": ,}, \"desc\": \"Apri il potere nel tuo sangue all'incantesimo del tuo alleato, usando la tua magia per aumentare la portata. Il tuo alleato può usare te come punto di origine per il suo incantesimo, calcolando portata e copertura dal tuo spazio invece che dal suo.@@++Uso Archetipo:++ Questo talento può essere usato per uno o più Archetipi oltre alle Classi elencate. Quando selezionato in questo modo, il talento non è considerato avere i tratti di classe.@++Archetipi:++ Mago Sorgente. Questo archetipo ottiene questo talento a un livello diverso.\"}###",
-"Tratti": ["Concentrazione","Stregone"],
+"Desc": "###{\"nome\": \"Rinvio Incantesimo\", \"tipoAzz\": \"reazione\", \"tratti\": [\"Concentrazione\",\"Stregone\"], \"dettagli\": {\"Trigger\": \"Un alleato lancia un incantesimo e tu sei entro la portata di quell'incantesimo.\"}, \"desc\": \"Apri il potere nel tuo sangue all'incantesimo del tuo alleato, usando la tua magia per aumentare la portata. Il tuo alleato può usare te come punto di origine per il suo incantesimo, calcolando portata e copertura dal tuo spazio invece che dal suo.@@++Uso Archetipo:++ Questo talento può essere usato per uno o più Archetipi oltre alle Classi elencate. Quando selezionato in questo modo, il talento non è considerato avere i tratti di classe.@++Archetipi:++ Mago Sorgente. Questo archetipo ottiene questo talento a un livello diverso.\"}###",
+"Tratti": ["Concentrazione","Stregone"], 
+"Archetipo": ["Mago della Sorgente"], 
+"LivArc": 8,
 "Liv": 6,
 "Req": "",
 "Mostrare": false
@@ -8782,9 +8790,11 @@
 {
 "Nome": "Incantesimo Echeggiante",
 "Azione": true,
-"Desc": "###{\"nome\": \"Incantesimo Echeggiante\", \"tipoAzz\": \"azione\", \"tratti\": [\"Concentrazione\",\"Stregone\",\"Forma Incantesimo\"], \"dettagli\": {\"Archetipo\": [\"Mago del Tempo\",\"Mago della Sorgente\"], \"LivArc\": ,}, \"desc\": \"Sincronizzi i componenti del tuo incantesimo con precisione assoluta, creando una risonanza che duplica gli effetti dell'incantesimo. Se la tua prossima azione è lanciare un incantesimo di 4° grado o inferiore senza durata, l'energia dell'incantesimo riverbera ed echeggia. Puoi lanciare l'incantesimo una seconda volta prima della fine del tuo prossimo turno senza consumare uno slot incantesimo.@@++Uso Archetipo:++ Questo talento può essere usato per uno o più Archetipi oltre alle Classi elencate. Quando selezionato in questo modo, il talento non è considerato avere i tratti di classe.@++Archetipi:++ Mago del Tempo, Mago della Sorgente. Questo archetipo ottiene questo talento a un livello diverso.\"}###",
+"Desc": "###{\"nome\": \"Incantesimo Echeggiante\", \"tipoAzz\": \"azione\", \"tratti\": [\"Concentrazione\",\"Stregone\",\"Forma Incantesimo\"], \"dettagli\": {}, \"desc\": \"Sincronizzi i componenti del tuo incantesimo con precisione assoluta, creando una risonanza che duplica gli effetti dell'incantesimo. Se la tua prossima azione è lanciare un incantesimo di 4° grado o inferiore senza durata, l'energia dell'incantesimo riverbera ed echeggia. Puoi lanciare l'incantesimo una seconda volta prima della fine del tuo prossimo turno senza consumare uno slot incantesimo.@@++Uso Archetipo:++ Questo talento può essere usato per uno o più Archetipi oltre alle Classi elencate. Quando selezionato in questo modo, il talento non è considerato avere i tratti di classe.@++Archetipi:++ Mago del Tempo, Mago della Sorgente. Questo archetipo ottiene questo talento a un livello diverso.\"}###",
 "Tratti": ["Concentrazione","Stregone","Forma Incantesimo"],
 "Liv": 18,
+"Archetipo": ["Mago del Tempo","Mago della Sorgente"], 
+"LivArc": 18,
 "Req": "",
 "Mostrare": false
 },
