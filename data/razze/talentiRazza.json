@@ -7797,30 +7797,6 @@
   "Mostrare": false
 },
 {
-  "Nome": "Occhi Elementali",
-  "Desc": "++Prerequisiti++ visione crepuscolare@Puoi vedere nell’oscurità con la stessa facilità di un elementale. Ottieni scurovisione.@++Speciale++ Puoi scegliere questo talento solo al 1° livello e non puoi riaddestrarti per ottenerlo né riaddestrarti fuori da questo talento.@",
-  "Tratti": ["Ardande", "Ifrit", "Oread", "Suli", "Sylph", "Talos", "Undine"],
-  "Livello": "1",
-  "Razza": "Ardande",
-  "Mostrare": false
-},
-{
-  "Nome": "Sapienza Elementale",
-  "Desc": "Ti sei dedicato allo studio dei segreti della Sfera Interna. Ottieni il grado di competenza addestrato in Sopravvivenza e, a tua scelta, in Arcano o Natura. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un’abilità a tua scelta. Diventi inoltre addestrato nella Sapienza associata al tuo Piano Elementale di origine (come Sapienza del Piano del Fuoco).",
-  "Tratti": ["Ardande", "Ifrit", "Oread", "Suli", "Sylph", "Talos", "Undine"],
-  "Livello": "1",
-  "Razza": "Ardande",
-  "Mostrare": false
-},
-{
-  "Nome": "Familiarità con le Armi dei Geni",
-  "Desc": "Ti sei addestrato con le armi usate dai tuoi antenati geni. Sei addestrato con falchion, ranseur, scimitarre e tridenti. Inoltre, ottieni accesso a tutte le armi geniekin non comuni. Ai fini della determinazione della tua competenza, le armi geniekin marziali sono considerate armi semplici e le armi geniekin avanzate sono considerate armi marziali.",
-  "Tratti": ["Ardande", "Ifrit", "Oread", "Suli", "Sylph", "Talos", "Undine"],
-  "Livello": "1",
-  "Razza": "Ardande",
-  "Mostrare": false
-},
-{
   "Nome": "Protetto dal Bosco",
   "Desc": "Sei abituato a esplorare fitte foreste e a difenderti dagli attacchi delle piante magiche. Ottieni un bonus di circostanza +1 ai tiri salvezza contro effetti di pianta, veleno e legno e, se ottieni un successo a un tiro salvezza contro un effetto di veleno, lo tratti invece come un successo critico.",
   "Tratti": ["Ardande"],
@@ -7920,14 +7896,6 @@
   "Desc": "###{\"nome\":\"Riparazione Miracolosa\",\"tipoAzz\":\"treAzioni\",\"tratti\":[\"Arcano\",\"Ardande\",\"Concentrazione\",\"Ifrit\",\"Oread\",\"Suli\",\"Sylph\",\"Talos\",\"Trasmutazione\",\"Undine\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"I geniekin non possono concedere desideri magici, ma in te permane un’eco di quel potere. Di fronte a un meccanismo danneggiato ma non distrutto, puoi desiderare che torni a uno stato funzionante per un periodo di 10 minuti. L’oggetto deve essere non magico e non più grande di 5 Ingombro, come un meccanismo di chiusura disabilitato in una porta. Per 10 minuti, l’oggetto funziona come dovrebbe, ignorando qualsiasi danno al suo meccanismo. Questo non ti fornisce alcuna conoscenza su cosa faccia un dispositivo o su come dovrebbe funzionare. Trascorsi i 10 minuti, l’oggetto ricade nello stato di deterioramento ed è temporaneamente immune a Riparazione Miracolosa per 1 giorno.\"}###",
   "Tratti": ["Arcano","Ardande","Concentrazione","Ifrit","Oread","Suli","Sylph","Talos","Trasmutazione","Undine"],
   "Livello": "9",
-  "Razza": "Ardande",
-  "Mostrare": false
-},
-{
-  "Nome": "Maestria con le Armi dei Geni",
-  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni una capacità di classe che ti conferisce competenza esperto o superiore in determinate armi, ottieni quella stessa competenza anche con falchion, ranseur, scimitarre, tridenti e con tutte le armi geniekin in cui sei addestrato.",
-  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
-  "Livello": "13",
   "Razza": "Ardande",
   "Mostrare": false
 },
@@ -8819,22 +8787,6 @@
   "Mostrare": false
 },
 {
-  "Nome": "Occhi Elementali",
-  "Desc": "++Prerequisiti++ visione crepuscolare@++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@Puoi vedere nell'oscurità con la stessa facilità di un elementale. Ottieni scurovisione.",
-  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
-  "Livello": "1",
-  "Razza": "Ardande",
-  "Mostrare": false
-},
-{
-  "Nome": "Sapienza Elementale",
-  "Desc": "Ti sei dedicato allo studio dei segreti della Sfera Interna. Ottieni il grado di competenza addestrato in Sopravvivenza e, a tua scelta, in Arcano o Natura. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Diventi inoltre addestrato nella Sapienza associata al tuo Piano Elementale di origine (come Sapienza del Piano del Fuoco).",
-  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
-  "Livello": "1",
-  "Razza": "Ardande",
-  "Mostrare": false
-}
-,{
   "Nome": "Occhi di Brace",
   "Desc": "I tuoi occhi ardono di una fiamma interiore. Ottieni visione crepuscolare, oppure ottieni scurovisione se la tua razza possiede già la visione crepuscolare.@++Special++ Se la tua razza non possiede né visione crepuscolare né scurovisione, puoi selezionare questo talento di razza una seconda volta per ottenere la scurovisione. Non puoi riaddestrarti fuori da questo talento.",
   "Tratti": ["Ifrit"],
@@ -9489,8 +9441,995 @@
   "Livello": "13",
   "Razza": "Oread",
   "Mostrare": false
+},
+{
+  "Nome": "Nato da Due Linee",
+  "Desc": "La tua discendenza suli può essere fatta risalire a due antenati geniekin di elementi opposti, oppure a un antenato elementale che incarnava due elementi combinati. Scegli due dei seguenti elementi: aria, terra, fuoco e acqua. Una volta effettuata, questa scelta non può essere cambiata. Ottieni resistenza pari a metà del tuo livello (minimo 1) a tutti gli effetti dannosi con i tratti di uno qualunque dei tuoi due elementi scelti.@++Special++ Se ottieni i talenti di razza Assalto Elementale o Baluardo Elementale, puoi usarli solo con i tuoi elementi scelti. Puoi sommare la resistenza di questo talento alla resistenza che ottieni da Baluardo Elementale contro effetti con i tratti dei tuoi elementi, per un totale di 5 + metà del tuo livello, oppure 10 + metà del tuo livello con Baluardo Elementale Migliorato. Se ottieni il talento Assalto Tetraelementale, puoi scegliere ciascuno dei tuoi due elementi due volte ciascuno, invece di scegliere ciascuno dei quattro elementi una sola volta.@",
+  "Tratti": ["Suli", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Assalto Elementale",
+  "Desc": "###{\"nome\":\"Assalto Elementale\",\"tipoAzz\":\"azione\",\"tratti\":[\"Arcano\",\"Concentrazione\",\"Invocazione\",\"Suli\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Avvolgi le tue braccia e le armi che impugni in magia elementale. Scegli un elemento. Fino alla fine del tuo prossimo turno, i tuoi Colpi infliggono 1d6 danni aggiuntivi del tipo indicato e ottengono il tratto corrispondente all’elemento: elettricità per aria, contundenti per terra, fuoco per fuoco o freddo per acqua.\"}###",
+  "Tratti": ["Arcano", "Concentrazione", "Invocazione", "Suli"],
+  "Livello": "1",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Abbellimento Elementale",
+  "Desc": "Puoi evocare una manifestazione elementale innocua ma impressionante. Diventi addestrato in Intimidazione. Se diventeresti automaticamente addestrato in Intimidazione (dal tuo background o dalla tua classe, per esempio), diventi invece addestrato in un’abilità a tua scelta. Quando Demoralizzi un nemico, se scegli di Demoralizzare tramite una manifestazione elementale, Demoralizzare perde il tratto uditivo e ottiene il tratto visivo, e non subisci penalità quando tenti di Demoralizzare una creatura che non comprende la tua lingua.@",
+  "Tratti": ["Suli"],
+  "Livello": "1",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Eredità dello Studioso",
+  "Desc": "I tuoi genitori si sono dedicati a esperimenti alchemici che coinvolgevano energia elementale. Ottieni il grado di competenza addestrato in Artigianato. Se diventeresti automaticamente addestrato in Artigianato (dal tuo background o dalla tua classe, per esempio), diventi invece addestrato in un’abilità a tua scelta. Ottieni inoltre il talento di abilità Creazione Alchemica.@",
+  "Tratti": ["Suli"],
+  "Livello": "1",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Suli-Jann",
+  "Desc": "Il tuo antenato elementale era un janni, un genio che cammina nel mondo mortale e incarna tutti e quattro gli elementi insieme. Hai ereditato la natura errante di un janni e la capacità di sopravvivere in molti tipi di ambiente, dal deserto più rovente alla tundra più gelida. Ottieni il grado di competenza addestrato in Sopravvivenza. Se diventeresti automaticamente addestrato in Sopravvivenza (dal tuo background o dalla tua classe, per esempio), diventi invece addestrato in un’abilità a tua scelta. Ottieni il talento di abilità Raccoglitore come talento bonus.@",
+  "Tratti": ["Suli", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Baluardo Elementale",
+  "Desc": "###{\"nome\":\"Baluardo Elementale\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Suli\"],\"dettagli\":{\"Trigger\":\"Un nemico sta per infliggerti danni da freddo, elettricità o fuoco, oppure con un incantesimo che ha il tratto aria, terra, fuoco o acqua\"},\"desc\":\"Invochi gli elementi corrispondenti della tua eredità suli per resistere all’effetto. Ottieni resistenza 5 contro i danni che hanno innescato la reazione.\"}###",
+  "Tratti": ["Suli"],
+  "Livello": "5",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Ospitalità dei Janni",
+  "Desc": "Puoi usare la magia per mostrare agli altri l’ospitalità del deserto. Puoi lanciare creare cibo di 2° livello una volta al giorno e creare acqua due volte al giorno come incantesimi innati arcani.@",
+  "Tratti": ["Suli"],
+  "Livello": "9",
+  "Razza": "Suli",
+  "Mostrare": false
 }
+,{
+  "Nome": "Magia dei Janni",
+  "Desc": "La magia dei janni scorre nel tuo sangue. Puoi lanciare ingrandire e parlare con gli animali una volta al giorno ciascuno come incantesimi innati arcani di 2° livello.@",
+  "Tratti": ["Suli"],
+  "Livello": "9",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Assalto Tetraelementale",
+  "Desc": "++Prerequisiti++ Assalto Elementale@Il tuo Assalto Elementale cicla attraverso tutti e quattro gli elementi. Quando usi Assalto Elementale, invece di scegliere un singolo elemento, puoi scegliere un elemento dalla lista quando usi l’azione, poi scegliere un elemento diverso all’inizio di ciascuno dei tuoi 3 turni successivi senza spendere azioni; una volta scelto un elemento, non puoi sceglierlo di nuovo durante questo Assalto Elementale, il che significa che devi selezionare tutti e quattro gli elementi nel corso di 4 turni. Ogni volta che scegli un elemento, fino all’inizio del tuo turno successivo, i tuoi Colpi infliggono 1d6 danni aggiuntivi del tipo indicato e ottengono il tratto corrispondente a quell’elemento.@",
+  "Tratti": ["Suli"],
+  "Livello": "9",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Assalto Continuo",
+  "Desc": "++Prerequisiti++ Assalto Elementale@Puoi usare Assalto Elementale una volta all’ora invece di una volta al giorno.@",
+  "Tratti": ["Suli"],
+  "Livello": "13",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Baluardo Elementale Migliorato",
+  "Desc": "++Prerequisiti++ Baluardo Elementale@Ottieni resistenza 10 da Baluardo Elementale invece di 5.@",
+  "Tratti": ["Suli"],
+  "Livello": "13",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Suli Amir",
+  "Desc": "Il tuo potere è collegato ai potenti amir janni. Puoi lanciare leggere presagi e invisibilità di 4° livello una volta al giorno ciascuno come incantesimi innati arcani, e puoi lanciare individuare magia a volontà come trucchetto innato arcano, potenziato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.@",
+  "Tratti": ["Non Comune", "Suli"],
+  "Livello": "13",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima di Fumi Tossici",
+  "Desc": "L’aria dentro di te si afferma come un miasma tossico, rendendoti resistente alla maggior parte dei veleni. Ottieni resistenza al veleno pari a metà del tuo livello (minimo 1).@",
+  "Tratti": ["Silfide", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima di Fumo",
+  "Desc": "Hai una connessione con il fumo e la foschia. Ottieni la reazione Fusione con il Fumo.@",
+  "Tratti": ["Silfide", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Fusione con il Fumo",
+  "Desc": "###{\"nome\":\"Fusione con il Fumo\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Silfide\"],\"dettagli\":{\"Trigger\":\"Una creatura tenta una prova semplice per bersagliarti perché sei occultato o nascosto a causa di nebbia, foschia, bruma o fumo\"},\"desc\":\"Ti avvolgi nel fumo, rendendo più difficile per il tuo nemico colpirti. Se sei occultato, la CD della prova semplice aumenta da 5 a 7; se sei nascosto, aumenta da 11 a 13.\"}###",
+  "Tratti": ["Silfide"],
+  "Livello": "1",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima di Tempesta",
+  "Desc": "L’influenza del tuo antenato elementale si manifesta in te come tempeste tumultuose e fragorose, con nubi scure e fulmini. Ottieni resistenza all’elettricità pari a metà del tuo livello (minimo 1).@",
+  "Tratti": ["Silfide", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Silfide",
+  "Mostrare": false
+}
+,{
+  "Nome": "Veloce",
+  "Desc": "Ti muovi con il vento sempre alle spalle. La tua Velocità aumenta di 1.5 m.@++Special++ L’aumento di Velocità di questo talento non è cumulativo con altri aumenti di Velocità ottenuti da talenti di razza (come Elfo Agile).@",
+  "Tratti": ["Silfide"],
+  "Livello": "1",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Cuscino di Vento",
+  "Desc": "I venti ti hanno sussurrato per tutta la vita e l’essenza stessa dell’aria talvolta ti assiste, rendendoti parzialmente sospinto quando sei nel vuoto. Tratta tutte le cadute come se fossero di 3 m in meno rispetto alla distanza effettivamente percorsa. Ottieni inoltre il talento di abilità Salto Potente, anche se non soddisfi i prerequisiti di quel talento.@",
+  "Tratti": ["Silfide"],
+  "Livello": "1",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Temprato dal Vento",
+  "Desc": "Ti senti a tuo agio nel clima tempestoso e sei abituato persino ai venti più violenti. Ottieni un bonus di circostanza +1 ai tiri salvezza contro effetti di aria ed elettricità. Se ottieni un successo in un tiro salvezza contro un effetto di aria, ottieni invece un successo critico.@",
+  "Tratti": ["Silfide"],
+  "Livello": "1",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Osservatore delle Nubi",
+  "Desc": "La tua connessione con l’aria ti permette di vedere attraverso le nebbie che oscurano la vista. Riesci a vedere abbastanza bene attraverso nebbia, foschia e nuvole che normalmente renderebbero le creature occultate, tanto da non dover superare una prova semplice per bersagliare creature che beneficiano di tale occultamento.@",
+  "Tratti": ["Silfide"],
+  "Livello": "5",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Scivolare con la Brezza",
+  "Desc": "++Prerequisiti++ esperto in Atletica@Crei raffiche di vento quando salti, permettendoti di coprire distanze maggiori. Ottieni i talenti di abilità Salto Rapido e Salto Potente come talenti bonus.@",
+  "Tratti": ["Silfide"],
+  "Livello": "5",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Magia dei Djinni",
+  "Desc": "La magia dei djinni scorre nel tuo sangue. Puoi lanciare raffica di vento e invisibilità una volta al giorno ciascuno come incantesimi innati arcani di 2° livello.@",
+  "Tratti": ["Silfide"],
+  "Livello": "9",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Respiro Interiore",
+  "Desc": "Il tuo corpo è in grado di riciclare la propria aria. Quando trattieni il respiro, puoi farlo per un’ora aggiuntiva. Al termine di quest’ora, il tuo corpo deve riposare prima di poter riciclare di nuovo l’aria. Questo riposo richiede 10 minuti di esposizione ad aria respirabile.@",
+  "Tratti": ["Silfide"],
+  "Livello": "9",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Ali d’Aria",
+  "Desc": "###{\"nome\":\"Ali d’Aria\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Metamorfosi\",\"Primevo\",\"Silfide\",\"Trasmutazione\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Ti sforzi di evocare dalla schiena ali piumate o simili a nubi. Una volta manifestate, queste ali rimangono per 10 minuti. Finché le ali sono manifestate, ottieni una Velocità di volo pari alla tua Velocità terrestre.\"}###",
+  "Tratti": ["Metamorfosi", "Primevo", "Silfide", "Trasmutazione"],
+  "Livello": "9",
+  "Razza": "Silfide",
+  "Mostrare": false
+}
+,{
+  "Nome": "Passo Aereo",
+  "Desc": "###{\"nome\":\"Passo Aereo\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Silfide\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Trigger\":\"Una creatura ti bersaglia con un attacco o un altro effetto mirato e puoi vedere l’attaccante\"},\"desc\":\"Crei una coltre di nebbia in un’esplosione di 1.5 m centrata su un angolo del tuo spazio. Tutte le creature nell’area sono occultate e tutte le altre creature sono occultate rispetto a loro. Questo occultamento si applica all’effetto che ha innescato la reazione e la nebbia dura 1 minuto o finché non viene dispersa da un vento forte. Dopo aver risolto l’effetto innescante, Effettui un Passo. Se un effetto ti impedisce di Effettuare un Passo, tenti di Sfuggire all’effetto e, se riesci, Effettui un Passo.\"}###",
+  "Tratti": ["Silfide"],
+  "Livello": "13",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Evocare Elementale dell’Aria",
+  "Desc": "Hai una connessione con le Sfere Interne che ti permette di evocare un alleato elementale. Una volta al giorno, puoi lanciare evocare elementale come incantesimo innato primevo di 5° livello, ma l’elementale evocato deve essere un elementale dell’aria.@",
+  "Tratti": ["Silfide"],
+  "Livello": "13",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Ali Eterne (Silfide)",
+  "Desc": "++Prerequisiti++ Ali d’Aria@Le tue ali sono ora una parte permanente del tuo corpo. Ottieni gli effetti di Ali d’Aria in ogni momento, invece che solo una volta al giorno per 10 minuti.@",
+  "Tratti": ["Silfide"],
+  "Livello": "17",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Forma di Tempesta",
+  "Desc": "Puoi trasformarti in un elementale. Una volta al giorno, puoi lanciare forma elementale come incantesimo innato primevo di 7° livello, ma puoi scegliere solo la forma di elementale dell’aria.@",
+  "Tratti": ["Silfide"],
+  "Livello": "17",
+  "Razza": "Silfide",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima Ferrosa",
+  "Desc": "Che sia nella loro forma elementale pura o come parte di una lega come l’acciaio, il metallo elementale nella tua anima risuona fortemente con ferro, bronzo e altri metalli robusti e pratici adatti alle armi. I tuoi attacchi con il pugno ottengono il tratto modulare B, P o S e perdono il tratto non letale. Il dado di danno del tuo pugno aumenta a 1d6.@",
+  "Tratti": ["Talos", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima Dorata",
+  "Desc": "La tua linea elementale si manifesta nello splendore lucido dei metalli preziosi, come argento e oro, o persino rari e preziosi skymetal come adamantio o oricalco. Questo lustro naturale accresce il tuo fascino; diventi addestrato in Diplomazia o Società a tua scelta. Se diventeresti automaticamente addestrato in entrambe queste abilità (dal tuo background o dalla tua classe, per esempio), diventi invece addestrato in un’abilità a tua scelta. Se sei addestrato in Società, ottieni anche il talento di abilità Grazie di Corte.@",
+  "Tratti": ["Talos", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima Fluida",
+  "Desc": "Il metallo elementale nella tua stirpe scorre letteralmente nelle tue vene sotto forma di metalli liquidi come mercurio, rubidio, gallio e djezet, conferendo alle tue azioni una fluidità languida. Ottieni il grado di competenza addestrato in Acrobazia. Se diventeresti automaticamente addestrato in Acrobazia (dal tuo background o dalla tua classe, per esempio), diventi invece addestrato in un’abilità a tua scelta. Poiché questi metalli sono in gran parte tossici per la vita organica, ottieni anche l’azione Tocco Tossico.@",
+  "Tratti": ["Talos", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Tocco Tossico",
+  "Desc": "###{\"nome\":\"Tocco Tossico\",\"tipoAzz\":\"azione\",\"tratti\":[\"Veleno\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Requisiti\":\"La tua azione più recente è stata Passare Attraverso e ti sei mosso con successo attraverso lo spazio di un nemico\"},\"desc\":\"Effettua un Colpo senz’armi in mischia contro il nemico attraverso il cui spazio ti sei mosso. Se colpisci, il bersaglio subisce 1d6 danni persistenti da veleno ed è nauseato 1 (oppure subisce 2d6 danni persistenti da veleno ed è nauseato 2 con un colpo critico).\"}###",
+  "Tratti": ["Veleno"],
+  "Livello": "1",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Difesa Riflettente",
+  "Desc": "###{\"nome\":\"Difesa Riflettente\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Luce\",\"Talos\"],\"dettagli\":{\"Frequenza\":\"una volta ogni 10 minuti\",\"Trigger\":\"Una creatura entro 9 m da te ti bersaglia e puoi vedere l’attaccante\",\"Requisiti\":\"Ti trovi in luce fioca o intensa\"},\"desc\":\"Il lustro naturale del tuo corpo è stato lucidato fino a brillare. Lo usi per riflettere la luce negli occhi del tuo nemico, disturbando la sua mira e la sua concentrazione; deve superare un tiro salvezza su Riflessi contro la CD della tua classe o rimanere abbagliato fino alla fine del tuo prossimo turno.\"}###",
+  "Tratti": ["Luce", "Talos"],
+  "Livello": "1",
+  "Razza": "Talos",
+  "Mostrare": false
+}
+,{
+  "Nome": "Ridirezione del Conduttore",
+  "Desc": "###{\"nome\":\"Ridirezione del Conduttore\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Talos\"],\"dettagli\":{\"Trigger\":\"Vieni colpito da un attacco, incantesimo o altro effetto che infligge danni da elettricità\"},\"desc\":\"Conduci l’energia attraverso il tuo corpo, subendo i danni normalmente (se applicabile) e reindirizzandoli verso un bersaglio entro 3 m che puoi vedere. Quel bersaglio subisce un ammontare di danni pari a quelli innescanti, con un tiro salvezza base su Tempra contro la più alta tra la CD della tua classe o la tua CD di incantesimo. I danni subiti dal bersaglio si basano sui danni innescanti e non sono modificati dal tuo grado di successo, da resistenze o da altri modificatori.\"}###",
+  "Tratti": ["Talos"],
+  "Livello": "5",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Leghe Preziose",
+  "Desc": "Scegli ferro freddo o argento. I tuoi attacchi senz’armi in mischia ottengono le proprietà speciali di un’arma fatta di quel metallo. Se sei almeno di 13° livello, puoi scegliere adamantio invece di ferro freddo o argento.@++Special++ Puoi ottenere questo talento di razza più volte, scegliendo un metallo diverso ogni volta.@",
+  "Tratti": ["Talos"],
+  "Livello": "5",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Magnetismo Naturale",
+  "Desc": "La tua connessione con il ferro elementale ti conferisce un campo naturale di debole attrazione magnetica. Puoi lanciare attrazione magnetica e repulsione magnetica una volta al giorno ciascuno come incantesimi innati primevi di 2° livello.@++Special++ Se hai scelto la linea di discendenza Anima Dorata, puoi sostituire uno degli incantesimi sopra con affascinare.@",
+  "Tratti": ["Talos"],
+  "Livello": "9",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Evocare Elementale di Metallo",
+  "Desc": "Puoi evocare un alleato elementale. Una volta al giorno, puoi lanciare evocare elementale come incantesimo innato primevo di 5° livello, ma l’elementale evocato deve essere un elementale di metallo.@",
+  "Tratti": ["Talos"],
+  "Livello": "13",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Pelle Metallica",
+  "Desc": "###{\"nome\":\"Pelle Metallica\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Concentrazione\",\"Primevo\",\"Talos\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Durata\":\"1 minuto\"},\"desc\":\"Rafforzi le tue resistenze naturali con metallo elementale, ricoprendo la pelle di spesso metallo. Ottieni un bonus di stato +2 alla CA e resistenza 10 ai danni fisici (eccetto adamantio), ma subisci una penalità di –3 m alla Velocità. Se subisci danni da fuoco mentre questa capacità è attiva, fino alla fine del tuo prossimo turno infliggi 2d6 danni da fuoco aggiuntivi con tutti i tuoi Colpi senz’armi in mischia.\"}###",
+  "Tratti": ["Concentrazione", "Primevo", "Talos"],
+  "Livello": "17",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Occhi Acquatici",
+  "Desc": "Man mano che la tua connessione con l’acqua cresce, riesci a vedere più facilmente in luoghi con poca luce, come le profondità dell’oceano. Ottieni visione crepuscolare, oppure ottieni scurovisione se la tua razza possiede già visione crepuscolare.@++Special++ Se la tua razza non possiede né visione crepuscolare né scurovisione, puoi ottenere questo talento di razza una seconda volta per ottenere scurovisione. Non puoi riaddestrarti per rimuovere questo talento.@",
+  "Tratti": ["Undina"],
+  "Livello": "1",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima Salmastra",
+  "Desc": "L’eredità del tuo antenato elementale si manifesta come acqua salmastra, simile a quella marina dell’oceano. Ottieni la reazione Ferita Salina.@",
+  "Tratti": ["Undina", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Ferita Salina",
+  "Desc": "###{\"nome\":\"Ferita Salina\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Undina\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Trigger\":\"Una creatura che ha sangue e non è ai suoi Punti Ferita massimi ti colpisce con un Colpo in mischia\"},\"desc\":\"Canalizzi sale e salamoia dal tuo sangue nelle ferite della creatura. La creatura deve tentare un tiro salvezza su Tempra usando la più alta tra la CD della tua classe o la tua CD di incantesimo. Con un fallimento, la creatura subisce 1d6 danni persistenti da acido ed è nauseata 1 dal dolore. Con un fallimento critico, subisce invece 2d6 danni persistenti da acido ed è nauseata 2.\"}###",
+  "Tratti": ["Undina"],
+  "Livello": "1",
+  "Razza": "Undina",
+  "Mostrare": false
+}
+,{
+  "Nome": "Anima di Nebbia",
+  "Desc": "Hai una connessione con le forme vaporose dell’acqua, come nebbia e foschia. Ottieni la reazione Fusione con la Nebbia.@",
+  "Tratti": ["Undina", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Fusione con la Nebbia",
+  "Desc": "###{\"nome\":\"Fusione con la Nebbia\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Undina\"],\"dettagli\":{\"Trigger\":\"Una creatura tenta una prova semplice per bersagliarti perché sei occultato o nascosto a causa di nebbia, foschia, bruma o fumo\"},\"desc\":\"Ti avvolgi nella nebbia, rendendo più difficile per il tuo nemico colpirti. Se sei occultato, la CD della prova semplice aumenta da 5 a 7; se sei nascosto, aumenta da 11 a 13.\"}###",
+  "Tratti": ["Undina"],
+  "Livello": "1",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Acque Native",
+  "Desc": "Sei nato con, o hai ottenuto, una connessione speciale con l’acqua dolce o con l’acqua salata. Una volta effettuata, questa scelta non può essere cambiata. Ogni volta che completi un riposo completo in un corpo d’acqua naturale del tipo corrispondente alla tua connessione, recuperi Punti Ferita aggiuntivi pari al tuo livello e, se hai le condizioni condannato o affaticato, le riduci di 2 invece che di 1.@",
+  "Tratti": ["Undina"],
+  "Livello": "1",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Anima di Brina",
+  "Desc": "L’acqua dentro di te è fredda e ghiacciata, come lastre di ghiaccio e gelidi ghiacciai. Ottieni resistenza al freddo pari a metà del tuo livello (minimo 1) e tratti gli effetti ambientali di freddo come se fossero di una categoria meno severa (freddo incredibile diventa estremo, estremo diventa severo e così via).@",
+  "Tratti": ["Undina", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Temprato dalle Maree",
+  "Desc": "Ti senti a tuo agio nelle maree imprevedibili. Ottieni un bonus di circostanza +1 ai tiri salvezza contro effetti di freddo e acqua. Se ottieni un successo in un tiro salvezza contro un effetto di freddo o acqua, ottieni invece un successo critico.@",
+  "Tratti": ["Undina"],
+  "Livello": "1",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Contorsionista Fluido",
+  "Desc": "Puoi ignorare il terreno difficile causato dal muoverti attraverso spazi stretti che non sono abbastanza angusti da costringerti a Strisciare. Quando ottieni un fallimento critico in una prova per Strisciare, ottieni invece un fallimento, e quando ottieni un successo, ottieni invece un successo critico.@",
+  "Tratti": ["Undina"],
+  "Livello": "5",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Incantesimo di Vapore",
+  "Desc": "###{\"nome\":\"Incantesimo di Vapore\",\"tipoAzz\":\"azione\",\"tratti\":[\"Concentrazione\",\"Metamagia\",\"Undina\"],\"dettagli\":{},\"desc\":\"Trasformi i tuoi incantesimi di fuoco in vapore, rendendoli più efficaci sott’acqua. Se la tua prossima azione è Lanciare un Incantesimo con il tratto fuoco, puoi lanciarlo sott’acqua. Quando lo fai, assume la forma di vapore ustionante. Le creature acquatiche non ottengono la normale resistenza al fuoco per il fatto di trovarsi sott’acqua contro questo incantesimo, ma l’incantesimo non incendia oggetti né causa danni persistenti da fuoco, né aggiunge altri effetti che si applicherebbero al fuoco ma non al vapore (a discrezione del GM).\"}###",
+  "Tratti": ["Concentrazione", "Metamagia", "Undina"],
+  "Livello": "5",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Magia dei Marid",
+  "Desc": "Canalizzi la magia dei marid. Puoi lanciare spinta idraulica e nebbia occultante una volta al giorno ciascuno come incantesimi innati arcani di 2° livello.@",
+  "Tratti": ["Undina"],
+  "Livello": "9",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Nuotatore Possente",
+  "Desc": "La tua Velocità di nuotare aumenta fino a eguagliare la tua Velocità terrestre.@",
+  "Tratti": ["Undina"],
+  "Livello": "9",
+  "Razza": "Undina",
+  "Mostrare": false
+}
+,{
+  "Nome": "Evocare Elementale dell’Acqua",
+  "Desc": "Puoi evocare un alleato elementale. Una volta al giorno, puoi lanciare evocare elementale come incantesimo innato primevo di 5° livello, ma l’elementale evocato deve essere un elementale dell’acqua.@",
+  "Tratti": ["Undina"],
+  "Livello": "13",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Pelle Traslucida",
+  "Desc": "Il tuo corpo diventa traslucido quando sei sott’acqua. Ogni volta che sei completamente immerso in acqua, puoi Nasconderti dalle altre creature anche se non hai copertura contro di esse e non sei occultato rispetto a loro.@",
+  "Tratti": ["Undina"],
+  "Livello": "13",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Scudo delle Maree",
+  "Desc": "###{\"nome\":\"Scudo delle Maree\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Abiurazione\",\"Concentrazione\",\"Primevo\",\"Undina\",\"Acqua\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Evoci la forza delle maree per ottenere un bonus di circostanza +4 alla CA fino alla fine del tuo prossimo turno. Tutti gli alleati adiacenti a te durante la durata ottengono un bonus di circostanza +2 alla CA finché rimangono adiacenti a te. Puoi Sostenere l’effetto fino a una durata massima di 5 round. Quando una creatura che riceve un bonus di circostanza alla CA da Scudo delle Maree subirebbe danni da un attacco, come reazione puoi ridurre i danni a quella creatura di 40; dopo averlo fatto, Scudo delle Maree termina.\"}###",
+  "Tratti": ["Abiurazione", "Concentrazione", "Primevo", "Undina", "Acqua"],
+  "Livello": "17",
+  "Razza": "Undina",
+  "Mostrare": false
+},
+{
+  "Nome": "Sensi Animali",
+  "Desc": "Ottieni uno dei seguenti sensi disponibili per il tuo animale intrinseco: scurovisione, visione crepuscolare o olfatto (impreciso) 9 m. Devi possedere visione crepuscolare prima di poter ottenere scurovisione con questo talento. Se il tuo animale intrinseco normalmente non possiede un determinato tipo di senso, non puoi ottenere quel senso con questo talento.@++Special++ Puoi selezionare questo talento più volte, scegliendo un senso diverso ogni volta.@",
+  "Tratti": ["Beastkin"],
+  "Livello": "1",
+  "Razza": "Beastkin",
+  "Mostrare": false
+},
+{
+  "Nome": "Forma di Bestiolina",
+  "Desc": "Una volta all’ora, puoi usare Cambiare Forma per entrare in una forma di bestiolina. Mentre sei in forma di bestiolina, ottieni l’effetto di forma parassita di 1° livello, tranne per il fatto che puoi trasformarti solo in un animale che corrisponde al tuo animale intrinseco. Puoi rimanere in forma di bestiolina fino a 10 minuti, dopodiché torni alla tua forma ibrida e non puoi entrare di nuovo nella forma di bestiolina per 1 ora. In alternativa, puoi usare Cambiare Forma per tornare alla tua forma umanoide o ibrida in qualsiasi momento durante la durata di Forma di Bestiolina. Se il tuo animale intrinseco è normalmente più grande di Minuscola, ti trasformi in una versione più piccola e giovane dell’animale, come un cucciolo d’orso Minuscolo. Se il tuo animale intrinseco possiede una Velocità di volo, puoi trasformarti in quell’animale (a differenza di quanto normalmente consentito da forma parassita di 1° livello), ma non ottieni comunque una Velocità di volo.@",
+  "Tratti": ["Beastkin"],
+  "Livello": "1",
+  "Razza": "Beastkin",
+  "Mostrare": false
+},
+{
+  "Nome": "Forma Rapida",
+  "Desc": "###{\"nome\":\"Forma Rapida\",\"tipoAzz\":\"azioneGratis\",\"tratti\":[\"Beastkin\"],\"dettagli\":{\"Trigger\":\"Tiri l’iniziativa\"},\"desc\":\"I tuoi istinti entrano in azione e assumi una postura aggressiva. Usi Cambiare Forma per entrare nella tua forma ibrida o in una nuova forma concessa da un talento beastkin.\"}###",
+  "Tratti": ["Beastkin"],
+  "Livello": "1",
+  "Razza": "Beastkin",
+  "Mostrare": false
+},
+{
+  "Nome": "Resistenza Animalistica",
+  "Desc": "Le tue connessioni animalistiche ti aiutano a resistere alle afflizioni naturali. Ottieni un bonus di circostanza +2 ai tiri salvezza per resistere a malattie e veleni.@",
+  "Tratti": ["Beastkin"],
+  "Livello": "5",
+  "Razza": "Beastkin",
+  "Mostrare": false
+}
+,{
+  "Nome": "Sensi Animali Superiori",
+  "Desc": "I tuoi sensi avanzano fino a eguagliare quelli del tuo aspetto animale. Ottieni uno dei seguenti sensi disponibili per il tuo animale intrinseco: ecolocalizzazione (imprecisa) 9 m oppure percezione tellurica (imprecisa) 9 m. Se il tuo animale intrinseco normalmente non possiede uno specifico tipo di senso, non puoi ottenerlo con questo talento.@++Special++ Puoi selezionare questo talento più volte, scegliendo ogni volta un senso diverso oppure migliorando un senso impreciso ottenuto con questo talento in un senso preciso.@",
+  "Tratti": ["Beastkin"],
+  "Livello": "5",
+  "Razza": "Beastkin",
+  "Mostrare": false
+},
+{
+  "Nome": "Magia Animale",
+  "Desc": "La tua capacità di mutaforma ti concede una connessione magica con il mondo animale. Puoi lanciare messaggero animale, calmare emozioni (solo animali) e parlare con gli animali come incantesimi innati primevi di 2° livello, una volta al giorno ciascuno. Questi incantesimi usano la più alta tra la CD della tua classe o la tua CD di incantesimo.@",
+  "Tratti": ["Beastkin"],
+  "Livello": "9",
+  "Razza": "Beastkin",
+  "Mostrare": false
+},
+{
+  "Nome": "Tattiche di Branco",
+  "Desc": "Hai padroneggiato l’arte di cacciare insieme al tuo branco. Se un nemico è entro portata di te e di almeno due dei tuoi alleati, quel nemico è impreparato contro di te.@",
+  "Tratti": ["Beastkin"],
+  "Livello": "9",
+  "Razza": "Beastkin",
+  "Mostrare": false
+},
+{
+  "Nome": "Forma Terrificante",
+  "Desc": "La tua forma ibrida è una bestia imponente. Mentre sei nella tua forma ibrida, ottieni gli effetti di ingrandire.@",
+  "Tratti": ["Beastkin"],
+  "Livello": "13",
+  "Razza": "Beastkin",
+  "Mostrare": false
+},
+{
+  "Nome": "Dono della Luna",
+  "Desc": "Puoi condividere il tuo potere con gli altri, ma per loro è più difficile sfuggire alla maledizione dei licantropi rispetto a te. Puoi lanciare frenesia lunare di 5° livello come incantesimo innato primevo una volta al giorno. Al 15° livello, lanci invece frenesia lunare di 6° livello. Al 17° livello, la tua frenesia lunare di 6° livello conferisce i suoi effetti standard, tranne che i Punti Ferita temporanei aumentano a 15 e la debolezza all’argento aumenta a 15. Al 20° livello, lanci invece frenesia lunare di 10° livello. L’incantesimo usa la più alta tra la CD della tua classe o la tua CD di incantesimo.@",
+  "Tratti": ["Beastkin"],
+  "Livello": "13",
+  "Razza": "Beastkin",
+  "Mostrare": false
+},
+{
+  "Nome": "Forma Animale",
+  "Desc": "Hai il pieno controllo sulla tua forma e puoi trasformarti nel tuo animale intrinseco. Puoi usare Cambiare Forma per entrare in una forma animale. Quando ottieni questo talento, scegli una delle seguenti opzioni: forma aerea, forma animale, forma dinosauro o forma insetto; una volta effettuata la scelta, non può essere cambiata. Mentre sei in forma animale, ottieni gli effetti di un lancio di 5° livello dell’incantesimo di forma scelto, tranne per il fatto che ti trasformi sempre in un animale che corrisponde al tuo animale intrinseco e puoi usare la CA della tua forma umanoide se è superiore a quella concessa dalla forma animale. Se il tuo animale intrinseco non è tra quelli elencati nella forma scelta, utilizzi le statistiche e le capacità della forma di combattimento dell’uccello, del gatto, del deinonico o della formica rispettivamente per forma aerea, forma animale, forma dinosauro e forma insetto (a discrezione del GM, puoi invece usare una forma diversa che sia la più vicina al tuo animale intrinseco). Puoi rimanere in forma animale indefinitamente e puoi usare Cambiare Forma per tornare alla tua forma umanoide o ibrida in qualsiasi momento.@Se possiedi il talento Forma di Bestiolina, puoi scegliere di ottenere gli effetti di forma parassita di 4° livello, puoi rimanere in forma di bestiolina indefinitamente e puoi tornare alla tua forma di bestiolina in qualsiasi momento dopo averla lasciata, proprio come puoi fare con Forma Animale.@",
+  "Tratti": ["Beastkin"],
+  "Livello": "17",
+  "Razza": "Beastkin",
+  "Mostrare": false
+},
+{
+  "Nome": "Rapidità Animale",
+  "Desc": "Ti muovi come un animale. La tua Velocità aumenta di 1.5 m. Inoltre, ottieni una delle seguenti Velocità disponibili per il tuo animale intrinseco: scalare, volare o nuotare. Ottieni questa Velocità solo mentre sei nella tua forma ibrida. Il nuovo tipo di movimento ha la stessa velocità della tua Velocità standard; per esempio, se hai Velocità 9 m, puoi ottenere una Velocità di scalare 9 m. Se il tuo animale intrinseco normalmente non possiede uno specifico tipo di Velocità, non puoi ottenerlo con questo talento. Se il tuo animale intrinseco normalmente non possiede una Velocità di scalare, volare o nuotare, la tua Velocità aumenta invece di 3 m.@",
+  "Tratti": ["Beastkin"],
+  "Livello": "17",
+  "Razza": "Beastkin",
+  "Mostrare": false
+}
+,{
+  "Nome": "Nato dal Clone",
+  "Desc": "Sei stato formato tramite un rituale di clonazione o un esperimento alchemico. Creato come contenitore per un’altra creatura, puoi sopprimere momentaneamente la tua senzienza, rendendo la tua mente più difficile da alterare. Ottieni la reazione Guscio Vuoto.@",
+  "Tratti": ["Riflesso", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Guscio Vuoto",
+  "Desc": "###{\"nome\":\"Guscio Vuoto\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Concentrazione\",\"Riflesso\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Trigger\":\"Subiresti danni mentali o saresti influenzato da un effetto mentale\"},\"desc\":\"Ottieni un bonus di circostanza +2 ai tiri salvezza su Volontà e resistenza ai danni mentali pari al tuo livello contro l’effetto innescante. Questo si applica solo all’effetto iniziale, non a tiri salvezza successivi, danni mentali persistenti o altri effetti ripetuti.\"}###",
+  "Tratti": ["Concentrazione", "Riflesso"],
+  "Livello": "1",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Nato dallo Specchio",
+  "Desc": "Sei stato creato tramite magia che coinvolge specchi e conservi ancora la capacità di rifugiarti in illusioni riflesse. Ottieni la reazione Inganno dello Specchio.@",
+  "Tratti": ["Riflesso", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Inganno dello Specchio",
+  "Desc": "###{\"nome\":\"Inganno dello Specchio\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Concentrazione\",\"Illusione\",\"Occulto\",\"Visivo\",\"Riflesso\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Trigger\":\"Stai per essere colpito da un Colpo\"},\"desc\":\"Crei un duplicato illusorio all’ultimo istante e tenti di ingannare il tuo nemico affinché colpisca quello invece di te. L’attaccante tenta una prova semplice con CD 11; con un fallimento, l’attacco colpisce il duplicato, riducendo il risultato da successo critico a successo o da successo a fallimento.\"}###",
+  "Tratti": ["Concentrazione", "Illusione", "Occulto", "Visivo", "Riflesso"],
+  "Livello": "1",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Nato dalla Metamorfosi",
+  "Desc": "Un tempo eri un mutaforma o un incantatore che usava magia di polimorfia, ma qualcosa è andato storto e sei rimasto intrappolato nella forma della creatura che stavi imitando. Questo incidente potrebbe averti privato del tuo potere o potresti aver conservato alcune abilità, ma in ogni caso la tua forma resiste a ulteriori trasformazioni forzate. Ottieni un bonus di circostanza +1 ai tiri salvezza contro effetti di trasmutazione e, se ottieni un successo in un tiro salvezza contro un effetto ostile di metamorfosi o polimorfia, ottieni invece un successo critico.@",
+  "Tratti": ["Riflesso", "Linea di Discendenza"],
+  "Livello": "1",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapere del Progenitore",
+  "Desc": "Non hai ereditato solo la tua forma fisica dal tuo progenitore, ma anche parte delle sue conoscenze. Diventi addestrato in Inganno e Occultismo. Se diventeresti automaticamente addestrato in una di queste abilità (dal tuo background o dalla tua classe, per esempio), diventi invece addestrato in un’abilità a tua scelta. Diventi inoltre addestrato in una Conoscenza appropriata alla tua razza (per esempio, Conoscenze sugli Elfi se il tuo progenitore è un elfo).@",
+  "Tratti": ["Riflesso"],
+  "Livello": "1",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Riflesso Distorto",
+  "Desc": "###{\"nome\":\"Riflesso Distorto\",\"tipoAzz\":\"azione\",\"tratti\":[\"Concentrazione\",\"Emozione\",\"Paura\",\"Mentale\",\"Riflesso\",\"Visivo\"],\"dettagli\":{\"Frequenza\":\"una volta al minuto\"},\"desc\":\"A causa delle tue origini, la tua forma è più flessibile della maggior parte. Alteri il tuo aspetto per assomigliare a una creatura entro 9 m, ma con una distorsione inquietante e orrorifica. Sebbene questa trasformazione sia momentanea, assistervi provoca un profondo terrore esistenziale. Il bersaglio deve superare un tiro salvezza su Volontà contro la più alta tra la CD della tua classe o la tua CD di incantesimo, altrimenti diventa spaventato 1 (spaventato 2 con un fallimento critico) ed è stordito mentalmente 1 finché la condizione spaventato persiste. Dopo che hai usato Riflesso Distorto contro una creatura, essa è temporaneamente immune per 24 ore.\"}###",
+  "Tratti": ["Concentrazione", "Emozione", "Paura", "Mentale", "Riflesso", "Visivo"],
+  "Livello": "1",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Identità Sbagliata",
+  "Desc": "###{\"nome\":\"Identità Sbagliata\",\"tipoAzz\":\"reazione\",\"tratti\":[\"Concentrazione\",\"Fortuna\",\"Mentale\",\"Riflesso\"],\"dettagli\":{\"Frequenza\":\"una volta al minuto\",\"Trigger\":\"Stai per tentare un tiro salvezza contro un effetto mentale\"},\"desc\":\"Senti una forte connessione con il tuo progenitore e riesci a convincerti che un effetto che prende di mira la tua mente fosse destinato a lui invece che a te, permettendoti di scrollarti di dosso gli effetti dannosi. Tira il tiro salvezza due volte e usa il risultato migliore. Tuttavia, sussumere la tua identità è disturbante e diventi spaventato 1.\"}###",
+  "Tratti": ["Concentrazione", "Fortuna", "Mentale", "Riflesso"],
+  "Livello": "5",
+  "Razza": "Riflesso",
+  "Mostrare": false
+}
+,{
+  "Nome": "Tasca Riflettente",
+  "Desc": "++Prerequisiti++ Nato dallo Specchio@Hai formato una connessione con un piccolo specchio da mano, che puoi usare come spazio di immagazzinamento extradimensionale. Puoi conservare un solo oggetto di Ingombro leggero nel tuo specchio alla volta. Riporre o recuperare un oggetto richiede un’azione Interagire e qualsiasi creatura può farlo. Finché un oggetto è conservato nello specchio, lo specchio riflette l’immagine dell’oggetto. Ottieni un bonus di circostanza +2 alle prove di Furtività per Nascondere un Oggetto, a meno che qualcuno non controlli il riflesso dello specchio.@",
+  "Tratti": ["Extradimensionale", "Riflesso"],
+  "Livello": "5",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Replicare",
+  "Desc": "++Prerequisiti++ Nato dal Clone@Hai imparato a rimodellare la tua forma malleabile. Puoi lanciare travestimento illusorio una volta al giorno come incantesimo innato occulto. Questo è un effetto di trasmutazione e metamorfosi, poiché il tuo corpo si trasforma fisicamente invece di creare un’illusione.@",
+  "Tratti": ["Riflesso"],
+  "Livello": "5",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Somiglianza Distorta",
+  "Desc": "###{\"nome\":\"Somiglianza Distorta\",\"tipoAzz\":\"azione\",\"tratti\":[\"Metamorfosi\",\"Occulto\",\"Riflesso\",\"Trasmutazione\"],\"dettagli\":{\"Frequenza\":\"una volta al minuto\",\"Prerequisiti\":\"Nato dalla Metamorfosi\",\"Trigger\":\"Colpisci una creatura con un Colpo in mischia con la tua ultima azione\"},\"desc\":\"Canalizzi parte della tua natura attraverso il colpo, distorcendo temporaneamente la forma del bersaglio per farla somigliare alla tua. La creatura colpita deve tentare un tiro salvezza su Tempra contro la più alta tra la CD della tua classe o la tua CD di incantesimo.@Successo Critico Il bersaglio non subisce effetti.@Successo Il bersaglio resiste all’effetto, ma la sua forma si contorce nel processo; è maldestro 1 fino alla fine del suo prossimo turno.@Fallimento Il corpo del bersaglio si deforma brevemente per somigliare al tuo; è maldestro 1 fino alla fine del suo prossimo turno ed è nauseato 1.@Fallimento Critico Il corpo del bersaglio si deforma per somigliare al tuo per un periodo significativo; è maldestro 1 per 1 minuto ed è nauseato 2.\"}###",
+  "Tratti": ["Metamorfosi", "Occulto", "Riflesso", "Trasmutazione"],
+  "Livello": "5",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Rifugio dello Specchio",
+  "Desc": "###{\"nome\":\"Rifugio dello Specchio\",\"tipoAzz\":\"dueAzioni\",\"tratti\":[\"Evocazione\",\"Extradimensionale\",\"Occulto\",\"Riflesso\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Prerequisiti\":\"Nato dallo Specchio\",\"Requisiti\":\"Ti trovi entro 1.5 m da una superficie riflettente\"},\"desc\":\"La tua origine nello spazio dietro gli specchi ti permette di usare uno specchio come rifugio, in modo simile all’incantesimo fondersi nella pietra. Ti fondi in uno specchio adiacente. Puoi sentire ma non vedere all’esterno di questo spazio, e le creature all’esterno non possono vederti né sentirti. Puoi lanciare incantesimi mentre sei all’interno dello specchio, ma nessun effetto può attraversarlo. Rifugio dello Specchio dura 10 minuti, a meno che lo specchio non venga rotto, nel qual caso vieni espulso e subisci 10d6 danni. Puoi Dissolvere l’effetto. Quando l’effetto termina, appari in uno spazio adiacente allo specchio.\"}###",
+  "Tratti": ["Evocazione", "Extradimensionale", "Occulto", "Riflesso"],
+  "Livello": "9",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Due Verità",
+  "Desc": "###{\"nome\":\"Due Verità\",\"tipoAzz\":\"azione\",\"tratti\":[\"Riflesso\"],\"dettagli\":{\"Prerequisiti\":\"maestro in Inganno\"},\"desc\":\"La tua capacità di imitare il tuo progenitore è così forte che riesci persino a convincere te stesso. Quando usi questa azione, alteri i tuoi processi mentali per assumere l’identità del tuo progenitore o per tornare da quella del progenitore alla tua. Finché ciò che dici è vero dal punto di vista della tua identità attuale, puoi dirlo anche sotto effetti come zona di verità che ti costringono a dire il vero.\"}###",
+  "Tratti": ["Riflesso"],
+  "Livello": "9",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Travestimento Inflessibile",
+  "Desc": "++Prerequisiti++ Capacità di lanciare forma umanoide o travestimento illusorio@Quando lanci forma umanoide o travestimento illusorio per alterare il tuo aspetto, la durata dell’incantesimo è di 2 ore. Al termine della durata, puoi estendere l’incantesimo per un’altra ora, ma farlo è estenuante e ti rende affaticato 1. Puoi continuare a estenderlo in questo modo, aumentando la tua condizione affaticato di 1 ogni volta, fino a una durata massima di 6 ore.@",
+  "Tratti": ["Riflesso", "Trasmutazione"],
+  "Livello": "9",
+  "Razza": "Riflesso",
+  "Mostrare": false
+}
+,{
+  "Nome": "Forma Malleabile",
+  "Desc": "###{\"nome\":\"Forma Malleabile\",\"tipoAzz\":\"azione\",\"tratti\":[\"Riflesso\",\"Trasmutazione\"],\"dettagli\":{\"Prerequisiti\":\"Capacità di lanciare almeno un incantesimo di polimorfia\",\"Requisiti\":\"Sei sotto l’effetto di un incantesimo di polimorfia che offre più scelte di forma di combattimento\"},\"desc\":\"Modifichi abilmente la tua forma, assumendo un aspetto diverso. Scegli una forma di combattimento differente dell’incantesimo di polimorfia che ti sta influenzando e cambi in quella forma invece di quella attuale. Questo destabilizza la magia dell’incantesimo, riducendone la durata di 1 round. Usa normalmente il livello dell’incantesimo per determinare le statistiche.\"}###",
+  "Tratti": ["Riflesso", "Trasmutazione"],
+  "Livello": "13",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Deviare l’Attenzione",
+  "Desc": "Grazie al tuo forte legame con il tuo progenitore, sei in grado di deviare coloro che tentano di spiarti. Ogni volta che saresti bersagliato direttamente da un effetto di scrutare, l’effetto deve tentare una prova di contrasto contro la più alta tra la CD della tua classe o la tua CD di incantesimo. Se la prova fallisce, l’effetto bersaglia il tuo progenitore invece di te.@",
+  "Tratti": ["Riflesso"],
+  "Livello": "13",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Riflettere il Nemico",
+  "Desc": "Crei una copia di un nemico richiamandolo da un riflesso vicino, facendolo crescere clonalmente in un istante da uno dei tuoi capelli o creandolo in altro modo coerente con la tua natura di riflesso. Puoi lanciare duplicare nemico una volta al giorno come incantesimo innato occulto. Al 20° livello, il tuo duplicare nemico innato è potenziato all’8° livello.@",
+  "Tratti": ["Riflesso"],
+  "Livello": "17",
+  "Razza": "Riflesso",
+  "Mostrare": false
+},
+{
+  "Nome": "Virtuosismo con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni un colpo critico usando un falchion, un ranseur, una scimitarra, un tridente o un'arma geniekin, applichi l'effetto di specializzazione critica dell'arma.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Virtuosismo con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni un colpo critico usando un falchion, un ranseur, una scimitarra, un tridente o un'arma geniekin, applichi l'effetto di specializzazione critica dell'arma.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Virtuosismo con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni un colpo critico usando un falchion, un ranseur, una scimitarra, un tridente o un'arma geniekin, applichi l'effetto di specializzazione critica dell'arma.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Virtuosismo con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni un colpo critico usando un falchion, un ranseur, una scimitarra, un tridente o un'arma geniekin, applichi l'effetto di specializzazione critica dell'arma.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Virtuosismo con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni un colpo critico usando un falchion, un ranseur, una scimitarra, un tridente o un'arma geniekin, applichi l'effetto di specializzazione critica dell'arma.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Sylph",
+  "Mostrare": false
+},
+{
+  "Nome": "Virtuosismo con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni un colpo critico usando un falchion, un ranseur, una scimitarra, un tridente o un'arma geniekin, applichi l'effetto di specializzazione critica dell'arma.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Talos",
+  "Mostrare": false
+},{
+  "Nome": "Virtuosismo con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni un colpo critico usando un falchion, un ranseur, una scimitarra, un tridente o un'arma geniekin, applichi l'effetto di specializzazione critica dell'arma.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Undine",
+  "Mostrare": false
+},
 
+{
+  "Nome": "Risolutezza Nobile",
+  "Desc": "Un tempo i geni governavano vasti regni, e un residuo di quella sicurezza e potere si riflette nella tua forte volontà. Ottieni un bonus di circostanza +1 ai tiri salvezza su Volontà contro effetti con il tratto mentale. Indipendentemente dal successo o dal fallimento, diventi consapevole della persona che ha usato l'effetto su di te, se era visibile al momento dell'uso.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Risolutezza Nobile",
+  "Desc": "Un tempo i geni governavano vasti regni, e un residuo di quella sicurezza e potere si riflette nella tua forte volontà. Ottieni un bonus di circostanza +1 ai tiri salvezza su Volontà contro effetti con il tratto mentale. Indipendentemente dal successo o dal fallimento, diventi consapevole della persona che ha usato l'effetto su di te, se era visibile al momento dell'uso.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Risolutezza Nobile",
+  "Desc": "Un tempo i geni governavano vasti regni, e un residuo di quella sicurezza e potere si riflette nella tua forte volontà. Ottieni un bonus di circostanza +1 ai tiri salvezza su Volontà contro effetti con il tratto mentale. Indipendentemente dal successo o dal fallimento, diventi consapevole della persona che ha usato l'effetto su di te, se era visibile al momento dell'uso.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Risolutezza Nobile",
+  "Desc": "Un tempo i geni governavano vasti regni, e un residuo di quella sicurezza e potere si riflette nella tua forte volontà. Ottieni un bonus di circostanza +1 ai tiri salvezza su Volontà contro effetti con il tratto mentale. Indipendentemente dal successo o dal fallimento, diventi consapevole della persona che ha usato l'effetto su di te, se era visibile al momento dell'uso.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Risolutezza Nobile",
+  "Desc": "Un tempo i geni governavano vasti regni, e un residuo di quella sicurezza e potere si riflette nella tua forte volontà. Ottieni un bonus di circostanza +1 ai tiri salvezza su Volontà contro effetti con il tratto mentale. Indipendentemente dal successo o dal fallimento, diventi consapevole della persona che ha usato l'effetto su di te, se era visibile al momento dell'uso.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Sylph",
+  "Mostrare": false
+},
+{
+  "Nome": "Risolutezza Nobile",
+  "Desc": "Un tempo i geni governavano vasti regni, e un residuo di quella sicurezza e potere si riflette nella tua forte volontà. Ottieni un bonus di circostanza +1 ai tiri salvezza su Volontà contro effetti con il tratto mentale. Indipendentemente dal successo o dal fallimento, diventi consapevole della persona che ha usato l'effetto su di te, se era visibile al momento dell'uso.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Risolutezza Nobile",
+  "Desc": "Un tempo i geni governavano vasti regni, e un residuo di quella sicurezza e potere si riflette nella tua forte volontà. Ottieni un bonus di circostanza +1 ai tiri salvezza su Volontà contro effetti con il tratto mentale. Indipendentemente dal successo o dal fallimento, diventi consapevole della persona che ha usato l'effetto su di te, se era visibile al momento dell'uso.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "5",
+  "Razza": "Undine",
+  "Mostrare": false
+},
+
+{
+  "Nome": "Occhi Elementali",
+  "Desc": "++Prerequisiti++ visione crepuscolare@++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@Puoi vedere nell'oscurità con la stessa facilità di un elementale. Ottieni scurovisione.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Occhi Elementali",
+  "Desc": "++Prerequisiti++ visione crepuscolare@++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@Puoi vedere nell'oscurità con la stessa facilità di un elementale. Ottieni scurovisione.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Occhi Elementali",
+  "Desc": "++Prerequisiti++ visione crepuscolare@++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@Puoi vedere nell'oscurità con la stessa facilità di un elementale. Ottieni scurovisione.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Occhi Elementali",
+  "Desc": "++Prerequisiti++ visione crepuscolare@++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@Puoi vedere nell'oscurità con la stessa facilità di un elementale. Ottieni scurovisione.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Occhi Elementali",
+  "Desc": "++Prerequisiti++ visione crepuscolare@++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@Puoi vedere nell'oscurità con la stessa facilità di un elementale. Ottieni scurovisione.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Sylph",
+  "Mostrare": false
+},
+{
+  "Nome": "Occhi Elementali",
+  "Desc": "++Prerequisiti++ visione crepuscolare@++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@Puoi vedere nell'oscurità con la stessa facilità di un elementale. Ottieni scurovisione.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Occhi Elementali",
+  "Desc": "++Prerequisiti++ visione crepuscolare@++Special++ Puoi selezionare questo talento solo al 1° livello e non puoi riaddestrarti da o verso questo talento.@Puoi vedere nell'oscurità con la stessa facilità di un elementale. Ottieni scurovisione.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Undine",
+  "Mostrare": false
+},
+
+{
+  "Nome": "Sapienza Elementale",
+  "Desc": "Ti sei dedicato allo studio dei segreti della Sfera Interna. Ottieni il grado di competenza addestrato in Sopravvivenza e, a tua scelta, in Arcano o Natura. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Diventi inoltre addestrato nella Sapienza associata al tuo Piano Elementale di origine (come Sapienza del Piano del Fuoco).",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza Elementale",
+  "Desc": "Ti sei dedicato allo studio dei segreti della Sfera Interna. Ottieni il grado di competenza addestrato in Sopravvivenza e, a tua scelta, in Arcano o Natura. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Diventi inoltre addestrato nella Sapienza associata al tuo Piano Elementale di origine (come Sapienza del Piano del Fuoco).",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza Elementale",
+  "Desc": "Ti sei dedicato allo studio dei segreti della Sfera Interna. Ottieni il grado di competenza addestrato in Sopravvivenza e, a tua scelta, in Arcano o Natura. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Diventi inoltre addestrato nella Sapienza associata al tuo Piano Elementale di origine (come Sapienza del Piano del Fuoco).",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza Elementale",
+  "Desc": "Ti sei dedicato allo studio dei segreti della Sfera Interna. Ottieni il grado di competenza addestrato in Sopravvivenza e, a tua scelta, in Arcano o Natura. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Diventi inoltre addestrato nella Sapienza associata al tuo Piano Elementale di origine (come Sapienza del Piano del Fuoco).",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza Elementale",
+  "Desc": "Ti sei dedicato allo studio dei segreti della Sfera Interna. Ottieni il grado di competenza addestrato in Sopravvivenza e, a tua scelta, in Arcano o Natura. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Diventi inoltre addestrato nella Sapienza associata al tuo Piano Elementale di origine (come Sapienza del Piano del Fuoco).",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Sylph",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza Elementale",
+  "Desc": "Ti sei dedicato allo studio dei segreti della Sfera Interna. Ottieni il grado di competenza addestrato in Sopravvivenza e, a tua scelta, in Arcano o Natura. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Diventi inoltre addestrato nella Sapienza associata al tuo Piano Elementale di origine (come Sapienza del Piano del Fuoco).",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Sapienza Elementale",
+  "Desc": "Ti sei dedicato allo studio dei segreti della Sfera Interna. Ottieni il grado di competenza addestrato in Sopravvivenza e, a tua scelta, in Arcano o Natura. Se dovessi diventare automaticamente addestrato in Sopravvivenza (per esempio dal tuo background o dalla tua classe), diventi invece addestrato in un'abilità a tua scelta.@Diventi inoltre addestrato nella Sapienza associata al tuo Piano Elementale di origine (come Sapienza del Piano del Fuoco).",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Undine",
+  "Mostrare": false
+},
+
+{
+  "Nome": "Maestria con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni una capacità di classe che ti conferisce competenza esperto o superiore in determinate armi, ottieni quella stessa competenza anche con falchion, ranseur, scimitarre, tridenti e con tutte le armi geniekin in cui sei addestrato.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "13",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Maestria con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni una capacità di classe che ti conferisce competenza esperto o superiore in determinate armi, ottieni quella stessa competenza anche con falchion, ranseur, scimitarre, tridenti e con tutte le armi geniekin in cui sei addestrato.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "13",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Maestria con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni una capacità di classe che ti conferisce competenza esperto o superiore in determinate armi, ottieni quella stessa competenza anche con falchion, ranseur, scimitarre, tridenti e con tutte le armi geniekin in cui sei addestrato.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "13",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Maestria con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni una capacità di classe che ti conferisce competenza esperto o superiore in determinate armi, ottieni quella stessa competenza anche con falchion, ranseur, scimitarre, tridenti e con tutte le armi geniekin in cui sei addestrato.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "13",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Maestria con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni una capacità di classe che ti conferisce competenza esperto o superiore in determinate armi, ottieni quella stessa competenza anche con falchion, ranseur, scimitarre, tridenti e con tutte le armi geniekin in cui sei addestrato.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "13",
+  "Razza": "Sylph",
+  "Mostrare": false
+},
+{
+  "Nome": "Maestria con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni una capacità di classe che ti conferisce competenza esperto o superiore in determinate armi, ottieni quella stessa competenza anche con falchion, ranseur, scimitarre, tridenti e con tutte le armi geniekin in cui sei addestrato.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "13",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Maestria con le Armi dei Geni",
+  "Desc": "++Prerequisiti++ Familiarità con le Armi dei Geni@Ogni volta che ottieni una capacità di classe che ti conferisce competenza esperto o superiore in determinate armi, ottieni quella stessa competenza anche con falchion, ranseur, scimitarre, tridenti e con tutte le armi geniekin in cui sei addestrato.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "13",
+  "Razza": "Undine",
+  "Mostrare": false
+},
+
+{
+  "Nome": "Familiarità con le Armi dei Geni",
+  "Desc": "Ti sei addestrato con le armi usate dai tuoi antenati geni. Sei addestrato con falchion, ranseur, scimitarre e tridenti. Inoltre, ottieni accesso a tutte le armi geniekin non comuni. Ai fini della determinazione della competenza, le armi geniekin marziali sono armi semplici e le armi geniekin avanzate sono armi marziali.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Ardande",
+  "Mostrare": false
+},
+{
+  "Nome": "Familiarità con le Armi dei Geni",
+  "Desc": "Ti sei addestrato con le armi usate dai tuoi antenati geni. Sei addestrato con falchion, ranseur, scimitarre e tridenti. Inoltre, ottieni accesso a tutte le armi geniekin non comuni. Ai fini della determinazione della competenza, le armi geniekin marziali sono armi semplici e le armi geniekin avanzate sono armi marziali.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Ifrit",
+  "Mostrare": false
+},
+{
+  "Nome": "Familiarità con le Armi dei Geni",
+  "Desc": "Ti sei addestrato con le armi usate dai tuoi antenati geni. Sei addestrato con falchion, ranseur, scimitarre e tridenti. Inoltre, ottieni accesso a tutte le armi geniekin non comuni. Ai fini della determinazione della competenza, le armi geniekin marziali sono armi semplici e le armi geniekin avanzate sono armi marziali.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Oread",
+  "Mostrare": false
+},
+{
+  "Nome": "Familiarità con le Armi dei Geni",
+  "Desc": "Ti sei addestrato con le armi usate dai tuoi antenati geni. Sei addestrato con falchion, ranseur, scimitarre e tridenti. Inoltre, ottieni accesso a tutte le armi geniekin non comuni. Ai fini della determinazione della competenza, le armi geniekin marziali sono armi semplici e le armi geniekin avanzate sono armi marziali.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Suli",
+  "Mostrare": false
+},
+{
+  "Nome": "Familiarità con le Armi dei Geni",
+  "Desc": "Ti sei addestrato con le armi usate dai tuoi antenati geni. Sei addestrato con falchion, ranseur, scimitarre e tridenti. Inoltre, ottieni accesso a tutte le armi geniekin non comuni. Ai fini della determinazione della competenza, le armi geniekin marziali sono armi semplici e le armi geniekin avanzate sono armi marziali.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Sylph",
+  "Mostrare": false
+},
+{
+  "Nome": "Familiarità con le Armi dei Geni",
+  "Desc": "Ti sei addestrato con le armi usate dai tuoi antenati geni. Sei addestrato con falchion, ranseur, scimitarre e tridenti. Inoltre, ottieni accesso a tutte le armi geniekin non comuni. Ai fini della determinazione della competenza, le armi geniekin marziali sono armi semplici e le armi geniekin avanzate sono armi marziali.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Talos",
+  "Mostrare": false
+},
+{
+  "Nome": "Familiarità con le Armi dei Geni",
+  "Desc": "Ti sei addestrato con le armi usate dai tuoi antenati geni. Sei addestrato con falchion, ranseur, scimitarre e tridenti. Inoltre, ottieni accesso a tutte le armi geniekin non comuni. Ai fini della determinazione della competenza, le armi geniekin marziali sono armi semplici e le armi geniekin avanzate sono armi marziali.",
+  "Tratti": ["Ardande","Ifrit","Oread","Suli","Sylph","Talos","Undine"],
+  "Livello": "1",
+  "Razza": "Undine",
+  "Mostrare": false
+}
 
 
 
