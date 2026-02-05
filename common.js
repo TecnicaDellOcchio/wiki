@@ -1,9 +1,7 @@
-let risultato = '';
 let links = [];
-let contaId = 0;
 let struttura;
 let listaTratti;
-let chiamata = false;
+
 export let input;
 export let suggestionsBox;
 let dataset = [];
@@ -12,36 +10,9 @@ export async function init() {
   struttura = await res.json();
   const res2 = await fetch('linkSpeciali.json');
   links = await res2.json();
-  const res3 = await fetch('tratti.json');
+  const res3 = await fetch('./data/regole/tratti.json');
   listaTratti = await res3.json();
   console.log('Struttura caricata:', struttura);
-}
-
-export function creaSidebar() {
-  risultato = '<div id="sidebar">';
-  creaListaSubdirectory(struttura, 0);
-  return risultato + "</div>";
-}
-
-function creaListaSubdirectory(dati, indentazione) {
-  for(let i = 0; i < dati.length; i++) {
-    if(dati[i].tipo == "directory") {
-      creaDiv(dati[i].nome, indentazione);
-      creaListaSubdirectory(dati[i].sottofile, indentazione + 1);
-      risultato += `</div>`;
-    } else {
-      let nomeFile = dati[i].nome.replace(".json", "");
-      creaDiv(nomeFile, indentazione);
-      for(let j = 0; j < dati[i].contenuto.length; j++) {
-        if(dati[i].contenuto[j].mostrare) {
-          let a = creaHtmlLink(vR(dati[i].contenuto[j].nome));
-          risultato += `${a}<br>`;
-        }
-          
-      }
-      risultato += `</div>`;
-    }
-  }
 }
 
 export function vR(testo) {
@@ -65,17 +36,6 @@ function creaLink(percorso) {
   }
 }
 
-function creaDiv(dato, indentazione) {
-  risultato += `
-  <div class="ms-${indentazione * 2} mb-1">
-    ${creaHtmlLink(vR(dato))}
-    <a class="btn btn-sm btn-outline-secondary ms-2" data-contenuto = "${dato}" data-bs-toggle="collapse" href="#${contaId}" role="button" aria-expanded="false" aria-controls="${contaId}">↓</a>
-  </div>
-  <div id="${contaId}" class="collapse ms-3">
-  `;
-  contaId++;
-}
-
 export function creaTabella(dati, nomeColonne, linkAutomatici = false, ordinare = false, idTabella = null) {
   let risultato = creaGrafica(nomeColonne, dati, linkAutomatici,ordinare);
   if(idTabella != null) {
@@ -96,7 +56,6 @@ export async function trovaDati(nomeFile, datiRicercati) {
     for(let i = 0; i < datiRicercati.length; i++) {
       dati[i] = data.map(obj => obj[datiRicercati[i]]);
     }
-    console.log(data);
     return dati;
   } catch (error) {
     console.log('Errore: ' + error.message);
@@ -132,23 +91,14 @@ function creaGrafica(colonne, dati, linkAutomatici, ordinare) {
 }
 
 export function creaHtmlLink(testo) {
-  let iTondeAp = [], iTondeCl = [], iQuadreAp = [], iQuadreCl = [];
-  for(let i = 0; i < testo.length; i++) {
-    switch (testo[i]) {
-      case "(": iTondeAp.push(i); break;
-      case ")": iTondeCl.push(i); break;
-      case "[": iQuadreAp.push(i); break;
-      case "]": iQuadreCl.push(i); break;
-    }
-  }
-
-  for(let i = 0; i < iQuadreAp.length; i++) {
-    for(let j = 0; j < iTondeCl.length; j++) {
-      if(iTondeCl[j] + 1 == iQuadreAp[i]) {
-        let t = 
-        testo = `${testo.slice(0, iTondeAp[j])}<a href='${restituisciLink(testo.slice(iQuadreAp[i] + 1, iQuadreCl[i]))}'>${testo.slice(iTondeAp[j] + 1, iTondeCl[j])}</a>${testo.slice(iQuadreCl[i] + 1)}`;
-      }
-    }
+  let pos;
+  let iT;
+  let iQ;
+  while(testo.indexOf(")[") != -1) {
+    pos = testo.indexOf(")[");
+    iT = testo.lastIndexOf("(", pos);
+    iQ = testo.indexOf("]", pos);
+    testo = `${testo.substring(0, iT)}<a href='${restituisciLink(testo.substring(pos + 2, iQ))}'>${testo.substring(iT + 1, pos)}</a>${testo.substring(iQ + 1)}`;
   }
   return testo;
 }
@@ -158,6 +108,7 @@ export function restituisciLink(elementoCercato) {
 }
 
 function trovaElemento(nomeCercato, arrayAn = struttura, percorso = []) {
+  
   for(let i = 0; i < arrayAn.length; i++) {
     let p = [...percorso];
     if(arrayAn[i].tipo == "directory") {
@@ -170,7 +121,7 @@ function trovaElemento(nomeCercato, arrayAn = struttura, percorso = []) {
       p.push(nomeF);
       if(nomeF == nomeCercato) return p;
       for(let j = 0; j < arrayAn[i].contenuto.length; j++) {
-        if(arrayAn[i].contenuto[j].nome == nomeCercato) {
+        if(arrayAn[i].contenuto[j].nome.toLowerCase() == nomeCercato.toLowerCase()) {
           p.push(arrayAn[i].contenuto[j].nome);
           return p;
         }
@@ -217,7 +168,7 @@ function creaAzione(testo) {
     <div class="card mb-3">
       <div class="card-body">
         <strong>${ogg.nome}
-        ${Array.isArray(ogg.tipoAzz)? `da <img src="./immagini/${ogg.tipoAzz[0]}.png" alt="${ogg.tipoAzz[0]}" width="15" height="15"> a <img src="./immagini/${ogg.tipoAzz[1]}.png" alt="${ogg.tipoAzz[1]}" width="15" height="15">`: `<img src="./immagini/${ogg.tipoAzz}.png" alt="${ogg.tipoAzz}" width="15" height="15">`}</strong><br>
+        ${Array.isArray(ogg.tipoAzz)? mettiImmaginiAzioni(`da [[${ogg.tipoAzz[0]}]] a [[${ogg.tipoAzz[1]}]]`): mettiImmaginiAzioni(`[[${ogg.tipoAzz}]]`)}</strong><br>
         ${creaGraficaTratti(ogg.tratti)}`;
   for(let chiave in ogg.dettagli) {
     risultato += `<strong>${chiave}:</strong> ${ogg.dettagli[chiave]}<br>`;
@@ -226,14 +177,10 @@ function creaAzione(testo) {
   return risultato;
 }
 
-export function resetPopover() {
-  if(chiamata) {
-    document.querySelectorAll('[data-bs-toggle="popover"]').forEach(el => {
-        new bootstrap.Popover(el);
-    });
-    chiamata = false;
-  }
-  
+ function resetPopover(root = document) {
+  root.querySelectorAll?.('[data-bs-toggle="popover"]').forEach(el => {
+    bootstrap.Popover.getOrCreateInstance(el);
+  });
 }
 
 export function aggiornaUrl(path) {
@@ -241,7 +188,20 @@ export function aggiornaUrl(path) {
 }
 
 export function controllaTesto(testo) {
-  return cercaAzioni(creaHtmlLink(cercaACapo(trovaTitolo(chiamaStringFunc(trovaGrassetto(cercaTratti(testo)))))));
+  return mettiImmaginiAzioni(cercaAzioni(creaHtmlLink(cercaACapo(trovaTitolo(chiamaStringFunc(trovaGrassetto(cercaTratti(testo))))))));
+}
+
+function mettiImmaginiAzioni(testo) {
+  let iS;
+  let iF;
+  let nomeIm;
+  while(testo.includes("[[")) {
+    iS = testo.indexOf("[[");
+    iF = testo.indexOf("]]", iS);
+    nomeIm = testo.substring(iS + 2, iF);
+    testo = `${testo.substring(0, iS)}<img src="./immagini/${nomeIm}.png" alt="${nomeIm}" width="45" height="45"></img>${testo.substring(iF + 2)}`;
+  }
+  return testo;
 }
 
 export function aprireSidebar(posSidebar) {
@@ -327,25 +287,36 @@ export function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 }
 
+export function creaCopiaAzione(oggOr, grandezza = 14) {
+  let ogg = JSON.parse(oggOr.replaceAll("###",""));
+  let det = "";
+  for (const key in ogg.dettagli)
+    det += `++${key}:++ ${ogg.dettagli[key]}@`;
+  det += "@";
+  return controllaTestoIncolla(`++{{${grandezza}${ogg.nome}}}++ ${Array.isArray(ogg.tipoAzz)? `da [[${ogg.tipoAzz[0]}]] a [${ogg.tipoAzz[1]}]`:`[[${ogg.tipoAzz}]]`}//${ogg.tratti.join(";")}//${det}${ogg.desc}`);
+}
+
 export async function aprireIncantesimo(tradizione, id) {
     let path = `./data/incantesimi/${tradizione}.json`;
     let dati = await restituisciOggetto(path, id);
     let info = [];
     if(dati.Azione) {
       let ogg = JSON.parse(dati.Desc.replaceAll("###", ""));
-      info.push(`<img ${Array.isArray(ogg.tipoAzz)? `da <img src="./immagini/${ogg.tipoAzz[0]}.png" alt="${ogg.tipoAzz[0]}" width="45" height="45"> a <img src="./immagini/${ogg.tipoAzz[1]}.png" alt="${ogg.tipoAzz[1]}" width="45" height="45">`: `<img src="./immagini/${ogg.tipoAzz}.png" alt="${ogg.tipoAzz}" width="45" height="45">`}`);
+      info.push(`${Array.isArray(ogg.tipoAzz)? mettiImmaginiAzioni(`da [[${ogg.tipoAzz[0]}]] a [[${ogg.tipoAzz[1]}]]`): mettiImmaginiAzioni(`[[${ogg.tipoAzz}]]`)}`);
       info.push(creaGraficaTratti(ogg.tratti));
       let det = "";
       for (const key in ogg.dettagli)
         det += `++${key}:++ ${ogg.dettagli[key]}@`;
-      det += "<br>";
+      det += "@";
       info.push(controllaTesto(det));
       info.push(controllaTesto(ogg.desc));
+      info.push(creaCopiaAzione(dati.Desc));
     } else {
       info.push("");
       info.push(creaGraficaTratti(dati.Tratti));
       info.push(controllaTesto(dati.Dettagli.join("<br>")) + "<br>");
       info.push(controllaTesto(dati.Desc));
+      info.push(`++{{14${dati.Nome}}}++//${dati.Tratti.join(";")}//${dati.Dettagli.join("@")}@${controllaTestoIncolla(dati.Desc)}`)
     }
     return `<style> .bar {
   display: flex;
@@ -366,9 +337,36 @@ export async function aprireIncantesimo(tradizione, id) {
   <span class="right">${dati.Liv == 0? "Trucchetto": `Livello ${dati.Liv}`}</span>
 </div>
 ${info[1]}
-${info[2]}<br>
+${info[2]}
 ${info[3]}
+<br><br>
+${htmlBottoneCopia(info[4])}
 `
+}
+
+
+export function controllaTestoIncolla(testo) {
+  return aggiungiSlash(copiaAzioniAnnidate(testo)).replaceAll("\\\\\'", "\\'");
+}
+
+function aggiungiSlash(testo) {
+  let i = 0;
+  while(testo.indexOf("'", i) != -1) {
+    i = testo.indexOf("'", i);
+    testo = `${testo.substring(0, i)}\\${testo.substring(i)}`;
+    i = i+4;
+  }
+  return testo;
+}
+
+export function copiaTesto(testo) {
+   navigator.clipboard.writeText(testo)
+    .then(() => {
+      alert("Testo copiato!");
+    })
+    .catch(err => {
+      console.error("Errore nella copia:", err);
+    });
 }
 
 export function sBInit() {
@@ -392,7 +390,6 @@ export function sBInit() {
       showSuggestions(nuovi);
     });
     creaDataset();
-    console.log(dataset);
 }
 
 function creaDataset(arrayAn = struttura) {
@@ -401,7 +398,6 @@ function creaDataset(arrayAn = struttura) {
       creaDataset(arrayAn[i].sottofile);
     } else {
       dataset.push(arrayAn[i].nome.replace(".json", ""));
-      console.log(arrayAn[i]);
       for(let j = 0; j < arrayAn[i].contenuto.length; j++) {
         if(arrayAn[i].contenuto[j].mostrare)
           dataset.push(arrayAn[i].contenuto[j].nome);
@@ -465,6 +461,15 @@ function showSuggestions(suggestions) {
   });
 }
 
+function copiaAzioniAnnidate(testo) {
+  while(testo.indexOf("###") != -1) {
+    let i = testo.indexOf("###");
+    let iF = testo.indexOf("###", i + 1);
+    testo = testo.substring(0, i) + "@" + creaCopiaAzione(testo.substring(i,iF+3), 12) + "@" + testo.substring(iF+3);
+  }
+  return testo;
+}
+
 
 export function sBCerca(testo) {
   if(trovaElemento(testo) != null) 
@@ -473,10 +478,23 @@ export function sBCerca(testo) {
     alert("Input invalido, correggi coglione");
 }
 
+export function htmlBottoneCopia(testo) {
+  return `<button onclick = "copia('${testo}')" class="copia btn btn-outline-success me-2">Copia</button>`;
+}
+
+export function testoCopiaGenerico(ogg) {
+  return `${ogg.Nome? `++{{14${ogg.Nome}}}++` : ``}${ogg.Tratti? `//${ogg.Tratti.join(";")}//`:``}${ogg.Dettagli? ogg.Dettagli.join("@")+"@":""}${ogg.Desc? controllaTestoIncolla(ogg.Desc):""}`
+}
 
 export async function apriTalento(path, id) {
   let tal = await restituisciOggetto(path, id);
-  return tal.Azione? `<h2>${tal.Nome}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLivello ${tal.Liv}</h2>${controllaTesto(tal.Desc)}`: `<h2>${tal.Nome}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLivello ${tal.Liv}</h2>${creaGraficaTratti(tal.Tratti)}${controllaTesto(controllaTesto(tal.Dettagli.join("<br>")))}<br><br>${controllaTesto(tal.Desc)}`;
+  if(tal.Azione)
+    return `<h2>${tal.Nome}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLivello ${tal.Liv}</h2>${controllaTesto(tal.Desc)}<br><br> ${htmlBottoneCopia(creaCopiaAzione(tal.Desc))}`;
+  else {
+    let testo = `++{{14${tal.Nome}}}++//${tal.Tratti.join(";")}//${tal.Dettagli.join("@")}@${controllaTestoIncolla(tal.Desc)}`;
+    return `<h2>${tal.Nome}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLivello ${tal.Liv}</h2>${creaGraficaTratti(tal.Tratti)}${controllaTesto(controllaTesto(tal.Dettagli.join("<br>")))}<br><br>${controllaTesto(tal.Desc)}<br><br>${htmlBottoneCopia(testo)}`;
+  }
+    
 }
 
 function cercaTratti(testo) {
@@ -492,21 +510,24 @@ function cercaTratti(testo) {
 
 export function creaGraficaTratti(arr) {
   let testo = `<h5>`;
-  console.log(arr);
   for(let i = 0; i < arr.length; i++) {
     
     let nomeTratto = arr[i];
-    if(haNumero(arr[i])) {
-      let tr = arr[i].split(" ");
-      nomeTratto = tr.slice(0, tr.length).join(" ");
-    }
 
-    console.log(nomeTratto);
     let desc;
-    if(listaTratti.map(p => p.Nome == nomeTratto? "X":"o").includes("X"))
-      desc = listaTratti.filter(p => p.Nome == nomeTratto)[0].Desc;
-    else
+    if(listaTratti.map(p => nomeTratto.toLowerCase().includes(p.Nome.toLowerCase())? "X":"o").includes("X")) {
+      let ris = listaTratti.filter(p => nomeTratto.toLowerCase().includes(p.Nome.toLowerCase()));
+      desc = ris[0].Desc;
+      for(let i = 1; i < ris.length; i++)
+        if(nomeTratto == ris[i].Nome)
+          desc = ris[i].Desc;
+    }
+      
+    else {
+      console.log(nomeTratto);
       desc = "Tratto non trovato, segnalalo";
+    }
+      
     testo += `<button type="button" class="btn btn-dark" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="${desc}">
       ${arr[i]}
     </button>
@@ -514,19 +535,12 @@ export function creaGraficaTratti(arr) {
   }
     
   testo += `</h5>`;
-  chiamata = true;
   return testo;
 }
 
-function haNumero(myString) {
-  return /\d/.test(myString);
-}
-
-
 export function render(container, html, aggiungere = false) {
-  if(aggiungere)
-    container.innerHTML += html;
-  else
-    container.innerHTML = html;
-  resetPopover();
+  if (aggiungere) container.innerHTML += html;
+  else container.innerHTML = html;
+
+  resetPopover(container); // <<< solo qui dentro
 }

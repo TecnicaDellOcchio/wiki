@@ -66,7 +66,6 @@
     const Talenti = document.getElementById("talentiRazza");
 
     function cambiaSezione(sezione) {
-      console.log("a");
       Ancestries.classList.remove("attiva");
       Heritage.classList.remove("attiva");
       Talenti.classList.remove("attiva");
@@ -107,16 +106,18 @@
     const pathTalenti = "./data/razze/talentiRazza.json";
 
     await common.init();
-    const htmlSidebar = common.creaSidebar();
+
     const isMobile = window.matchMedia('(max-width: 992px)').matches;
 
-    if (isMobile) {
-      // Gestione sidebar mobile
-      common.render(document.getElementById("sidebar-mobile"),htmlSidebar);
-    } else {
-      // Gestione sidebar desktop
-      common.render(document.getElementById("sidebar-desktop"),htmlSidebar);
-    }
+    fetch("sidebar.html")
+    .then(response => response.text())
+    .then(data => {
+      if (isMobile)
+        common.render(document.getElementById("sidebar-mobile"), data);
+      else
+        common.render(document.getElementById("sidebar-desktop"),data);
+    });
+
     const urlParams = new URLSearchParams(window.location.search);
     let sezione = urlParams.get('sezione');
     const id = urlParams.get('id');
@@ -145,18 +146,25 @@
     }
     common.render(Heritage,risultato);
 
-    const talenti = await common.restituisciDatoAttributi(pathTalenti, ["Razza"], ["Universale"]);
+    let talenti = await common.restituisciDatoAttributi(pathTalenti, ["Razza"], ["Universale"]);
     risultato = "";
-    for (let i = 0; i < talenti.length; i++) {
+    for(let i = 0; i < talenti.length - 1; i++)
+      for(let j = i+1; j < talenti.length; j++)
+        if(parseInt(talenti[i].Livello) > parseInt(talenti[j].Livello)) {
+          let temp = talenti[i];
+          talenti[i] = talenti[j];
+          talenti[j] = temp;
+        }
+
+    for(let i = 0; i < talenti.length; i++)
       risultato += `
         <div class="card mb-3">
           <div class="card-body">
-            <h3 id="${common.controllaTesto(talenti[i].Nome)}">-${common.controllaTesto(talenti[i].Nome)}&nbsp;&nbsp;&nbsp;&nbsp;Livello ${talenti[i].Livello}</h3>
-            ${talenti[i].Tratti.join(", ")}<br><br>
+            <h3 id="${common.controllaTesto(talenti[i].Nome)}">${common.controllaTesto(talenti[i].Nome)}&nbsp;&nbsp;&nbsp;&nbsp;Livello ${talenti[i].Livello}</h3>
+            ${common.creaGraficaTratti(talenti[i].Tratti)}
             ${common.controllaTesto(talenti[i].Desc)}
           </div>
         </div>`;
-    }
     common.render(Talenti,risultato);
 
     
@@ -172,6 +180,10 @@
 window.cerca = (valore) => {
             common.sBCerca(valore);
         };
+
+        window.copia = (testo) => {
+            common.copiaTesto(testo);
+        }
   </script>
 </body>
 </html>

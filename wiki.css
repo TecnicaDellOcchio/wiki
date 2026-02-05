@@ -28,6 +28,12 @@ body {
   background-color: #1f1f1f !important;
 }
 
+.copia {
+  background-color: #1f1f1f !important;
+  border-color: #0dcaf0 !important;
+  color:#0dcaf0;
+}
+
 .navbar-brand {
   color: #ffffff !important;
   font-weight: bold;
